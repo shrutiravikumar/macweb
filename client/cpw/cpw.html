@@ -1,0 +1,35 @@
+<template name="cpw">
+<body>
+{{> navbar}}
+<div class="container">
+ 	<h2>CPW Event List</h2>
+
+    <p>For your viewing pleasue, here are all of Macgregor's CPW Events. Cancellations due to invasions from extraterrestial races are an ever present possiblity and will be noted here ASAP.</p>
+    <br/>
+
+	<table class="table table-condensed table-striped">
+		<thead>
+	  	<tr>
+	  		<th>Event</th>
+	  		<th>Day</th>
+	  		<th>Time</th>
+	  		<th>Description</th>
+	  		<th>Location</th>
+	  	</tr>
+		</thead>
+		<tbody>
+			{{#each cpw_events}}
+				<tr>
+  	  		<td style="width:15%;">{{name}}</td>
+  	  		<td style="width:5%;">{{day}}</td>
+  	  		<td style="width:15%;">{{time}}</td>
+  	  		<td style="width:50%;">{{description}}</td>
+  	  		<td style="width:10%;">{{location}}</td>
+  	  	</tr>
+  		{{/each}}
+	</tbody>
+    </table>
+       
+  </div>
+</body>
+</template>
