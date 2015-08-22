@@ -1,10 +1,10 @@
-<template name="cpw">
+<template name="rex">
 <body>
 {{> navbar}}
 <div class="container">
- 	<h2>CPW Event List</h2>
+ 	<h2>REX Event List</h2>
 
-    <p>For your viewing pleasue, here are all of Macgregor's CPW Events. Cancellations due to invasions from extraterrestial races are an ever present possiblity and will be noted here ASAP.</p>
+    <p>For your viewing pleasue, here are all of Macgregor's REX Events. Have fun.</p>
     <br/>
 
 	<table class="table table-condensed table-striped">
@@ -18,7 +18,7 @@
 	  	</tr>
 		</thead>
 		<tbody>
-			{{#each cpw_events}}
+			{{#each rex_events}}
 				<tr>
   	  		<td style="width:15%;">{{name}}</td>
   	  		<td style="width:5%;">{{day}}</td>
@@ -29,7 +29,7 @@
   		{{/each}}
 	</tbody>
     </table>
-       
+
   </div>
 </body>
 </template>
