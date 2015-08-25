@@ -8,7 +8,7 @@ buffer=Assets.getText("rex/rex.csv");
 
 CSV().from(
     buffer,
-    {comment: '#', delimiter: ',', quote: ''}
+    {comment: '#', delimiter: '|', quote: ''}
 )
   .to.array( Meteor.bindEnvironment( function(data){
     //console.log(data);
@@ -18,8 +18,7 @@ CSV().from(
             'name': data[row][0],
             'day': data[row][1],
             'time': data[row][2],
-            'description': data[row][3],
-            'location': data[row][4]
+            'description': data[row][3]
         };
 
         Events.insert(newRecord);

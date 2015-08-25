@@ -1,35 +1,33 @@
 <template name="rex">
-<body>
-{{> navbar}}
-<div class="container">
- 	<h2>REX Event List</h2>
+  <body>
+    {{> navbar}}
+    <div class="container">
+      <h2>REX Event List</h2>
 
-    <p>For your viewing pleasue, here are all of Macgregor's REX Events. Have fun.</p>
-    <br/>
+      <p>For your viewing pleasue, here are all of Macgregor's REX Events. Have fun.</p>
+      <br/>
 
-	<table class="table table-condensed table-striped">
-		<thead>
-	  	<tr>
-	  		<th>Event</th>
-	  		<th>Day</th>
-	  		<th>Time</th>
-	  		<th>Description</th>
-	  		<th>Location</th>
-	  	</tr>
-		</thead>
-		<tbody>
-			{{#each rex_events}}
-				<tr>
-  	  		<td style="width:15%;">{{name}}</td>
-  	  		<td style="width:5%;">{{day}}</td>
-  	  		<td style="width:15%;">{{time}}</td>
-  	  		<td style="width:50%;">{{description}}</td>
-  	  		<td style="width:10%;">{{location}}</td>
-  	  	</tr>
-  		{{/each}}
-	</tbody>
-    </table>
+      <table class="table table-condensed table-striped">
+        <thead>
+          <tr>
+            <th>Event</th>
+            <th>Day</th>
+            <th>Time</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each rex_events}}
+          <tr>
+            <td style="width:15%;">{{name}}</td>
+            <td style="width:5%;">{{day}}</td>
+            <td style="width:15%;">{{time}}</td>
+            <td style="width:50%;">{{description}}</td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
 
-  </div>
-</body>
+    </div>
+  </body>
 </template>
