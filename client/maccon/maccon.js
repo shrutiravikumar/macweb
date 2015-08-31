@@ -1,47 +1,59 @@
 Router.route("maccon");
+Meteor.startup(function () {
 
-HOURS = {
-    weekend:{close:3, open:9},
-    weekday:{close:2, open:9},
-}
-
-HARDCODED = false
-HARDCODERETURN = 'CLOSED FOR WINTER'
-
-OFFSET = 4 // Eastern time accounting for DST
-
-OPEN = '<span style="color:green">OPEN</span>'
-CLOSED = '<span style="color:red">CLOSED</span>'
-
-function MacConStatus(datetime) {
-    day = datetime.getDay()
-    hour = datetime.getUTCHours() - OFFSET
-
-    // Sunday, Saturday
-    if (day == 0 || day == 6) {
-        when = HOURS.weekend
-    }
-    // Monday - Friday
-    else {
-        when = HOURS.weekday
+  Template.maccon.rendered = function() {
+    var HOURS = {
+      weekend:{close:3, open:9},
+      weekday:{close:2, open:9},
     }
 
-    return (hour < when.close || hour >= when.open) ? OPEN: CLOSED
-}
+    var HARDCODED = true
+    var HARDCODERETURN = 'CLOSED FOR SUMMER'
 
-function isMacConOpen() {
-    if (HARDCODED) {
+    var OFFSET = 4 // Eastern time accounting for DST
+
+    var OPEN = 'open'
+    var CLOSED = 'closed'
+
+    isMacConOpen = function() {
+      if (HARDCODED) {
+        $("#ismacconopen").removeClass()
+        $("#ismacconopen").addClass("rainbow")
         return HARDCODERETURN
-    }
-    else {
+      }
+      else {
         datetime = new Date()
-        console.log(MacConStatus(datetime))
-        return MacConStatus(datetime)
+        var status = MacConStatus(datetime)
+        $("#ismacconopen").addClass(status)
+        return status
+      }
     }
-}
 
-Template.maccon.helpers({
-  prediction: function () {
-    return '<span style="font-size:10em;">' + isMacConOpen() + '</span>';
+    function MacConStatus(datetime) {
+      day = datetime.getDay()
+      hour = datetime.getUTCHours() - OFFSET
+
+      // Sunday, Saturday
+      if (day == 0 || day == 6) {
+        when = HOURS.weekend
+      }
+      // Monday - Friday
+      else {
+        when = HOURS.weekday
+      }
+
+      return (hour < when.close || hour >= when.open) ? OPEN: CLOSED
+    }
+
+    setInterval(
+      Session.set("prediction",isMacConOpen()),
+      60000
+    )
   }
-});
+
+  Template.maccon.helpers({
+    prediction: function () {
+      return Session.get("prediction")
+    }
+  });
+})
