@@ -5,7 +5,7 @@ Router.route("/entry/j/residents");
 Router.route("/entry/j/traditions");
 Router.route("/entry/j/photos");
 
-Template.topnav.events({
+Template.jnav.events({
   "click .nav a":function(event, template){
     $(".nav").find(".active").removeClass("active");
     $(event.currentTarget).parent().addClass("active");
@@ -18,7 +18,7 @@ Template.topnav.events({
   }
 })
 
-Template.photos.events({
+Template.entryJPhotos.events({
   "click .gallery-list li img":function(event, template){
     var src = event.currentTarget.src;
     var img = '<img src="' + src + '" class="img-responsive"/>';
