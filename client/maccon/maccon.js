@@ -7,7 +7,7 @@ Meteor.startup(function () {
       weekday:{close:2, open:9},
     }
 
-    var HARDCODED = true
+    var HARDCODED = false
     var HARDCODERETURN = 'CLOSED FOR SUMMER'
 
     var OFFSET = 4 // Eastern time accounting for DST
