@@ -3,8 +3,13 @@ Meteor.startup(function () {
 
   Template.maccon.rendered = function() {
     var HOURS = {
-      weekend:{close:3, open:9},
-      weekday:{close:2, open:9},
+      sunday:{close:0, open:12},
+      monday:{close:0, open:15},
+      tuesday:{close:0, open:15},
+      wednesday:{close:0, open:15},
+      thursday:{close:0, open:15},
+      friday:{close:2, open:15},
+      saturday:{close:2, open:12},
     }
 
     var HARDCODED = false
@@ -33,13 +38,30 @@ Meteor.startup(function () {
       day = datetime.getDay()
       hour = datetime.getUTCHours() - OFFSET
 
-      // Sunday, Saturday
-      if (day == 0 || day == 6) {
-        when = HOURS.weekend
-      }
-      // Monday - Friday
-      else {
-        when = HOURS.weekday
+      switch(day) {
+        case 0:
+        when = HOURS.sunday
+        break;
+        case 1:
+        when = HOURS.monday
+        break;
+        case 2:
+        when = HOURS.tuesday
+        break;
+        case 3:
+        when = HOURS.wednesday
+        break;
+        case 4:
+        when = HOURS.thursday
+        break;
+        case 5:
+        when = HOURS.friday
+        break;
+        case 6:
+        when = HOURS.saturday
+        break;
+        default:
+        when = HOURS.wednesday
       }
 
       return (hour < when.close || hour >= when.open) ? OPEN: CLOSED
