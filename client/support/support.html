@@ -1,57 +1,83 @@
 <template name="support">
-<body>
-{{> navbar}}
-<div class="container">
- 	<h2>Student Support</h2>
+  <body>
+    {{> navbar}}
+    <div id="support" class="container">
+      <h2>Student Support</h2>
 
-    <p>There are a lot of people who you can get support from. If you aren't sure where to start you can always default to classmates and your GRT. Always.</p>
-    <br/>
+      <p>There are a lot of people who you can get support from. If you aren't sure where to start you can always default to classmates and your GRT. Always.</p>
+      <br/>
 
-	<table class="table table-condensed table-striped">
-		<thead>
-	  	<tr>
-	  		<th>Position</th>
-	  		<th>Name</th>
-	  		<th>Contact Info</th>
-	  	</tr>
-		</thead>
-		<tbody>
-			{{#each sources}}
-				<tr>
-  	  		<td>{{role}}</td>
-  	  		<td>{{name}}</td>
-  	  		<td>{{contact}}</td>
-  	  	</tr>
-  		{{/each}}
-	</tbody>
-    </table>
-       
-  	<h3>Medlinks</h3>
+      <table class="table table-condensed table-striped">
+        <thead>
+          <tr>
+            <th>Position</th>
+            <th>Name</th>
+            <th>Contact Info</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each sources}}
+          <tr>
+            <td>{{role}}</td>
+            <td>{{name}}</td>
+            <td>{{contact}}</td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
+      <br/>
+      
+      <h3>Medlinks</h3>
 
-    <p>MedLinks can answer questions about MIT Medical’s policies and services and can help you figure out when and how to connect with other MIT resources. They also provide single doses of common over-the-counter medications, first-aid materials, and safer-sex supplies. <a href="https://medlinks.mit.edu/where-we-are?field_residence_value%5B%5D=dorm_macg">Medlink Site</a></p>
-    <br/>
+      <p>MedLinks can answer questions about MIT Medical’s policies and services and can help you figure out when and how to connect with other MIT resources. They also provide single doses of common over-the-counter medications, first-aid materials, and safer-sex supplies. <a href="https://medlinks.mit.edu/where-we-are?field_residence_value%5B%5D=dorm_macg">Medlink Site</a></p>
+      <br/>
 
-    <table class="table table-condensed table-striped">
-		<thead>
-	  	<tr>
-	  		<th>Name</th>
-	  		<th>Entry</th>
-	  		<th>Email</th>
-	  		<th>Phone</th>
-	  	</tr>
-		</thead>
-		<tbody>
-			{{#each medlinks}}
-				<tr>
-  	  		<td>{{name}}</td>
-  	  		<td>{{entry}}</td>
-  	  		<td>{{email}}</td>
-  	  		<td>{{phone}}</td>
-  	  	</tr>
-  		{{/each}}
-	</tbody>
-    </table>
+      <table class="table table-condensed table-striped">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Entry</th>
+            <th>Email</th>
+            <th>Phone</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each medlinks}}
+          <tr>
+            <td>{{name}}</td>
+            <td>{{entry}}</td>
+            <td>{{email}}</td>
+            <td>{{phone}}</td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
 
-  </div>
-</body>
+      <br/>
+      <h3>Peer Ears</h3>
+
+      <p>Peer Ears are here to support mental health and answer any questions about MIT’s mental health resources. They are trained and confidential, and most importantly, they’re peers. Feel free to drop a note or come talk to them, and if you want to join to add more support for MacGregor or get help now, you can find out more on their website, mitpeerears.org.</p>
+      <br/>
+
+      <table class="table table-condensed table-striped">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Entry</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{#each peerears}}
+          <tr>
+            <td>{{name}}</td>
+            <td>{{entry}}</td>
+            <td>{{email}}</td>
+          </tr>
+          {{/each}}
+        </tbody>
+      </table>
+
+    </div>
+  </body>
 </template>
