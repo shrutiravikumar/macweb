@@ -17,8 +17,7 @@ CSV().from(
        newRecord = {
             'name': data[row][0],
             'entry': data[row][1],
-            'email': data[row][2],
-            'phone': data[row][3]
+            'email': data[row][2]
         };
         
         Medlinks.insert(newRecord);
