@@ -4,11 +4,29 @@
 # 'meteor add' and 'meteor remove' will edit this file for you,
 # but you can also edit it by hand.
 
-meteor-platform
-insecure
 jquery
 less
-nemo64:bootstrap
 iron:router
 dsyko:meteor-node-csv
 fourseven:scss
+standard-minifiers
+meteor-base
+mobile-experience
+mongo
+blaze-html-templates
+session
+tracker
+logging
+reload
+random
+ejson
+spacebars
+check
+react
+meteorhacks:npm
+
+
+npm-container
+momentjs:moment
+twbs:bootstrap
+mizzao:jquery-ui
