@@ -49,11 +49,13 @@ body .fc { /* extra precedence to overcome jqui */
 	background: #510b0b;
 }
 
+/*Removed because it's ugly*/
 .fc-highlight { /* when user is selecting cells */
-	background: #bce8f1;
+/*	background: #bce8f1;
 	opacity: .3;
 	filter: alpha(opacity=30); /* for IE */
 }
+
 
 .fc-bgevent { /* default look for background events */
 	background: rgb(143, 223, 130);

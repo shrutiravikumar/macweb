@@ -32,7 +32,7 @@ Meteor.startup(function() {
         $(".eventTooltip .eventStartTime").html(event.start.format("hh:mm"))
         //TODO: determine whether this patch must also by applied to event.start
         if(!!event.end)
-          $(".eventTooltip .eventEndTime").html(event.end.format("hh:mm"))
+        $(".eventTooltip .eventEndTime").html(event.end.format("hh:mm"))
         $(".eventTooltip").css({visibility:"visible"})
 
         Meteor.call('getCalendarEvent',event.id, function(err, response) {
@@ -57,14 +57,27 @@ Meteor.startup(function() {
           $("#existingEventEndTime").val(event.end.format("H:mm"))
         }
         $("#existingEventTitle").val(event.title)
-        currentEventID = event;
+        currentEvent = event;
 
         Meteor.call('getCalendarEvent',event.id, function(err, response) {
           $("#existingEventHost").val(response.attendees[0].displayName)
           currEvent = response
         });
 
+        $("#editCalDisplay label[for=existing]").toggleClass('checked', true)
+        $("#editCalDisplay label[for=new]").toggleClass('checked', false)
+        $("#newEventDisplay").toggleClass("hidden",true)
+        $("#existingEventDisplay").toggleClass("hidden",false)
+
         return false
+      },
+      dayClick: function(date,jsEvent,view) {
+        return false
+      },
+      header: {
+        left: 'today,month,agendaWeek,agendaDay',
+        center: 'title',
+        right: 'prev,next'
       },
       selectable:true,
       timeFormat: 'H(:mm)'
@@ -130,7 +143,7 @@ Meteor.startup(function() {
 
       var host = $("#newEventHost").val()
       var summary = $("#newEventTitle").val()
-      var location = $("[name=spaceToggle]:checked").val()
+      var location = $("[name=newSpaceToggle]:checked").val()
 
       var data = {}
       data.start = start.format("YYYY-MM-DDTHH:mm:ssZ")
@@ -161,8 +174,8 @@ Meteor.startup(function() {
       var end = moment(endDate+" "+endTime,"MM-DD-YYYY H:mm")
 
       var host = $("#existingEventHost").val()
-      var summary = $("#newEventTitle").val()
-      var location = $("[name=spaceToggle]:checked").val()
+      var summary = $("#existingEventTitle").val()
+      var location = $("[name=existingSpaceToggle]:checked").val()
 
       var data = {}
       data.start = start.format("YYYY-MM-DDTHH:mm:ssZ")
