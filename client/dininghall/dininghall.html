@@ -5,11 +5,13 @@
       <div id='calendar'></div>
       <div class=eventTooltip>
         <span class="eventTitle"></span>
+        <p>Hosted by: <span class="eventHost"></span></p>
         <div>
+          <span>Time: </span>
           <span class="eventStartTime"></span>-
           <span class="eventEndTime"></span>
         </div>
-        <span class="eventHost"></span>
+        <p>Location: <span class="eventLocation"></span></p>
       </div>
     </div>
     <div id="editCalDisplay">
@@ -51,17 +53,17 @@
             <input type="text" id="newEventTitle">
           </label>
           <label for="newEventHost">
-            <span>Host</span>
+            <span>Host Kerberos</span>
             <input type="text" id="newEventHost">
           </label>
           <div id="spaceSelectors">
             <label for="newds">
-              <input id="newds" name="spaceToggle" type="radio" value="ds"/>
+              <input id="newds" name="spaceToggle" type="radio" value="Dance Studio"/>
               <span>Dance Studio</span>
             </label>
 
             <label for="newdh">
-              <input id="newdh" name="spaceToggle" type="radio" value="dh"/>
+              <input id="newdh" name="spaceToggle" type="radio" value="Dining Hall"/>
               <span>Dining Hall</span>
             </label>
           </div>
@@ -95,17 +97,17 @@
             <input type="text" id="existingEventTitle">
           </label>
           <label for="existingEventHost">
-            <span>Host</span>
+            <span>Host Kerberos</span>
             <input type="text" id="existingEventHost">
           </label>
           <div id="spaceSelectors">
             <label for="existingds">
-              <input id="existingds" name="existingSpaceToggle" type="radio" value="ds"/>
+              <input id="existingds" name="existingSpaceToggle" type="radio" value="Dance Studio"/>
               <span>Dance Studio</span>
             </label>
 
             <label for="existingdh">
-              <input id="existingdh" name="existingSpaceToggle" type="radio" value="dh"/>
+              <input id="existingdh" name="existingSpaceToggle" type="radio" value="Dining Hall"/>
               <span>Dining Hall</span>
             </label>
           </div>

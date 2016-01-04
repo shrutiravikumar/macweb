@@ -1,123 +1,139 @@
 Meteor.startup(function() {
   fs = Npm.require('fs')
-  var readline = Meteor.npmRequire('readline');
   var google = Meteor.npmRequire('googleapis');
   var googleAuth = Meteor.npmRequire('google-auth-library');
+  var calendar = google.calendar('v3');
 
-  var SCOPES = ['https://www.googleapis.com/auth/calendar.readonly'];
+  var SCOPES = ['https://www.googleapis.com/auth/calendar'];
   var TOKEN_DIR = (process.env.HOME || process.env.HOMEPATH || process.env.USERPROFILE) + '/.credentials/';
   var TOKEN_PATH = TOKEN_DIR + 'calendar-nodejs-quickstart.json';
 
+  var oauth2Client;
   // Load client secrets from a local file.
   var client_secret=Assets.getText("dininghall/client_secret.json");
   // Authorize a client with the loaded credentials, then call the
   // Google Calendar API.
-  authorize(JSON.parse(client_secret), listEvents);
+  authorize(JSON.parse(client_secret));
 
   /**
   * Create an OAuth2 client with the given credentials, and then execute the
   * given callback function.
   *
   * @param {Object} credentials The authorization client credentials.
-  * @param {function} callback The callback to call with the authorized client.
   */
-  function authorize(credentials, callback) {
+  function authorize(credentials) {
     var clientSecret = credentials.installed.client_secret;
     var clientId = credentials.installed.client_id;
     var redirectUrl = credentials.installed.redirect_uris[0];
     var auth = new googleAuth();
-    var oauth2Client = new auth.OAuth2(clientId, clientSecret, redirectUrl);
+    oauth2Client = new auth.OAuth2(clientId, clientSecret, redirectUrl);
 
     // Check if we have previously stored a token.
     fs.readFile(TOKEN_PATH, function(err, token) {
-      if (err) {
-        getNewToken(oauth2Client, callback);
-      } else {
-        oauth2Client.credentials = JSON.parse(token);
-        callback(oauth2Client);
-      }
+      oauth2Client.credentials = JSON.parse(token);
     });
   }
 
-  /**
-  * Get and store new token after prompting for user authorization, and then
-  * execute the given callback with the authorized OAuth2 client.
-  *
-  * @param {google.auth.OAuth2} oauth2Client The OAuth2 client to get token for.
-  * @param {getEventsCallback} callback The callback to call with the authorized
-  *     client.
-  */
-  function getNewToken(oauth2Client, callback) {
-    var authUrl = oauth2Client.generateAuthUrl({
-      access_type: 'offline',
-      scope: SCOPES
-    });
-    console.log('Authorize this app by visiting this url: ', authUrl);
-    var rl = readline.createInterface({
-      input: process.stdin,
-      output: process.stdout
-    });
-    rl.question('Enter the code from that page here: ', function(code) {
-      rl.close();
-      oauth2Client.getToken(code, function(err, token) {
+  Meteor.methods({
+    insertCalenderEvent: function (data) {
+      var event = {
+        'summary': data.summary,
+        'location': data.location,
+        'description': 'via MacWeb',
+        'start': {
+          'dateTime': data.start,
+          'timeZone': 'America/New_York',
+        },
+        'end': {
+          'dateTime': data.end,
+          'timeZone': 'America/New_York',
+        },
+        'attendees': [
+          {
+            'displayName': data.host,
+            'email': data.host+'@mit.edu'
+          }
+        ],
+        'organizer': {
+          'displayName': data.host
+        },
+        'reminders': {
+          'useDefault': false,
+          'overrides': [
+            {'method': 'popup', 'minutes': 10},
+          ],
+        },
+      };
+
+      calendar.events.insert({
+        auth: oauth2Client,
+        calendarId: '85bp16q9pdrmfa4ggo6f18vka8@group.calendar.google.com',
+        resource: event,
+      }, function(err, event) {
         if (err) {
-          console.log('Error while trying to retrieve access token', err);
+          console.log('There was an error contacting the Calendar service: ' + err);
           return;
         }
-        oauth2Client.credentials = token;
-        storeToken(token);
-        callback(oauth2Client);
+        console.log('Event created: %s', event.htmlLink);
       });
-    });
-  }
+    },
+    updateCalenderEvent: function (data) {
+      var event = {
+        'summary': data.summary,
+        'location': data.location,
+        'description': 'Macgregor Space Reservation via MacWeb',
+        'start': {
+          'dateTime': data.start,
+          'timeZone': 'America/New_York',
+        },
+        'end': {
+          'dateTime': data.end,
+          'timeZone': 'America/New_York',
+        },
+        'attendees': [
+          {
+            'displayName': data.host,
+            'email': data.host+'@mit.edu'
+          }
+        ],
+        'reminders': {
+          'useDefault': false,
+          'overrides': [
+            {'method': 'popup', 'minutes': 10},
+          ],
+        },
+      };
 
-  /**
-  * Store token to disk be used in later program executions.
-  *
-  * @param {Object} token The token to store to disk.
-  */
-  function storeToken(token) {
-    try {
-      fs.mkdirSync(TOKEN_DIR);
-    } catch (err) {
-      if (err.code != 'EEXIST') {
-        throw err;
-      }
-    }
-    fs.writeFile(TOKEN_PATH, JSON.stringify(token));
-    console.log('Token stored to ' + TOKEN_PATH);
-  }
-
-  /**
-  * Lists the next 10 events on the user's primary calendar.
-  *
-  * @param {google.auth.OAuth2} auth An authorized OAuth2 client.
-  */
-  function listEvents(auth) {
-    var calendar = google.calendar('v3');
-    calendar.events.list({
-      auth: auth,
-      calendarId: 'primary',
-      timeMin: (new Date()).toISOString(),
-      maxResults: 10,
-      singleEvents: true,
-      orderBy: 'startTime'
-    }, function(err, response) {
-      if (err) {
-        console.log('The API returned an error: ' + err);
-        return;
-      }
-      var events = response.items;
-      if (events.length == 0) {
-        console.log('No upcoming events found.');
-      } else {
-        console.log('Upcoming 10 events:');
-        for (var i = 0; i < events.length; i++) {
-          var event = events[i];
-          var start = event.start.dateTime || event.start.date;
-          console.log('%s - %s', start, event.summary);
+      calendar.events.update({
+        auth: oauth2Client,
+        calendarId: '85bp16q9pdrmfa4ggo6f18vka8@group.calendar.google.com',
+        eventId: data.id,
+        resource: event,
+      }, function(err, event) {
+        if (err) {
+          console.log('There was an error contacting the Calendar service: ' + err);
+          return;
         }
-      }
-    });
-  }
+        console.log('Event updated: %s', event.htmlLink);
+      });
+    },
+    getCalendarEvent: function(eventID) {
+      var event = Meteor.wrapAsync(calendar.events.get)({
+        auth: oauth2Client,
+        calendarId: '85bp16q9pdrmfa4ggo6f18vka8@group.calendar.google.com',
+        eventId: eventID,
+      })
+
+      return event
+      // function(err, event) {
+      //   if (err) {
+      //     console.log('There was an error contacting the GET Calendar service: ' + err);
+      //     return;
+      //   }
+      //   console.log(JSON.stringify(event));
+      //   return "all";
+      // }
+    }
+  });
+
 })

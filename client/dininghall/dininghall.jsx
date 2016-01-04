@@ -3,6 +3,7 @@ Router.route("dininghall");
 Meteor.startup(function() {
   Template.dininghall.rendered = function() {
     //$(".fc-content").popover()
+    //TODO: move everything to React instead of Blaze
     Calendar = React.createClass({
       render: function() {
         return (
@@ -10,7 +11,7 @@ Meteor.startup(function() {
         )
       }
     })
-
+    var currentEvent= '';
     // React.render(
     //   <div>
     //     <Calendar />
@@ -29,22 +30,40 @@ Meteor.startup(function() {
       eventMouseover:function(event, jsEvent, view) {
         $(".eventTooltip .eventTitle").html(event.title)
         $(".eventTooltip .eventStartTime").html(event.start.format("hh:mm"))
-        $(".eventTooltip .eventEndTime").html(event.end.format("hh:mm"))
+        //TODO: determine whether this patch must also by applied to event.start
+        if(!!event.end)
+          $(".eventTooltip .eventEndTime").html(event.end.format("hh:mm"))
         $(".eventTooltip").css({visibility:"visible"})
+
+        Meteor.call('getCalendarEvent',event.id, function(err, response) {
+          $(".eventTooltip .eventHost").html(response.attendees[0].displayName)
+          $(".eventTooltip .eventLocation").html(response.location)
+        });
       },
       eventMouseout:function(event, jsEvent, view) {
         $(".eventTooltip").css({visibility:"hidden"})
         $(".eventTooltip .eventTitle").html("")
         $(".eventTooltip .eventStartTime").html("")
         $(".eventTooltip .eventEndTime").html("")
+        $(".eventTooltip .eventHost").html("")
+        $(".eventTooltip .eventLocation").html("")
       },
       eventClick:function(event, jsEvent, view) {
-        $("#existingEventStartDate").val(event.start.format("MM:DD:YYYY"))
+        $("#existingEventStartDate").val(event.start.format("MM-DD-YYYY"))
         $("#existingEventStartTime").val(event.start.format("H:mm"))
-        $("#existingEventEndDate").val(event.end.format("MM:DD:YYYY"))
-        $("#existingEventEndTime").val(event.end.format("H:mm"))
+        //TODO: determine whether this patch must also by applied to event.start
+        if(!!event.end) {
+          $("#existingEventEndDate").val(event.end.format("MM-DD-YYYY"))
+          $("#existingEventEndTime").val(event.end.format("H:mm"))
+        }
         $("#existingEventTitle").val(event.title)
-        $("#existingEventHost").val("Not implemented")
+        currentEventID = event;
+
+        Meteor.call('getCalendarEvent',event.id, function(err, response) {
+          $("#existingEventHost").val(response.attendees[0].displayName)
+          currEvent = response
+        });
+
         return false
       },
       selectable:true,
@@ -52,7 +71,6 @@ Meteor.startup(function() {
     })
 
     $('#editCalDisplay input[type=radio]').click(function() {
-      console.log(this);
       $("#editCalDisplay input[name="+this.name+"]").parent().toggleClass('checked', false);
       $(this).parent().toggleClass('checked', this.checked);
     })
@@ -70,6 +88,7 @@ Meteor.startup(function() {
     $("#newEventStartDate").datetimepicker({
       stepHour: 1,
       stepMinute: 5,
+      dateFormat: "mm-dd-yy",
       altField: "#newEventStartTime",
       altFieldTimeOnly: true,
       altTimeFormat: "H:mm"
@@ -77,6 +96,7 @@ Meteor.startup(function() {
     $("#newEventEndDate").datetimepicker({
       stepHour: 1,
       stepMinute: 5,
+      dateFormat: "mm-dd-yy",
       altField: "#newEventEndTime",
       altFieldTimeOnly: true,
       altTimeFormat: "H:mm"
@@ -85,6 +105,7 @@ Meteor.startup(function() {
     $("#existingEventStartDate").datetimepicker({
       stepHour: 1,
       stepMinute: 5,
+      dateFormat: "mm-dd-yy",
       altField: "#existingEventStartTime",
       altFieldTimeOnly: true,
       altTimeFormat: "H:mm"
@@ -92,9 +113,75 @@ Meteor.startup(function() {
     $("#existingEventEndDate").datetimepicker({
       stepHour: 1,
       stepMinute: 5,
+      dateFormat: "mm-dd-yy",
       altField: "#existingEventEndTime",
       altFieldTimeOnly: true,
       altTimeFormat: "H:mm"
+    })
+
+    $("#submitNewEvent").click(function(){
+      var startDate = $("#newEventStartDate").val()
+      var startTime = $("#newEventStartTime").val()
+      var start = moment(startDate+" "+startTime,"MM-DD-YYYY H:mm")
+
+      var endDate = $("#newEventEndDate").val()
+      var endTime = $("#newEventEndTime").val()
+      var end = moment(endDate+" "+endTime,"MM-DD-YYYY H:mm")
+
+      var host = $("#newEventHost").val()
+      var summary = $("#newEventTitle").val()
+      var location = $("[name=spaceToggle]:checked").val()
+
+      var data = {}
+      data.start = start.format("YYYY-MM-DDTHH:mm:ssZ")
+      data.end = end.format("YYYY-MM-DDTHH:mm:ssZ")
+      data.host = host
+      data.summary = summary
+      data.location = location
+      console.log(data);
+      Meteor.call("insertCalenderEvent",data,function(){})
+
+      $("#newEventStartDate").val("")
+      $("#newEventStartTime").val("")
+      $("#newEventEndDate").val("")
+      $("#newEventEndTime").val("")
+      $("#newEventHost").val("")
+      $("#newEventTitle").val("")
+      $("#editCalDisplay input").parent().toggleClass('checked', false)
+      $("#newEventDisplay").toggleClass("hidden",true)
+    })
+
+    $("#submitExistingEvent").click(function(){
+      var startDate = $("#existingEventStartDate").val()
+      var startTime = $("#existingEventStartTime").val()
+      var start = moment(startDate+" "+startTime,"MM-DD-YYYY H:mm")
+
+      var endDate = $("#existingEventEndDate").val()
+      var endTime = $("#existingEventEndTime").val()
+      var end = moment(endDate+" "+endTime,"MM-DD-YYYY H:mm")
+
+      var host = $("#existingEventHost").val()
+      var summary = $("#newEventTitle").val()
+      var location = $("[name=spaceToggle]:checked").val()
+
+      var data = {}
+      data.start = start.format("YYYY-MM-DDTHH:mm:ssZ")
+      data.end = end.format("YYYY-MM-DDTHH:mm:ssZ")
+      data.host = host
+      data.summary = summary
+      data.location = location
+      data.id = currentEvent.id
+
+      Meteor.call("updateCalenderEvent",data,function(){})
+
+      $("#existingEventStartDate").val("")
+      $("#existingEventStartTime").val("")
+      $("#existingEventEndDate").val("")
+      $("#existingEventEndTime").val("")
+      $("#existingEventHost").val("")
+      $("#existingEventTitle").val("")
+      $("#editCalDisplay input").parent().toggleClass('checked', false)
+      $("#existingEventDisplay").toggleClass("hidden",true)
     })
   }
 })
