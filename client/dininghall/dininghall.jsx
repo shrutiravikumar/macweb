@@ -61,6 +61,9 @@ Meteor.startup(function() {
 
         Meteor.call('getCalendarEvent',event.id, function(err, response) {
           $("#existingEventHost").val(response.attendees[0].displayName)
+          var eventInDS = response.location == "Dance Studio"
+          $("label[for=existingds]").toggleClass('checked', eventInDS)
+          $("label[for=existingdh]").toggleClass('checked', !eventInDS)
           currEvent = response
         });
 
@@ -68,7 +71,6 @@ Meteor.startup(function() {
         $("#editCalDisplay label[for=new]").toggleClass('checked', false)
         $("#newEventDisplay").toggleClass("hidden",true)
         $("#existingEventDisplay").toggleClass("hidden",false)
-
         return false
       },
       dayClick: function(date,jsEvent,view) {
