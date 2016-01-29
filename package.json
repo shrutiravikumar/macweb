@@ -1,0 +1,28 @@
+{
+  "name": "macweb",
+  "version": "1.0.0",
+  "description": "Macweb is the official website for Macgregor, an MIT dorm. It was designed from scratch using [Meteor](https://www.meteor.com/).",
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "author": "Firescar96",
+  "license": "MIT",
+  "homepage": "http://macgregor.mit.edu",
+  "dependencies": {
+    "googleapis": "2.1.6",
+    "google-auth-library": "0.9.7",
+    "readline": "1.2.1"
+  },
+  "main": "",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Firescar96/macweb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Firescar96/macweb/issues"
+  }
+}

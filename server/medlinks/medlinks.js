@@ -1,4 +1,4 @@
-//var CSV = Meteor.npmRequire('csv'); 
+//var CSV = Npm.require('csv'); 
 
 Medlinks = new Mongo.Collection("medlinks");
 Medlinks.remove({});

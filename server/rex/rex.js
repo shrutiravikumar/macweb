@@ -1,4 +1,4 @@
-//var CSV = Meteor.npmRequire('csv');
+//var CSV = Npm.require('csv');
 
 Events = new Mongo.Collection("rex");
 Events.remove({});

@@ -23,10 +23,8 @@ ejson
 spacebars
 check
 react
-meteorhacks:npm
 
 
-npm-container
 momentjs:moment
 twbs:bootstrap
 mizzao:jquery-ui

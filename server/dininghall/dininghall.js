@@ -1,7 +1,7 @@
 Meteor.startup(function() {
   fs = Npm.require('fs')
-  var google = Meteor.npmRequire('googleapis');
-  var googleAuth = Meteor.npmRequire('google-auth-library');
+  var google = Npm.require('googleapis');
+  var googleAuth = Npm.require('google-auth-library');
   var calendar = google.calendar('v3');
 
   var SCOPES = ['https://www.googleapis.com/auth/calendar'];

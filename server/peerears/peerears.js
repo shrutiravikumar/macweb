@@ -1,4 +1,4 @@
-//var CSV = Meteor.npmRequire('csv');
+//var CSV = Npm.require('csv');
 
 PeerEars = new Mongo.Collection("peerears");
 PeerEars.remove({});
