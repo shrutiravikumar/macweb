@@ -85,17 +85,17 @@ Meteor.startup(function() {
       timeFormat: 'H(:mm)'
     })
 
-    $('#editCalDisplay input[type=radio]').click(function() {
-      $("#editCalDisplay input[name="+this.name+"]").parent().toggleClass('checked', false);
+    $('.selectors-container input[type=radio]').click(function() {
+      $(".selectors-container input[name="+this.name+"]").parent().toggleClass('checked', false);
       $(this).parent().toggleClass('checked', this.checked);
     })
 
-    $("#editSelectors #new").click(function(event) {
+    $(".selectors-container #new").click(function(event) {
       $("#existingEventDisplay").toggleClass("hidden",true)
       $("#newEventDisplay").toggleClass("hidden",false)
     })
 
-    $("#editSelectors #existing").click(function(event) {
+    $(".selectors-container #existing").click(function(event) {
       $("#newEventDisplay").toggleClass("hidden",true)
       $("#existingEventDisplay").toggleClass("hidden",false)
     })

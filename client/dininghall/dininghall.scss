@@ -48,7 +48,7 @@ div#dininghall {
     }
   }
 
-  div#editSelectors {
+  div.selectors-container {
     display: block;
     margin: 10px 0;
 
@@ -63,33 +63,6 @@ div#dininghall {
       &[for=existing] {
         @include colorize($buttonbgColor, $txtbgColor);
       }
-
-      input {
-        display: none;
-
-        + span {
-          position: relative;
-          display: block;
-          text-align: center;
-          padding: 20px;
-        }
-
-        &:checked + span {
-          text-shadow:  1px  rgba(255,255,255,.5);
-        }
-      }
-    }
-  }
-
-  div#spaceSelectors {
-    display: block;
-    margin: 10px 0;
-
-    >label {
-      margin: 0;
-      align-items: center;
-
-      //@include transition(color .2s ease-out);
       &[for=newds] {
         @include colorize($buttonbgColor, $txtbgColor);
       }
@@ -110,11 +83,7 @@ div#dininghall {
           position: relative;
           display: block;
           text-align: center;
-          padding: 5px;
-        }
-
-        &:checked + span {
-          text-shadow:  1px  rgba(255,255,255,.5);
+          padding: 20px;
         }
       }
     }
