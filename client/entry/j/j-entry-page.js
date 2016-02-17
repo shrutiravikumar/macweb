@@ -21,7 +21,7 @@ Template.jnav.events({
 Template.entryJPhotos.events({
   "click .gallery-list li img":function(event, template){
     var src = event.currentTarget.src;
-    var img = '<img src="' + src + '" class="img-responsive"/>';
+    var img = '<img src="/entry/j' + src + '" class="img-responsive"/>';
 
     var index = $(event.currentTarget).parent("li").index();
     var html = "";
