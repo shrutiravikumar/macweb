@@ -223,6 +223,25 @@
         </div>
 
         <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+
+        <script type="text/javascript" charset="utf-8">
+            // $(function() {
+            //     $("img.lazy").lazyload({
+            //         effect: "fadeIn",
+            //         container: $("#lazy_load")
+            //     });
+            //     alert("shit should happen");
+            // }); 
+
+            $(document).ready(function() {
+
+                $("img").unveil(200, function() {
+                    $(this).load(function() {
+                        this.style.opacity = 1;
+                    });
+                });
+            });
+        </script> 
 		
 	</div>
 </template>
