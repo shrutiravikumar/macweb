@@ -9,8 +9,8 @@
   "license": "MIT",
   "homepage": "http://macgregor.mit.edu",
   "dependencies": {
-    "googleapis": "2.1.6",
-    "google-auth-library": "0.9.7",
+    "google-auth-library": "^0.9.7",
+    "googleapis": "^2.1.6",
     "readline": "1.2.1"
   },
   "main": "",
