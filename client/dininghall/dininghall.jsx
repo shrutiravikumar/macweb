@@ -36,7 +36,8 @@ Meteor.startup(function() {
         $(".eventTooltip").css({visibility:"visible"})
 
         Meteor.call('getCalendarEvent',event.id, function(err, response) {
-          $(".eventTooltip .eventHost").html(response.attendees[0].displayName)
+          // $(".eventTooltip .eventHost").html(response.attendees[0].displayName)
+            $(".eventTooltip .eventHost").html("Satoshi Nakamoto")
           $(".eventTooltip .eventLocation").html(response.location)
         });
       },
@@ -60,7 +61,8 @@ Meteor.startup(function() {
         currentEvent = event;
 
         Meteor.call('getCalendarEvent',event.id, function(err, response) {
-          $("#existingEventHost").val(response.attendees[0].displayName)
+          // $("#existingEventHost").val(response.attendees[0].displayName)
+            $("#existingEventHost").val("Satoshi Nakamoto")
           var eventInDS = response.location == "Dance Studio"
           $("label[for=existingds]").toggleClass('checked', eventInDS)
           $("label[for=existingdh]").toggleClass('checked', !eventInDS)
