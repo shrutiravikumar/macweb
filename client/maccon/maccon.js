@@ -12,8 +12,8 @@ Meteor.startup(function () {
       saturday:{close:2, open:12},
     }
 
-    var HARDCODED = false
-    var HARDCODERETURN = 'CLOSED FOR SUMMER'
+    var HARDCODED = true
+    var HARDCODERETURN = 'HAVING A PIZZA PARTY'
 
     var OFFSET = 4 // Eastern time accounting for DST
 

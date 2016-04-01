@@ -11,7 +11,8 @@ CSV().from(
     for(var row=0; row<data.length; row++) {
        newRecord = {
             'role': data[row][0],
-            'name': data[row][1],
+            // 'name': data[row][1],
+            'name': "Satoshi Nakamoto",
             'email': data[row][2]
         };
         Housecomm.insert(newRecord);
