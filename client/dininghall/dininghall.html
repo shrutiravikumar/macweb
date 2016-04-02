@@ -1,90 +1,89 @@
 <template name="dininghall">
-  <body>
-    {{> navbar}}
-    <div id="dininghall" class="container">
-      <div id="calDisplay">
-        <div id='calendar'></div>
-        <div class=eventTooltip>
-          <span class="eventTitle"></span>
-          <p>Hosted by: <span class="eventHost"></span></p>
-          <div>
-            <span>Time: </span>
-            <span class="eventStartTime"></span>-
-            <span class="eventEndTime"></span>
-          </div>
-          <p>Location: <span class="eventLocation"></span></p>
+  {{> navbar}}
+  <div id="dininghall" class="container">
+    <div id="calDisplay">
+      <div id='calendar'></div>
+      <div class=eventTooltip>
+        <span class="eventTitle"></span>
+        <p>Hosted by: <span class="eventHost"></span></p>
+        <div>
+          <span>Time: </span>
+          <span class="eventStartTime"></span>-
+          <span class="eventEndTime"></span>
         </div>
+        <p>Location: <span class="eventLocation"></span></p>
       </div>
-      <p>*Events reserving the entire dining hall MUST be first approved by an email to mac-housecomm@mit.edu</p>
-      <p>**Reservations for the dining hall always trump reservations for the dance studio</p>
-      <div id="editCalDisplay">
-        <div class="selectors-container">
-          <label for="new">
-            <input id="new" name="editToggle" type="radio" value="new"/>
-            <span>New Event</span>
-          </label>
+    </div>
+    <p>*Events reserving the entire dining hall MUST be first approved by an email to mac-housecomm@mit.edu</p>
+    <p>**Reservations for the dining hall always trump reservations for the dance studio</p>
+    <div id="editCalDisplay">
+      <div class="selectors-container">
+        <label for="new">
+          <input id="new" name="editToggle" type="radio" value="new"/>
+          <span>New Event</span>
+        </label>
 
-          <label for="existing">
-            <input id="existing" name="editToggle" type="radio" value="existing"/>
-            <span>Existing Event</span>
-          </label>
-        </div>
-        <div id="newEventDisplay"  class="eventDisplay hidden">
-          <div>
-            <div class="newEventInfo">
-              <label for="newEventStartDate">
-                <span>Date</span>
-                <input type="text" id="newEventStartDate" readonly>
-              </label>
-              <label for="newEventStartTime">
-                <span>Time</span>
-                <input type="text" id="newEventStartTime" readonly>
-              </label>
-            </div>
-            <div class="newEventInfo">
-              <label for="newEventEndDate">
-                <span>Date</span>
-                <input type="text" id="newEventEndDate" readonly>
-              </label>
-              <label for="newEventEndTime">
-                <span>Time</span>
-                <input type="text" id="newEventEndTime" readonly>
-              </label>
-            </div>
-            <label for="newEventTitle">
-              <span>Title</span>
-              <input type="text" id="newEventTitle">
+        <label for="existing">
+          <input id="existing" name="editToggle" type="radio" value="existing"/>
+          <span>Existing Event</span>
+        </label>
+      </div>
+      <div id="newEventDisplay"  class="eventDisplay hidden">
+        <div>
+          <div class="newEventInfo">
+            <label for="newEventStartDate">
+              <span>Date</span>
+              <input type="text" id="newEventStartDate" readonly>
             </label>
-            <label for="newEventHost">
-              <span>Host Kerberos</span>
-              <input type="text" id="newEventHost">
+            <label for="newEventStartTime">
+              <span>Time</span>
+              <input type="text" id="newEventStartTime" readonly>
             </label>
-            <div class="selectors-container">
-              <label for="newds">
-                <input id="newds" name="newSpaceToggle" type="radio" value="Dance Studio"/>
-                <span>Dance Studio</span>
-              </label>
-
-              <label for="newdh">
-                <input id="newdh" name="newSpaceToggle" type="radio" value="Dining Hall"/>
-                <span>Dining Hall</span>
-              </label>
-            </div>
           </div>
-          <button id="submitNewEvent" class="submitEvent">Submit</button>
+          <div class="newEventInfo">
+            <label for="newEventEndDate">
+              <span>Date</span>
+              <input type="text" id="newEventEndDate" readonly>
+            </label>
+            <label for="newEventEndTime">
+              <span>Time</span>
+              <input type="text" id="newEventEndTime" readonly>
+            </label>
+          </div>
+          <label for="newEventTitle">
+            <span>Title</span>
+            <input type="text" id="newEventTitle">
+          </label>
+          <label for="newEventHost">
+            <span>Host Kerberos</span>
+            <input type="text" id="newEventHost">
+          </label>
+          <div class="selectors-container">
+            <label for="newds">
+              <input id="newds" name="newSpaceToggle" type="radio" value="Dance Studio"/>
+              <span>Dance Studio</span>
+            </label>
+
+            <label for="newdh">
+              <input id="newdh" name="newSpaceToggle" type="radio" value="Dining Hall"/>
+              <span>Dining Hall</span>
+            </label>
+          </div>
         </div>
-        <div id="existingEventDisplay" class="eventDisplay hidden">
-          <div>
-            <div class="existingEventInfo">
-              <label for="existingEventStartDate">
-                <span>Date</span>
-                <input type="text" id="existingEventStartDate" readonly>
-              </label>
-              <label for="existingEventTime">
-                <span>Time</span>
-                <input type="text" id="existingEventStartTime" readonly>
-              </label>
-            </div>
+        <button id="submitNewEvent" class="submitEvent">Submit</button>
+      </div>
+      <div id="existingEventDisplay" class="eventDisplay hidden">
+        <div>
+          <div class="existingEventInfo">
+            <label for="existingEventStartDate">
+              <span>Date</span>
+              <input type="text" id="existingEventStartDate" readonly>
+            </label>
+            <label for="existingEventTime">
+              <span>Time</span>
+              <input type="text" id="existingEventStartTime" readonly>
+            </label>
+          </div>
             <div class="existingEventInfo">
               <label for="existingEventEndDate">
                 <span>Date</span>
@@ -95,29 +94,28 @@
                 <input type="text" id="existingEventEndTime" readonly>
               </label>
             </div>
-            <label for="existingEventTitle">
-              <span>Title</span>
-              <input type="text" id="existingEventTitle">
+          <label for="existingEventTitle">
+            <span>Title</span>
+            <input type="text" id="existingEventTitle">
+          </label>
+          <label for="existingEventHost">
+            <span>Host Kerberos</span>
+            <input type="text" id="existingEventHost">
+          </label>
+          <div class="selectors-container">
+            <label for="existingds">
+              <input id="existingds" name="existingSpaceToggle" type="radio" value="Dance Studio"/>
+              <span>Dance Studio</span>
             </label>
-            <label for="existingEventHost">
-              <span>Host Kerberos</span>
-              <input type="text" id="existingEventHost">
-            </label>
-            <div class="selectors-container">
-              <label for="existingds">
-                <input id="existingds" name="existingSpaceToggle" type="radio" value="Dance Studio"/>
-                <span>Dance Studio</span>
-              </label>
 
-              <label for="existingdh">
-                <input id="existingdh" name="existingSpaceToggle" type="radio" value="Dining Hall"/>
-                <span>Dining Hall</span>
-              </label>
-            </div>
+            <label for="existingdh">
+              <input id="existingdh" name="existingSpaceToggle" type="radio" value="Dining Hall"/>
+              <span>Dining Hall</span>
+            </label>
           </div>
-          <button id="submitExistingEvent" class="submitEvent">Submit</button>
         </div>
+        <button id="submitExistingEvent" class="submitEvent">Submit</button>
       </div>
     </div>
-  </body>
+  </div>
 </template>
