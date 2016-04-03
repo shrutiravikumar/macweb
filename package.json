@@ -11,6 +11,16 @@
   "dependencies": {
     "google-auth-library": "^0.9.7",
     "googleapis": "^2.1.6",
+    "react": "^0.14.8",
+    "react-addons-create-fragment": "^0.14.8",
+    "react-addons-css-transition-group": "^0.14.8",
+    "react-addons-linked-state-mixin": "^0.14.8",
+    "react-addons-perf": "^0.14.8",
+    "react-addons-pure-render-mixin": "^0.14.8",
+    "react-addons-test-utils": "^0.14.8",
+    "react-addons-transition-group": "^0.14.8",
+    "react-addons-update": "^0.14.8",
+    "react-dom": "^0.14.8",
     "readline": "1.2.1"
   },
   "main": "",

@@ -9,7 +9,6 @@ less
 iron:router
 dsyko:meteor-node-csv
 fourseven:scss
-standard-minifiers
 meteor-base
 mobile-experience
 mongo
@@ -29,3 +28,6 @@ momentjs:moment
 twbs:bootstrap
 mizzao:jquery-ui
 andruschka:bootstrap-image-gallery
+standard-minifier-css
+standard-minifier-js
+rzymek:fullcalendar

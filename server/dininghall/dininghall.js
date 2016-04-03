@@ -15,6 +15,12 @@ Meteor.startup(function() {
   // Google Calendar API.
   authorize(JSON.parse(client_secret));
 
+  var ResCal = new Mongo.Collection("reservation-cal-dirty")
+  ResCal.insert({status:false})
+  Meteor.publish('reservation-cal-dirty', function() {
+    return ResCal.find();
+  });
+
   /**
   * Create an OAuth2 client with the given credentials, and then execute the
   * given callback function.
@@ -35,6 +41,9 @@ Meteor.startup(function() {
   }
 
   Meteor.methods({
+    cleanedDirtyCalendar: function() {
+      ResCal.upsert({status:false})
+    },
     insertCalenderEvent: function (data) {
       var event = {
         'summary': data.summary,
@@ -75,6 +84,7 @@ Meteor.startup(function() {
           return;
         }
         console.log('Event created: %s', event.htmlLink);
+        Session.set("reservation-cal-dirty", true);
       });
     },
     updateCalenderEvent: function (data) {
@@ -109,13 +119,14 @@ Meteor.startup(function() {
         calendarId: '85bp16q9pdrmfa4ggo6f18vka8@group.calendar.google.com',
         eventId: data.id,
         resource: event,
-      }, function(err, event) {
+      }, Meteor.bindEnvironment(function(err, event) {
         if (err) {
           console.log('There was an error contacting the Calendar service: ' + err);
           return;
         }
         console.log('Event updated: %s', event.htmlLink);
-      });
+        ResCal.upsert({},{status:true});
+      }));
     },
     getCalendarEvent: function(eventID) {
       var event = Meteor.wrapAsync(calendar.events.get)({
@@ -125,14 +136,6 @@ Meteor.startup(function() {
       })
 
       return event
-      // function(err, event) {
-      //   if (err) {
-      //     console.log('There was an error contacting the GET Calendar service: ' + err);
-      //     return;
-      //   }
-      //   console.log(JSON.stringify(event));
-      //   return "all";
-      // }
     }
   });
 
