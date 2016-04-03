@@ -42,7 +42,7 @@ Meteor.startup(function() {
 
   Meteor.methods({
     cleanedDirtyCalendar: function() {
-      ResCal.upsert({status:false})
+      ResCal.update({},{$set: {status:false}})
     },
     insertCalenderEvent: function (data) {
       var event = {
@@ -78,14 +78,14 @@ Meteor.startup(function() {
         auth: oauth2Client,
         calendarId: '85bp16q9pdrmfa4ggo6f18vka8@group.calendar.google.com',
         resource: event,
-      }, function(err, event) {
+      }, Meteor.bindEnvironment(function(err, event) {
         if (err) {
           console.log('There was an error contacting the Calendar service: ' + err);
           return;
         }
         console.log('Event created: %s', event.htmlLink);
-        Session.set("reservation-cal-dirty", true);
-      });
+        ResCal.update({},{$set: {status:true}})
+      }));
     },
     updateCalenderEvent: function (data) {
       var event = {
@@ -125,7 +125,7 @@ Meteor.startup(function() {
           return;
         }
         console.log('Event updated: %s', event.htmlLink);
-        ResCal.upsert({},{status:true});
+        ResCal.update({},{$set: {status:true}})
       }));
     },
     getCalendarEvent: function(eventID) {

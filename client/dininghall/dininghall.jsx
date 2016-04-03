@@ -6,7 +6,7 @@ Meteor.subscribe("reservation-cal-dirty")
 Tracker.autorun(function(){
   if(ResCal.findOne() && ResCal.findOne().status) {
     $('#calendar').fullCalendar('refetchEvents')
-    console.log("clean");
+    console.log("clean",ResCal.findOne().status);
     Meteor.call("cleanedDirtyCalendar",function(){})
   }
 })
