@@ -46,7 +46,7 @@ Template.dininghall.rendered = function() {
       $(".eventTooltip").css({visibility:"visible"})
 
       Meteor.call('getCalendarEvent',event.id, function(err, response) {
-        $(".eventTooltip .eventHost").html(response.attendees[0].displayName)
+        $(".eventTooltip .eventHost").html(response.attendees[0].email.match(/[a-zA-Z0-9]+/g)[0])
         $(".eventTooltip .eventLocation").html(response.location)
       });
     },
@@ -70,7 +70,7 @@ Template.dininghall.rendered = function() {
       currentEvent = event;
 
       Meteor.call('getCalendarEvent',event.id, function(err, response) {
-        $("#existingEventHost").val(response.attendees[0].displayName)
+        $("#existingEventHost").val(response.attendees[0].email.match(/[a-zA-Z0-9]+/g)[0])
         var eventInDS = response.location == "Dance Studio"
         $("label[for=existingds]").toggleClass('checked', eventInDS)
         $("label[for=existingdh]").toggleClass('checked', !eventInDS)
@@ -144,68 +144,118 @@ Template.dininghall.rendered = function() {
     altTimeFormat: "H:mm"
   })
 
-  $("#submitNewEvent").click(function(){
-    var startDate = $("#newEventStartDate").val()
-    var startTime = $("#newEventStartTime").val()
-    var start = moment(startDate+" "+startTime,"MM-DD-YYYY H:mm")
+  $.validator.addMethod("kerberos", function(value, element) {
+    return this.optional(element) || /^[a-zA-Z0-9]+$/.test(value);
+  }, "Please use a valid kerberos");
 
-    var endDate = $("#newEventEndDate").val()
-    var endTime = $("#newEventEndTime").val()
-    var end = moment(endDate+" "+endTime,"MM-DD-YYYY H:mm")
+  $('#newEventDisplay').validate({
+    messages: {
+      eventStartDate: {
+        required: "",
+      },
+      eventStartTime: {
+        required: "",
+      },
+      eventEndDate: {
+        required: "",
+      },
+      eventEndTime: {
+        required: "",
+      },
+      eventTitle: {
+        required: "X",
+      },
+      eventHost: {
+        required: "X",
+        kerberos: "valid kerberos needed",
+      }
+    },
+    submitHandler: function() {
+      var startDate = $("#newEventStartDate").val()
+      var startTime = $("#newEventStartTime").val()
+      var start = moment(startDate+" "+startTime,"MM-DD-YYYY H:mm")
 
-    var host = $("#newEventHost").val()
-    var summary = $("#newEventTitle").val()
-    var location = $("[name=newSpaceToggle]:checked").val()
+      var endDate = $("#newEventEndDate").val()
+      var endTime = $("#newEventEndTime").val()
+      var end = moment(endDate+" "+endTime,"MM-DD-YYYY H:mm")
 
-    var data = {}
-    data.start = start.format("YYYY-MM-DDTHH:mm:ssZ")
-    data.end = end.format("YYYY-MM-DDTHH:mm:ssZ")
-    data.host = host
-    data.summary = summary
-    data.location = location
-    console.log(data);
-    Meteor.call("insertCalenderEvent",data,function(){})
+      var host = $("#newEventHost").val()
+      var summary = $("#newEventTitle").val()
+      var location = $("[name=newSpaceToggle]:checked").val()
 
-    $("#newEventStartDate").val("")
-    $("#newEventStartTime").val("")
-    $("#newEventEndDate").val("")
-    $("#newEventEndTime").val("")
-    $("#newEventHost").val("")
-    $("#newEventTitle").val("")
-    $("#editCalDisplay input").parent().toggleClass('checked', false)
-    $("#newEventDisplay").toggleClass("hidden",true)
+      var data = {}
+      data.start = start.format("YYYY-MM-DDTHH:mm:ssZ")
+      data.end = end.format("YYYY-MM-DDTHH:mm:ssZ")
+      data.host = host
+      data.summary = summary
+      data.location = location
+      console.log(data);
+      Meteor.call("insertCalenderEvent",data,function(){})
+
+      $("#newEventStartDate").val("")
+      $("#newEventStartTime").val("")
+      $("#newEventEndDate").val("")
+      $("#newEventEndTime").val("")
+      $("#newEventHost").val("")
+      $("#newEventTitle").val("")
+      $("#editCalDisplay input").parent().toggleClass('checked', false)
+      $("#newEventDisplay").toggleClass("hidden",true)
+    }
   })
 
-  $("#submitExistingEvent").click(function(){
-    var startDate = $("#existingEventStartDate").val()
-    var startTime = $("#existingEventStartTime").val()
-    var start = moment(startDate+" "+startTime,"MM-DD-YYYY H:mm")
+  $('#existingEventDisplay').validate({
+    messages: {
+      eventStartDate: {
+        required: "",
+      },
+      eventStartTime: {
+        required: "",
+      },
+      eventEndDate: {
+        required: "",
+      },
+      eventEndTime: {
+        required: "",
+      },
+      eventTitle: {
+        required: "X",
+      },
+      eventHost: {
+        required: "X",
+        kerberos: "valid kerberos needed",
+      }
+    },
+    submitHandler: function() {
+      var startDate = $("#existingEventStartDate").val()
+      var startTime = $("#existingEventStartTime").val()
+      var start = moment(startDate+" "+startTime,"MM-DD-YYYY H:mm")
 
-    var endDate = $("#existingEventEndDate").val()
-    var endTime = $("#existingEventEndTime").val()
-    var end = moment(endDate+" "+endTime,"MM-DD-YYYY H:mm")
+      var endDate = $("#existingEventEndDate").val()
+      var endTime = $("#existingEventEndTime").val()
+      var end = moment(endDate+" "+endTime,"MM-DD-YYYY H:mm")
 
-    var host = $("#existingEventHost").val()
-    var summary = $("#existingEventTitle").val()
-    var location = $("[name=existingSpaceToggle]:checked").val()
+      var host = $("#existingEventHost").val()
+      var summary = $("#existingEventTitle").val()
+      var location = $("[name=existingSpaceToggle]:checked").val()
 
-    var data = {}
-    data.start = start.format("YYYY-MM-DDTHH:mm:ssZ")
-    data.end = end.format("YYYY-MM-DDTHH:mm:ssZ")
-    data.host = host
-    data.summary = summary
-    data.location = location
-    data.id = currentEvent.id
+      var data = {}
+      data.start = start.format("YYYY-MM-DDTHH:mm:ssZ")
+      data.end = end.format("YYYY-MM-DDTHH:mm:ssZ")
+      data.host = host
+      data.summary = summary
+      data.location = location
+      data.id = currentEvent.id
 
-    Meteor.call("updateCalenderEvent",data,function(){})
+      Meteor.call("updateCalenderEvent",data,function(){})
 
-    $("#existingEventStartDate").val("")
-    $("#existingEventStartTime").val("")
-    $("#existingEventEndDate").val("")
-    $("#existingEventEndTime").val("")
-    $("#existingEventHost").val("")
-    $("#existingEventTitle").val("")
-    $("#editCalDisplay input").parent().toggleClass('checked', false)
-    $("#existingEventDisplay").toggleClass("hidden",true)
+      $("#existingEventStartDate").val("")
+      $("#existingEventStartTime").val("")
+      $("#existingEventEndDate").val("")
+      $("#existingEventEndTime").val("")
+      $("#existingEventHost").val("")
+      $("#existingEventTitle").val("")
+      $("#editCalDisplay input").parent().toggleClass('checked', false)
+      $("#existingEventDisplay").toggleClass("hidden",true)
+    }
   })
 }

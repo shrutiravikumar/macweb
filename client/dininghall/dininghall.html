@@ -28,37 +28,37 @@
           <span>Existing Event</span>
         </label>
       </div>
-      <div id="newEventDisplay"  class="eventDisplay hidden">
+      <form id="newEventDisplay"  class="eventDisplay hidden">
         <div>
           <div class="newEventInfo">
             <label for="newEventStartDate">
-              <span>Date</span>
-              <input type="text" id="newEventStartDate" readonly>
+              <span>Start Date</span>
+              <input type="text" id="newEventStartDate" name="eventStartDate" class="required" readonly>
             </label>
             <label for="newEventStartTime">
-              <span>Time</span>
-              <input type="text" id="newEventStartTime" readonly>
+              <span>Start Time</span>
+              <input type="text" id="newEventStartTime" name="eventStartTime" class="required" readonly>
             </label>
           </div>
           <div class="newEventInfo">
             <label for="newEventEndDate">
-              <span>Date</span>
-              <input type="text" id="newEventEndDate" readonly>
+              <span>End Date</span>
+              <input type="text" id="newEventEndDate" name="eventEndDate" class="required" readonly>
             </label>
             <label for="newEventEndTime">
-              <span>Time</span>
-              <input type="text" id="newEventEndTime" readonly>
+              <span>End Time</span>
+              <input type="text" id="newEventEndTime" name="eventEndTime" class="required" readonly>
             </label>
           </div>
           <label for="newEventTitle">
             <span>Title</span>
-            <input type="text" id="newEventTitle">
+            <input type="text" id="newEventTitle" name="eventTitle" class="required">
           </label>
           <label for="newEventHost">
             <span>Host Kerberos</span>
-            <input type="text" id="newEventHost">
+            <input type="text" id="newEventHost" name="eventHost" class="required kerberos">
           </label>
-          <div class="selectors-container">
+          <fieldset class="selectors-container">
             <label for="newds">
               <input id="newds" name="newSpaceToggle" type="radio" value="Dance Studio"/>
               <span>Dance Studio</span>
@@ -68,39 +68,39 @@
               <input id="newdh" name="newSpaceToggle" type="radio" value="Dining Hall"/>
               <span>Dining Hall</span>
             </label>
-          </div>
+          </fieldset>
         </div>
-        <button id="submitNewEvent" class="submitEvent">Submit</button>
-      </div>
-      <div id="existingEventDisplay" class="eventDisplay hidden">
+        <input type="submit" id="submitNewEvent" class="submitEvent" value="Submit"/>
+      </form>
+      <form id="existingEventDisplay" class="eventDisplay hidden">
         <div>
           <div class="existingEventInfo">
             <label for="existingEventStartDate">
               <span>Date</span>
-              <input type="text" id="existingEventStartDate" readonly>
+              <input type="text" id="existingEventStartDate" name="eventStartDate" class="required" readonly>
             </label>
             <label for="existingEventTime">
               <span>Time</span>
-              <input type="text" id="existingEventStartTime" readonly>
+              <input type="text" id="existingEventStartTime" name="eventStartTime" class="required" readonly>
             </label>
           </div>
             <div class="existingEventInfo">
               <label for="existingEventEndDate">
                 <span>Date</span>
-                <input type="text" id="existingEventEndDate" readonly>
+                <input type="text" id="existingEventEndDate" name="eventEndDate" class="required" readonly>
               </label>
               <label for="existingEventEndTime">
                 <span>Time</span>
-                <input type="text" id="existingEventEndTime" readonly>
+                <input type="text" id="existingEventEndTime" name="eventEndTime" class="required" readonly>
               </label>
             </div>
           <label for="existingEventTitle">
             <span>Title</span>
-            <input type="text" id="existingEventTitle">
+            <input type="text" id="existingEventTitle" name="eventTitle" class="required">
           </label>
           <label for="existingEventHost">
             <span>Host Kerberos</span>
-            <input type="text" id="existingEventHost">
+            <input type="text" id="existingEventHost" name="eventHost" class="required kerberos">
           </label>
           <div class="selectors-container">
             <label for="existingds">
@@ -115,7 +115,7 @@
           </div>
         </div>
         <button id="submitExistingEvent" class="submitEvent">Submit</button>
-      </div>
+      </form>
     </div>
   </div>
 </template>

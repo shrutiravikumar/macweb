@@ -48,7 +48,7 @@ div#dininghall {
     }
   }
 
-  div.selectors-container {
+  div.selectors-container, fieldset.selectors-container {
     display: block;
     margin: 10px 0;
 
@@ -97,6 +97,10 @@ div#dininghall {
       background-color: $buttonbgColor;
       color: $txtbgColor;
       font-size: 18px;
+    }
+
+    .error {
+      color: #cf1010;
     }
   }
 

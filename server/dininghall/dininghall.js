@@ -63,9 +63,6 @@ Meteor.startup(function() {
             'email': data.host+'@mit.edu'
           }
         ],
-        'organizer': {
-          'displayName': data.host
-        },
         'reminders': {
           'useDefault': false,
           'overrides': [
@@ -134,7 +131,7 @@ Meteor.startup(function() {
         calendarId: '85bp16q9pdrmfa4ggo6f18vka8@group.calendar.google.com',
         eventId: eventID,
       })
-
+      console.log(event);
       return event
     }
   });
