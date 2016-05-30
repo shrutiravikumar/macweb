@@ -12,7 +12,7 @@ Meteor.startup(function () {
       saturday:{close:2, open:12},
     }
 
-    var HARDCODED = false
+    var HARDCODED = true
     var HARDCODERETURN = 'CLOSED FOR SUMMER'
 
     var OFFSET = 4 // Eastern time accounting for DST
