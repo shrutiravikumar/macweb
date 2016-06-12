@@ -1,5 +1,3 @@
-Router.route("dininghall");
-
 var ResCal = new Mongo.Collection("reservation-cal-dirty")
 window.rescal = ResCal
 Meteor.subscribe("reservation-cal-dirty")

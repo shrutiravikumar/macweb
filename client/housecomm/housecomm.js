@@ -1,5 +1,3 @@
-Router.route("housecomm");
-
 Meteor.subscribe('housecomm');
 Housecomm = new Mongo.Collection("housecomm");
 

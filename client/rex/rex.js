@@ -1,5 +1,3 @@
-Router.route("rex")
-
 Meteor.subscribe('rex')
 Events = new Mongo.Collection("rex")
 

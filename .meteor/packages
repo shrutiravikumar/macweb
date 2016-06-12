@@ -6,7 +6,6 @@
 
 jquery
 less
-iron:router
 dsyko:meteor-node-csv
 fourseven:scss
 meteor-base
@@ -32,3 +31,5 @@ standard-minifier-css
 standard-minifier-js
 rzymek:fullcalendar
 themeteorchef:jquery-validation
+kadira:flow-router
+kadira:blaze-layout

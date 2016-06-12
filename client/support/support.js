@@ -1,5 +1,3 @@
-Router.route("support");
-
 Meteor.subscribe('supports');
 Supports = new Mongo.Collection("supports");
 Meteor.subscribe('medlinks');

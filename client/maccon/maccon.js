@@ -1,4 +1,3 @@
-Router.route("maccon");
 Meteor.startup(function () {
 
   Template.maccon.rendered = function() {

@@ -1,10 +1,3 @@
-// Routes for site navigation
-Router.route('/entry/j/', {name: 'entryJAbout'});
-Router.route("/entry/j/about");
-Router.route("/entry/j/residents");
-Router.route("/entry/j/traditions");
-Router.route("/entry/j/photos");
-
 Template.jnav.events({
   "click .nav a":function(event, template){
     $(".nav").find(".active").removeClass("active");
