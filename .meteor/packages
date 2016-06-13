@@ -4,32 +4,26 @@
 # 'meteor add' and 'meteor remove' will edit this file for you,
 # but you can also edit it by hand.
 
-jquery
-less
+meteor-base             # Packages every Meteor app needs to have
+mobile-experience       # Packages for a great mobile UX
+mongo                   # The database Meteor supports right now
+reactive-var            # Reactive variable for tracker
+jquery                  # Helpful client-side library
+tracker                 # Meteor's client-side reactive programming library
+
+standard-minifier-css   # CSS minifier run for production mode
+standard-minifier-js    # JS minifier run for production mode
+es5-shim                # ECMAScript 5 compatibility for older browsers.
+ecmascript              # Enable ECMAScript2015+ syntax in app code
+
+insecure                # Allow all DB writes from clients (for prototyping)
+mizzao:jquery-ui
 dsyko:meteor-node-csv
 fourseven:scss
-meteor-base
-mobile-experience
-mongo
-blaze-html-templates
-session
-tracker
-logging
-reload
-random
-ejson
-spacebars
-check
-react
-
-
-momentjs:moment
-twbs:bootstrap
-mizzao:jquery-ui
 andruschka:bootstrap-image-gallery
-standard-minifier-css
-standard-minifier-js
-rzymek:fullcalendar
-themeteorchef:jquery-validation
 kadira:flow-router
-kadira:blaze-layout
+momentjs:moment
+themeteorchef:jquery-validation
+twbs:bootstrap
+ultimatejs:tracker-react
+rzymek:fullcalendar

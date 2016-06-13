@@ -16,7 +16,7 @@ Meteor.startup(function() {
   authorize(JSON.parse(client_secret));
 
   var ResCal = new Mongo.Collection("reservation-cal-dirty")
-  ResCal.insert({status:false})
+  ResCal.upsert({},{$set: {status:false}})
   Meteor.publish('reservation-cal-dirty', function() {
     return ResCal.find();
   });
@@ -81,7 +81,7 @@ Meteor.startup(function() {
           return;
         }
         console.log('Event created: %s', event.htmlLink);
-        ResCal.update({},{$set: {status:true}})
+        ResCal.upsert({},{$set: {status:true}})
       }));
     },
     updateCalenderEvent: function (data) {
@@ -122,7 +122,7 @@ Meteor.startup(function() {
           return;
         }
         console.log('Event updated: %s', event.htmlLink);
-        ResCal.update({},{$set: {status:true}})
+        ResCal.upsert({},{$set: {status:true}})
       }));
     },
     getCalendarEvent: function(eventID) {
@@ -131,7 +131,6 @@ Meteor.startup(function() {
         calendarId: '85bp16q9pdrmfa4ggo6f18vka8@group.calendar.google.com',
         eventId: eventID,
       })
-      console.log(event);
       return event
     }
   });

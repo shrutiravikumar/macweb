@@ -1,0 +1,115 @@
+@import "../lib/mixins.scss";
+
+$buttonbgColor : #7D7D7D;
+$txtbgColor : #fff;
+
+div#dininghall {
+  div#calDisplay {
+    display: flex;
+  }
+
+  #calendar {
+    width: 80%;
+    a {
+      text-decoration: none;
+
+      // .eventTooltip {
+      //   visibility: hidden;
+      //   z-index: 1000;
+      // }
+      // &:hover .eventTooltip {
+      //   display:block;
+      //   position:absolute;
+      //   color: white;
+      //   background-color:#000;
+      //   border: 1px solid #300;
+      // }
+    }
+  }
+  .eventTooltip {
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    .eventTitle {
+      font-size: 20px;
+    }
+  }
+
+  div#editCalDisplay {
+    display: block;
+
+    input[type=text] {
+      background-color: transparent;
+      border: none;
+      border-bottom: solid white 1px;
+      color: white;
+    }
+  }
+
+  div.selectors-container, fieldset.selectors-container {
+    display: block;
+    margin: 10px 0;
+
+    >label {
+      margin: 0;
+      align-items: center;
+
+      //@include transition(color .2s ease-out);
+      &[for=new] {
+        @include colorize($buttonbgColor, $txtbgColor);
+      }
+      &[for=existing] {
+        @include colorize($buttonbgColor, $txtbgColor);
+      }
+      &[for=newds] {
+        @include colorize($buttonbgColor, $txtbgColor);
+      }
+      &[for=newdh] {
+        @include colorize($buttonbgColor, $txtbgColor);
+      }
+      &[for=existingds] {
+        @include colorize($buttonbgColor, $txtbgColor);
+      }
+      &[for=existingdh] {
+        @include colorize($buttonbgColor, $txtbgColor);
+      }
+      &[for=ds] {
+        @include colorize($buttonbgColor, $txtbgColor);
+      }
+      &[for=dh] {
+        @include colorize($buttonbgColor, $txtbgColor);
+      }
+
+      input {
+        display: none;
+
+        + span {
+          position: relative;
+          display: block;
+          text-align: center;
+          padding: 20px;
+        }
+      }
+    }
+  }
+
+  #eventDisplay {
+    display: flex;
+
+    #submitEvent {
+      margin: auto;
+      background-color: $buttonbgColor;
+      color: $txtbgColor;
+      font-size: 18px;
+    }
+
+    .error {
+      color: #cf1010;
+    }
+  }
+
+  .hidden {
+    visibility: hidden;
+  }
+}
