@@ -14,7 +14,8 @@ class Rex extends TrackerReact(Component) {
           <td style={{width:'15%'}}>{event.name}</td>
           <td style={{width:'5%'}}>{event.day}</td>
           <td style={{width:'15%'}}>{event.time}</td>
-          <td style={{width:'50%'}}>{event.description}</td>
+          <td style={{width:'15%'}}>{event.location}</td>
+          <td style={{width:'35%'}}>{event.description}</td>
         </tr>
       );
     });
@@ -25,7 +26,7 @@ class Rex extends TrackerReact(Component) {
         <div className="container">
           <h2>REX Event List</h2>
 
-          <p>For your viewing pleasue, here are all of Macgregor's REX Events. Have fun.</p>
+          <p>For your viewing pleasue, here are all of Macgregor&#39;s REX Events. Have fun.</p>
           <br/>
 
           <table className="table table-condensed table-striped">
@@ -34,6 +35,7 @@ class Rex extends TrackerReact(Component) {
                 <th>Event</th>
                 <th>Day</th>
                 <th>Time</th>
+                <th>Location</th>
                 <th>Description</th>
               </tr>
             </thead>

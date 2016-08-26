@@ -18,6 +18,7 @@ class Navbar extends Component {
           <div className="collapse navbar-collapse">
             <div className="collapse navbar-collapse">
               <ul className="nav navbar-nav">
+                <li id="nav-rex"><a href="/rex">REX</a></li>
                 <li id="nav-housecomm"><a href="/housecomm">Administrivia</a></li>
                 <li id="nav-support"><a href="/support">Student Support</a></li>
                 <li id="nav-maccon"><a href="/maccon">MacCon</a></li>
