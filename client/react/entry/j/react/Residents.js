@@ -633,25 +633,27 @@ class Residents extends Component {
                   <div className="resident_info">
                     <h4>Bio:</h4>
                     <p>
-                      Hi! My name is Nina and I have a lot of feelings. My contributions to J are the 3D printer I won at a poker tournament, the Star Wars poster in J2, and occasional stress baking. My two goals here are feeding MIT students and trying to follow my daily limit of 5 cups of coffee.
-                      I love technology and dynamic media. When I'm not here in J entry, I'm at the MIT Media Lab. Here I do research, play with Legos, and occasionally make things that work. My current passions lie in hardware and software relating to computer vision and data visualization. Overall I live in the happy intersection of software, hardware, and media.
+                      Hi! I’m Nina and I have a lot of feelings. My contributions to J are the 3D Printer I won at a poker tournament, the Star Wars poster in J2, and occasional stress baking. My passions lie in the happy intersection of software, hardware, and media. When I'm not here, I'm at the Media Lab where I do research, play with Legos, and occasionally make things that work. 
+                    </p>
+                    <p>
+                      I play with The MIT Poker Club, take photos and write for The Tech, walk backwards down the Infinite as a tour guide, and do social chair things for MacGregor. I read too much Buzzfeed and laugh quite a bit (very loudly and incoherently). I'm always down for adventures in Boston, eating a lot of food, or a game of poker.
                     </p>
                     <p>
                       I'm a loyal member of the MIT Poker Club, occasional photographer and writer for The Tech, and co-social chair for MacGregor. I love movies and comic books and socializing with different humans. I read too much Buzzfeed and laugh quite a bit (very loudly). I'm always down for adventures in Boston, eating a lot of food, or a game of poker.
                     </p>
                     <h4>Why I Love J Entry:</h4>
                     <p>
-                      When you look for a home, you want somewhere to come to on your best day and your worst day. J Entry is that place. I love the people here. We're very tight knit and truly support each other, but we also love visitors and new friends.
+                      Home is where you come back to on your best and worst days. J Entry is home. I love the people here. We're very tight knit and truly care about each other. 
                     </p>
                     <p>
-                      You can always find someone in a lounge or with their door open. Whether you need help on a pset (or procrastinating on one) or want to learn something new or have a great conversation, a Jenizen will be there. It's common to see us going out to study, have dinner, or on an adventure as a big group of J humans.
+                      You can always find someone in a lounge or with their door open. Whether you need help on a pset (or procrastinating), a Jenizen will be there. It's common to see us studying, eating dinner, or out in Boston together.
                     </p>
                     <p>
-                      We're a diverse and fun bunch. We have artists and rowers and biologists and programmers and chemists and mechanical engineers all living side by side and laughing at the same study break. But most of all, we have a great group of people who care about one another.
+                      I love the different interests in J. We have artists and chemists and rowers and biologists and programmers and mechanical engineers all living together.
                     </p>
                     <p>
-                      When I look back in twenty years, I probably won't remember that pset I dropped or that lab that didn't go well. I'll remember Theresa and Richard's drawings on my board, or when Theresa and I were so thrilled to get a dish rack. I'll remember the upperclassmen who helped me move in or with those first psets. I'll remember standing in the hall at 3am and laughing with Ethan and Kevin and Ron. I'll remember coming home to a lounge full of amazing people writing quotes on a whiteboard and ordering food together. I'll remember J Entry.
-                    </p>
+                      When I look back at my college experience, I probably won't remember that pset I dropped or that lab that didn't go well. I'll remember Theresa and Richard's drawings on my board, or getting a dish rack. I'll remember the upperclassmen who helped me my freshman year. I'll remember standing in the hall at 3am laughing with Ethan and Kevin and Ron. I'll remember coming home to a cozy lounge full of amazing people writing quotes on a whiteboard and ordering food together. The people who became my family. I'll remember J Entry.
+                    </p>  
                     <h4>Just for Fun:</h4>
                     <p>
                       <a href="https://www.youtube.com/watch?v=eb1vcaqAivY">https://www.youtube.com/watch?v=eb1vcaqAivY</a>
