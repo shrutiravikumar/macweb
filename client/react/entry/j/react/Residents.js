@@ -9,7 +9,7 @@ class Residents extends Component {
           <div className="title-div">
             <h1>Meet the Residents of J Entry</h1>
             <p>
-              J is made of some pretty cool and diverse people. Here you can learn a little more about some of our residents!
+              J is made of some pretty cool and diverse people. Here you can learn a little more about some of our current and past residents!
             </p>
           </div>
           <div className="container">
@@ -766,7 +766,6 @@ class Residents extends Component {
                 </div>
               </li>
             </ul>
-            <h1> Jlums (former residents) </h1>
           </div>
       </div>
     );
