@@ -334,8 +334,9 @@ class Residents extends Component {
                     </p>
                     <h4>Just for Fun:</h4>
                     <p>
-                      <a href="https://youtu.be/nfdEdE96En0">https://youtu.be/nfdEdE96En0</a>
-                      <a href="https://i.imgur.com/U0iADj9.gifv">https://i.imgur.com/U0iADj9.gifv</a>
+                      <a href="https://youtu.be/nfdEdE96En0">https://youtu.be/nfdEdE96En0</a></p>
+
+                      <p><a href="https://i.imgur.com/U0iADj9.gifv">https://i.imgur.com/U0iADj9.gifv</a>
                     </p>
                   </div>
                 </div>
@@ -444,8 +445,7 @@ class Residents extends Component {
                   <div className="resident_info">
                     <h4>Bio:</h4>
                     <p>
-                      Hi! I’m Nina and I have a lot of feelings. My contributions to J are the 3D Printer I won at a poker tournament, the Star Wars poster in J2, and occasional stress baking. My passions lie in the happy intersection of software, hardware, and media. When I'm not here, I'm at the Media Lab where I do research, play with Legos, and occasionally make things that work.
-                    </p>
+                      Hi! I’m Nina and I have a lot of feelings. My contributions to J are the 3D Printer I won at a poker tournament, the Star Wars poster in J2, and occasional stress baking. My passions lie in the happy intersection of software, hardware, and media. When I'm not here, I'm at the Media Lab where I do research, play with Legos, and occasionally make things that work. </p>
                     <p>
                       I play with The MIT Poker Club, take photos and write for The Tech, walk backwards down the Infinite as a tour guide, and do social chair things for MacGregor. I read too much Buzzfeed and laugh quite a bit (very loudly and incoherently). I'm always down for adventures in Boston, eating a lot of food, or a game of poker.
                     </p>
