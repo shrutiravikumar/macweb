@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import TrackerReact from 'meteor/ultimatejs:tracker-react';
 import Navbar from './Navbar.js';
 
-const HARDCODED = true;
-const HARDCODERETURN = 'CLOSED FOR SUMMER';
+const HARDCODED = false;
+const HARDCODERETURN = 'CLOSED FOR THANKSGIVING';
 
 const OFFSET = 4 // Eastern time accounting for DST
 
@@ -11,12 +11,12 @@ const OPEN = 'open'
 const CLOSED = 'closed'
 
 const HOURS = [
-  {close:0, open:12}, //sunday
+  {close:2, open:12}, //sunday
   {close:0, open:15}, //monday
   {close:0, open:15}, //tuesday
   {close:0, open:15}, //wednesday
   {close:0, open:15}, //thursday
-  {close:2, open:15}, //friday
+  {close:0, open:15}, //friday
   {close:2, open:12} //saturday
 ]
 
