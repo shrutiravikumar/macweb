@@ -633,7 +633,7 @@ class Residents extends Component {
                   <div className="resident_info">
                     <h4>Bio:</h4>
                     <p>
-                      Hi! I’m Nina and I have a lot of feelings. My contributions to J are the 3D Printer I won at a poker tournament, the Star Wars poster in J2, and occasional stress baking. My passions lie in the happy intersection of software, hardware, and media. When I'm not here, I'm at the Media Lab where I do research, play with Legos, and occasionally make things that work. 
+                      Hi! I’m Nina and I have a lot of feelings. My contributions to J are the 3D Printer I won at a poker tournament, the Star Wars poster in J2, and occasional stress baking. My passions lie in the happy intersection of software, hardware, and media. When I'm not here, I'm at the Media Lab where I do research, play with Legos, and occasionally make things that work.
                     </p>
                     <p>
                       I play with The MIT Poker Club, take photos and write for The Tech, walk backwards down the Infinite as a tour guide, and do social chair things for MacGregor. I read too much Buzzfeed and laugh quite a bit (very loudly and incoherently). I'm always down for adventures in Boston, eating a lot of food, or a game of poker.
@@ -643,7 +643,7 @@ class Residents extends Component {
                     </p>
                     <h4>Why I Love J Entry:</h4>
                     <p>
-                      Home is where you come back to on your best and worst days. J Entry is home. I love the people here. We're very tight knit and truly care about each other. 
+                      Home is where you come back to on your best and worst days. J Entry is home. I love the people here. We're very tight knit and truly care about each other.
                     </p>
                     <p>
                       You can always find someone in a lounge or with their door open. Whether you need help on a pset (or procrastinating), a Jenizen will be there. It's common to see us studying, eating dinner, or out in Boston together.
@@ -653,7 +653,7 @@ class Residents extends Component {
                     </p>
                     <p>
                       When I look back at my college experience, I probably won't remember that pset I dropped or that lab that didn't go well. I'll remember Theresa and Richard's drawings on my board, or getting a dish rack. I'll remember the upperclassmen who helped me my freshman year. I'll remember standing in the hall at 3am laughing with Ethan and Kevin and Ron. I'll remember coming home to a cozy lounge full of amazing people writing quotes on a whiteboard and ordering food together. The people who became my family. I'll remember J Entry.
-                    </p>  
+                    </p>
                     <h4>Just for Fun:</h4>
                     <p>
                       <a href="https://www.youtube.com/watch?v=eb1vcaqAivY">https://www.youtube.com/watch?v=eb1vcaqAivY</a>
@@ -766,6 +766,7 @@ class Residents extends Component {
                 </div>
               </li>
             </ul>
+            <h1> Jlums (former residents) </h1>
           </div>
       </div>
     );
@@ -773,4 +774,3 @@ class Residents extends Component {
 }
 
 export default Residents;
-
