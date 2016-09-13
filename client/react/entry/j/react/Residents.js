@@ -41,6 +41,32 @@ class Residents extends Component {
                 </div>
               </li>
 
+              <li className="col-lg-3 col-md-2 col-sm-12 col-xs-12">
+                <div className="resident">
+                  <h3>Ben</h3>
+                  <div className="resident_photo">
+                    <img className="img-responsive" src="/entry/j/resident_photos/ben.jpg"/>
+                  </div>
+                  <div>
+                    <div className="bio-info-div">Major: <span className="bio-info-span bio-info-major">6?</span></div>
+                    <div className="bio-info-div">Class Year: <span className="bio-info-span bio-info-year">2020</span></div>
+                  </div>
+                  <div className="resident_info">
+                    <h4>Bio:</h4>
+                    <p>
+I'm from Paris, Kentucky, love to play saxophone, and am quite familiar with the dank memes.
+                    </p>
+                    <h4>Why I Love J Entry:</h4>
+                    <p>
+Everyone is nice, fun, and pretty chill. Also, spontaneity is cool.                    </p>
+<h4>Just for Fun:</h4>
+<p>
+  Many MIT. Wow. Such P-set. Amaze.
+</p>
+                  </div>
+                </div>
+              </li>
+
                 <li className="col-lg-3 col-md-2 col-sm-12 col-xs-12">
                   <div className="resident">
                     <h3>Caity</h3>
@@ -48,7 +74,7 @@ class Residents extends Component {
                       <img className="img-responsive" src="/entry/j/resident_photos/caity.jpg"/>
                     </div>
                     <div>
-                      <div className="bio-info-div">Major: <span className="bio-info-span bio-info-major">8-ish</span></div>
+                      <div className="bio-info-div">Major: <span className="bio-info-span bio-info-major">8 & 6-1</span></div>
                       <div className="bio-info-div">Class Year: <span className="bio-info-span bio-info-year">2019</span></div>
                     </div>
                     <div className="resident_info">
@@ -63,6 +89,33 @@ class Residents extends Component {
                     </div>
                   </div>
                 </li>
+
+                <li className="col-lg-3 col-md-2 col-sm-12 col-xs-12">
+                  <div className="resident">
+                    <h3>Charlotte</h3>
+                    <div className="resident_photo">
+                      <img className="img-responsive" src="/entry/j/resident_photos/charlotte.jpg"/>
+                    </div>
+                    <div>
+                      <div className="bio-info-div">Major: <span className="bio-info-span bio-info-major">Undeclared</span></div>
+                      <div className="bio-info-div">Class Year: <span className="bio-info-span bio-info-year">2020</span></div>
+                    </div>
+                    <div className="resident_info">
+                      <h4>Bio:</h4>
+                      <p>
+                      Hi! I'm a freshman, MA native, IB survivor, and all-girls high school alum. In HS, I did lots of debate and music things. In college, I'm hoping to do lots more music things, some more debate things, and cool new circus/dance things! I'm interested in courses 2, 3, 6, 7, 8, 9, 12, 16, 21H, and 22 (help).       </p><p>                Once, I snuck into my school at 11pm to steal my friend's calculator before the SATs and had to hide from my history teacher in a desk. I'm addicted to pho and my college essay was a rap. Come listen to Wait Wait Don't Tell Me and cry about Firefly with me.                      </p>
+                      <h4>Why I Love J Entry:</h4>
+                      <p>
+Everyone is so welcoming and enthusiastic! There are always people hanging out in the lounges and doing cool things, and upperclassmen are completely willing to dole out advice at 4am.                      </p>
+
+                      <h4>Just for Fun:</h4>
+                      <p>
+                        <a href="https://vine.co/v/OV0H1XVBntP,  http://koalastothemax.com/">https://vine.co/v/OV0H1XVBntP,  http://koalastothemax.com/ </a>
+                      </p>
+                    </div>
+                  </div>
+                </li>
+
 
                 <li className="col-lg-3 col-md-2 col-sm-12 col-xs-12">
                   <div className="resident">
@@ -98,52 +151,35 @@ class Residents extends Component {
                     <img className="img-responsive" src="/entry/j/resident_photos/ethan.JPG"/>
                   </div>
                   <div>
-                    <div className="bio-info-div">Major: <span className="bio-info-span bio-info-major">6-2?</span></div>
+                    <div className="bio-info-div">Major: <span className="bio-info-span bio-info-major">6-3</span></div>
                     <div className="bio-info-div">Class Year: <span className="bio-info-span bio-info-year">2018</span></div>
                   </div>
                   <div className="resident_info">
                     <h4>Bio:</h4>
                     <p>
-                      Hi
-                    </p>
-                    <p>
-                      I am a sophomore.
-                    </p>
-                    <p>
-                      I like pop-tarts, memes, and Arizona Black and White Tea.
-                    </p>
-                    <p>
-                      Outside of these, I enjoy things such as Star Wars, Back to the Future, Pixar stuff, Civilization, GTA, Skyrim, Mass Effect, KotOR, Apocalypse Rising, Star Trek, Spongebob, and a lot of other stuff. For a full list of my interests, please contact me at epw@mit.edu.
-                    </p>
-                    <p>
-                      In my free time (procrastination time), I'll watch TeenNick while laying on my futon, bum around Boston, take a walk to McDonald's, or do some indie game development.
-                    </p>
-                    <p>
-                      It is possible (however unlikely) that I will occasionally go overboard on my love for Tesla Motors and SpaceX. Don't worry, though; this is primarily a ploy to get on Jonathan's nerves (check him out if you haven't, already. 10/10 would recommend).
-                    </p>
+                    I like pop-tarts, ham and cheese sandwiches, and Arizona Black and White Tea.
+                    </p><p>
+                    Outside of these, I enjoy things such as Star Wars (though I do not subscribe to Disney's new canon), Back to the Future, Civilization, GTA, Skyrim, Mass Effect, Star Trek, Spongebob, and some other stuff. I also enjoy traveling and hiking, but there aren't too many opportunities for that around here. For a full list of my interests, please contact me at epw@mit.edu.
+  </p><p>
+                    In my free (procrastination) time, I'll lay on my futon and watch Netflix, bum around Boston, play some games, or do some indie game dev.                   </p>
                     <h4>Why I Love J Entry:</h4>
                     <p>
-                      J is the best. It's obviously difficult to summarize why, but I'll attempt to.
-                    </p>
-                    <p>
-                      When I participated in in-house rush, many entries wowed me with their quirks, food, and conversation. J Entry, however, provided me with a little more. I made real connections, and was able to be completely myself without feeling whatsoever out of place. I could tell from the start that I would make great friends here.
-                    </p>
-                    <p>
-                      We play video games, watch movies, troll each other (if you need trolling lessons just come over to J2 and ask for Kevin), eat food, walk around Boston, playfully debate, make art, and meme together.
-                    </p>
-                    <p>
-                      This obviously isn't a complete list. But whether you need an exercise partner, a debate about austerity measures in Greece, pop-tarts, movie and music suggestions, someone to go on late night adventures with you, or some spare paperclips to bind a pset together, you can find it in J.
-                    </p>
-                    <p>
-                      And that's a beautiful thing.
-                    </p>
+                    Because it's the best.
+  </p><p>
+                    When I participated in in-house rush, many entries wowed me with their quirks, food, and conversation. J Entry, however, provided me with a little more. I made real connections, and was able to be completely myself without feeling whatsoever out of place. I could tell from the start that I would make great friends here.
+  </p><p>
+                    We play video games, watch movies, troll each other (if you need trolling lessons just come over to J2 and ask for Kevin), eat food, walk around Boston, playfully debate, make art, and meme together.
+  </p><p>
+                    This isn't a complete list. But whether you need a debate about austerity measures in Greece, pop-tarts, movie and music suggestions, someone to go on late night adventures with you, or spare paperclips to bind a pset together, you can find it here.                   </p>
                     <h4>Just for Fun:</h4>
                     <p>
-                      <a href="https://www.youtube.com/watch?v=jDBf6jtwz0o">https://www.youtube.com/watch?v=jDBf6jtwz0o</a>
-                    </p>
-                  </div>
+                      If you ever want to feel confused: <a href="https://www.youtube.com/watch?v=WqnXp6Saa8Y">https://www.youtube.com/watch?v=WqnXp6Saa8Y</a>
+                  </p>
                 </div>
-              </li>
+              </div>
+            </li>
+
+
               <li className="col-lg-3 col-md-2 col-sm-12 col-xs-12">
                 <div className="resident">
                   <h3>Greg</h3>
@@ -156,22 +192,21 @@ class Residents extends Component {
                   </div>
                   <div className="resident_info">
                     <h4>Bio:</h4>
-                    <ol>
-                      <li>I've ridden the entire T.  Now how many people can say that?</li>
-                      <li>I troll for the win, so much so that I decided to share it with the other Cambridge this year</li>
-                      <li>I have an enormous appetite - no J-entry wide feast/snacking goes unfinished (mostly)</li>
-                      <li>Always full of positive energy and enthusiasm, even on days when I am sleep deprived (for the most part, ask me again during lectures)</li>
-                    </ol>
+                    <p>
+                    Freshly returned from my journey abroad to the unknown land that was Cambridge, I am a rising senior in Course 6-2 with interests in Big Data and AI.  I more than pumped to bring back my appetite and trolling that roamed the J2 hallways two years ago.
+  </p><p>
+                    Despite my absence, some things have not changed to the best of my knowledge.  How many more people have rid the entire T?
+  </p><p>
+                    Outside of collective suffering on problem sets, I like to spend my time watching TV (TBBT FTW), eating, trolling, singing, procrastinating, programming, blowing things up (safely).  I would have added sleeping, but my brain and body still seem to have a disagreement about whether it's overrated.
+                    </p>
+
                     <h4>Why I Love J Entry:</h4>
-                    <ol>
-                      <li>Great people - always nice and approachable + supportive</li>
-                      <li>Close to the stairwell in case of fire drills/real fires</li>
-                      <li>Very accommodating to all sorts of lifestyles - we are a social entry but know when to dial it down, especially when there are heavy academic commitments</li>
-                      <li>Troll culture on J2 kicks ass</li>
-                    </ol>
+                    <p>
+Approachable, welcoming, and nice people, close to the stairwell in the case of fire drills/real fires, and kick-ass trolling culture on J2.  I still have plenty of it leftover from last year. :P
+                    </p>
                     <h4>Just for Fun:</h4>
                     <p>
-                      <a href="https://www.youtube.com/watch?v=o1eHKf-dMwo">https://www.youtube.com/watch?v=o1eHKf-dMwo</a>
+My life is absolutely miserable.  There is nothing fun about it.
                     </p>
                   </div>
                 </div>
@@ -277,20 +312,23 @@ class Residents extends Component {
                   <div className="resident_info">
                     <h4>Bio:</h4>
                     <p>
-                      I’m Jorge. Not to be confused with Jorge the Chicken. I’m a MedLink and premed studying Course 20, Biological Engineering. I’m a Miami native and I wear shorts year round. F.C. Barcelona is my life. You can catch me in the lounge watching games and procrastinating on work. People describe me as chill and clumsy. Come by and say hi.
-
+                    Hey guys, I'm Jorge, one of J's resident MedLinks (you'll learn more about us later, but we're good people that try to keep you healthy).   </p><p>I am originally from Peru but I have been living in Miami, Florida for way too long now and the winters here have been quite a great change of pace from the constant asphyxiation that comes with breathing in water as you walk in Miami's humid climate.
+                    Things that I like:
+                    <ol>
+                    <p>1. FC Barcelona</p>
+                    <p>2. Music (typically rap: Mac Miller, Chance the Rapper, Lil Dicky, Childish Gambino)</p>
+                    <p>3. Making fun of Madelyn</p>
+                    <p>4. TV shows (The Simpsons, Rick and Morty, etc.)</p>
+                    </ol>
                     </p>
                     <h4>Why I Love J Entry:</h4>
                     <p>
-                      I like the people here. That’s about it.
-                    </p>
-                    <p>
-                      Oh and brownie nights and birthday fairies are cool. Movie nights are cool. J Entry is pretty cool.
+The people here are pretty great, I constantly make fun of them and they still tolerate me, it's quite impressive. I also really appreciate the fact that I can always find someone that is willing to help me when I need it, be it with PSETs or baking cookies at 3am.  J Entry is pretty cool I guess.
                     </p>
                     <h4>Just for Fun:</h4>
                     <p>
-                      <a href="https://www.youtube.com/watch?v=094h1VzsvpE">https://www.youtube.com/watch?v=094h1VzsvpE</a>
-                      <a href="https://i.imgur.com/28RZDbr.gif">https://i.imgur.com/28RZDbr.gif</a>
+                      <a href="https://www.youtube.com/watch?v=094h1VzsvpE">https://www.youtube.com/watch?v=094h1VzsvpE</a></p>
+                      <p><a href="https://i.imgur.com/28RZDbr.gif">https://i.imgur.com/28RZDbr.gif</a>
                     </p>
                   </div>
                 </div>
@@ -398,7 +436,27 @@ class Residents extends Component {
                   </div>
                 </div>
               </li>
-
+              <li className="col-lg-3 col-md-2 col-sm-12 col-xs-12">
+                <div className="resident">
+                  <h3>Maria</h3>
+                  <div className="resident_photo">
+                    <img className="img-responsive" src="/entry/j/resident_photos/m.JPG"/>
+                  </div>
+                  <div>
+                    <div className="bio-info-div">Major: <span className="bio-info-span bio-info-major">18</span></div>
+                    <div className="bio-info-div">Class Year: <span className="bio-info-span bio-info-year">CME</span></div>
+                  </div>
+                  <div className="resident_info">
+                    <h4>Bio:</h4>
+                    <p>
+                    Hi! I am Maria and even if I may seem grumpy sometimes I am a nice person to talk to. Usually people enjoy making fun of me because well, they have lots of reasons do do that (you'll see), but mainly because I join them and mock myself too. Anyways, as I am a mathmo, I have an equation that describes me perfectly: MATHS+SALSA+FRUITS=LOVE!
+                     </p>
+                    <h4>Why I Love J Entry:</h4>
+                    <p>
+It feels like home! People seem to do nice things for no reason... it doesn't feel like UK(or Romania) at all :)                    </p>
+                  </div>
+                </div>
+              </li>
               <li className="col-lg-3 col-md-2 col-sm-12 col-xs-12">
                 <div className="resident">
                   <h3>Marian</h3>
@@ -434,6 +492,28 @@ class Residents extends Component {
 
               <li className="col-lg-3 col-md-2 col-sm-12 col-xs-12">
                 <div className="resident">
+                  <h3>Megan</h3>
+                  <div className="resident_photo">
+                    <img className="img-responsive" src="/entry/j/resident_photos/megan.jpg"/>
+                  </div>
+                  <div>
+                    <div className="bio-info-div">Major: <span className="bio-info-span bio-info-major">2?</span></div>
+                    <div className="bio-info-div">Class Year: <span className="bio-info-span bio-info-year">2020</span></div>
+                  </div>
+                  <div className="resident_info">
+                    <h4>Bio:</h4>
+                    <p>
+Hi, I'm Megan. I love running and doing any outdoorsy stuff and am on MIT's cross country and track teams. I am also a big fan of board games or card games.                    </p>
+                    <h4>Why I Love J Entry:</h4>
+                    <p>
+                    The people in j entry are so much of a family, always hanging out, and typically have at least some food around!
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li className="col-lg-3 col-md-2 col-sm-12 col-xs-12">
+                <div className="resident">
                   <h3>Nina</h3>
                   <div className="resident_photo">
                     <img className="img-responsive" src="/entry/j/resident_photos/nina.jpg"/>
@@ -445,25 +525,12 @@ class Residents extends Component {
                   <div className="resident_info">
                     <h4>Bio:</h4>
                     <p>
-                      Hi! I’m Nina and I have a lot of feelings. My contributions to J are the 3D Printer I won at a poker tournament, the Star Wars poster in J2, and occasional stress baking. My passions lie in the happy intersection of software, hardware, and media. When I'm not here, I'm at the Media Lab where I do research, play with Legos, and occasionally make things that work. </p>
-                    <p>
-                      I play with The MIT Poker Club, take photos and write for The Tech, walk backwards down the Infinite as a tour guide, and do social chair things for MacGregor. I read too much Buzzfeed and laugh quite a bit (very loudly and incoherently). I'm always down for adventures in Boston, eating a lot of food, or a game of poker.
-                    </p>
-                    <p>
-                      I'm a loyal member of the MIT Poker Club, occasional photographer and writer for The Tech, and co-social chair for MacGregor. I love movies and comic books and socializing with different humans. I read too much Buzzfeed and laugh quite a bit (very loudly). I'm always down for adventures in Boston, eating a lot of food, or a game of poker.
-                    </p>
+I have a loud laugh and a lot of feelings, but I won a 3D printer at a poker tournament, so I can be cool sometimes. I love Media Lab and Buzzfeed. MIT pays me to walk backwards and play with Legos. I love design and thinking about how to merge software, hardware, math, and media into meaningful interactions that help people solve problems or explore their world in a new way.                     </p>
                     <h4>Why I Love J Entry:</h4>
                     <p>
-                      Home is where you come back to on your best and worst days. J Entry is home. I love the people here. We're very tight knit and truly care about each other.
-                    </p>
-                    <p>
-                      You can always find someone in a lounge or with their door open. Whether you need help on a pset (or procrastinating), a Jenizen will be there. It's common to see us studying, eating dinner, or out in Boston together.
-                    </p>
-                    <p>
-                      I love the different interests in J. We have artists and chemists and rowers and biologists and programmers and mechanical engineers all living together.
-                    </p>
-                    <p>
-                      When I look back at my college experience, I probably won't remember that pset I dropped or that lab that didn't go well. I'll remember Theresa and Richard's drawings on my board, or getting a dish rack. I'll remember the upperclassmen who helped me my freshman year. I'll remember standing in the hall at 3am laughing with Ethan and Kevin and Ron. I'll remember coming home to a cozy lounge full of amazing people writing quotes on a whiteboard and ordering food together. The people who became my family. I'll remember J Entry.
+                    Home is where you come back to on your best and worst days. J Entry is home. I love the people here. We're very tight knit and truly care about each other.
+
+                    You can always find someone in a lounge or with their door open. Whether you need help on a pset (or procrastinating), a Jenizen will be there. It's common to see us studying, eating dinner, or out in Boston together.
                     </p>
                     <h4>Just for Fun:</h4>
                     <p>
@@ -498,7 +565,142 @@ class Residents extends Component {
                   </div>
                 </div>
               </li>
+              <li className="col-lg-3 col-md-2 col-sm-12 col-xs-12">
+                <div className="resident">
+                  <h3>Ryan</h3>
+                  <div className="resident_photo">
+                    <img className="img-responsive" src="/entry/j/resident_photos/ryan.jpg"/>
+                  </div>
+                  <div>
+                    <div className="bio-info-div">Major: <span className="bio-info-span bio-info-major">2</span></div>
+                    <div className="bio-info-div">Class Year: <span className="bio-info-span bio-info-year">2019</span></div>
+                  </div>
+                  <div className="resident_info">
+                    <h4>Bio:</h4>
+                    <p>
+                    Hi, I'm Ryan! I live on J2, and I'm one of J2's resident Mech E's (along with Richard). I also really like biomedical stuff and human biomechanics, which is why I'm also Course 20 at heart. I come from a rural suburb of Chicago, so you may find me occasionally eating all of the corn I can find hoping it will be like home.
+                    </p><p>
+                    When I'm not in class, you will probably find me doing everything and anything imaginable that has to do with music. I play piano and I sing in MIT's choirs, so you can find me in the entry by following the sound of the music (usually classical in nature). Come talk to me if you want to talk about anything at all related to music!                     </p>
+                    <h4>Why I Love J Entry:</h4>
+                    <p>
+I moved to J entry after my first semester at MIT and haven't looked back. Everyone in the entry is very welcoming and close-knit. You can strike up a conversation with anyone at just about any time if you need to talk about something or feel the need to procrastinate. Also, J2 is a living embodiment of a meme; what's not to love?                    </p>
+                    <h4>Just for Fun:</h4>
+                    <p>
+                      <a href="https://www.youtube.com/watch?v=gfAMycSPLh0">https://www.youtube.com/watch?v=gfAMycSPLh0</a>
+                    </p>
+                  </div>
+                </div>
+              </li>
 
+              <li className="col-lg-3 col-md-2 col-sm-12 col-xs-12">
+                <div className="resident">
+                  <h3>Simon</h3>
+                  <div className="resident_photo">
+                    <img className="img-responsive" src="/entry/j/resident_photos/simon.jpg"/>
+                  </div>
+                  <div>
+                    <div className="bio-info-div">Major: <span className="bio-info-span bio-info-major">18-C?</span></div>
+                    <div className="bio-info-div">Class Year: <span className="bio-info-span bio-info-year">2020</span></div>
+                  </div>
+                  <div className="resident_info">
+                    <h4>Bio:</h4>
+                    <p>
+Hello! I'm a triplet from Columbus, Ohio now in J4. I run track, play jazz piano, and looooove indie-rock and psychedelic music, as well as many other things. If you ever want to learn how to unicycle, make a truly amazing sandwich, jam with me on any instrument in any style, go thrifting, check out a concert, or play Scrabble, hit me up.
+ <h4>Why I Love J Entry:</h4>
+ <p>
+Yes, the bricks look nice, having a single is awesome, and the shower on J4 shoots water like a firehose, but two days into the J entry life, what I've found myself loving most are the friendly people that seem to hide around every corner, making you feel at home with their bright hellos and sincere happiness to see you.
+</p>
+       <h4>Just for Fun:</h4>
+            </p>
+                    <p>
+                      <a href="https://www.youtube.com/watch?v=WYzjw5QKrxI">https://www.youtube.com/watch?v=WYzjw5QKrxI -mumbles</a>
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li className="col-lg-3 col-md-2 col-sm-12 col-xs-12">
+                <div className="resident">
+                  <h3>Theresa</h3>
+                  <div className="resident_photo">
+                    <img className="img-responsive" src="/entry/j/resident_photos/theresa.jpg"/>
+                  </div>
+                  <div>
+                    <div className="bio-info-div">Major: <span className="bio-info-span bio-info-major">7&21W</span></div>
+                    <div className="bio-info-div">Class Year: <span className="bio-info-span bio-info-year">2019</span></div>
+                  </div>
+                  <div className="resident_info">
+                    <h4>Bio:</h4>
+                    <p>
+                    I'm from small town New Hampshire. I barely made it out alive. Don't live in small town New Hampshire.
+
+                    Now, I'm Nina's college mom. I have to make sure she doesn't break anything (read: herself) or start a fire or scare anyone too much. Every day is an exciting new adventure.
+                    </p>
+                                        <h4>Why I Love J Entry:</h4>
+                    <p>
+They're some pretty cool people.
+                    </p>
+                    <h4>Just for Fun:</h4>
+                    <p>
+                      <a href="https://www.youtube.com/watch?v=gfAMycSPLh0">https://www.youtube.com/watch?v=gfAMycSPLh0</a>
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li className="col-lg-3 col-md-2 col-sm-12 col-xs-12">
+                <div className="resident">
+                  <h3>Tony</h3>
+                  <div className="resident_photo">
+                    <img className="img-responsive" src="/entry/j/resident_photos/tony.jpg"/>
+                  </div>
+                  <div>
+                    <div className="bio-info-div">Major: <span className="bio-info-span bio-info-major">6 & 18</span></div>
+                    <div className="bio-info-div">Class Year: <span className="bio-info-span bio-info-year">2020</span></div>
+                  </div>
+                  <div className="resident_info">
+                    <h4>Bio:</h4>
+                    <p>
+
+                    Tony spends his time looking up things on the internet that makes him laugh. On the rare occasion that he gets tired of this, he is also known to play rhythm games and walk around while thinking about a programming problem.
+                    </p>
+                <h4>Why I Love J Entry:</h4>
+                    <p>
+                    It is a laid back place with of a varied array of individuals. People are happy to share their passions and interests and commonly commune and enjoy each other's company.
+                  </p>
+               <h4>Just for Fun:</h4>
+                    <p>
+                      <a href="https://www.youtube.com/watch?v=0akBdQa55b4">https://www.youtube.com/watch?v=0akBdQa55b4</a>
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li className="col-lg-3 col-md-2 col-sm-12 col-xs-12">
+                <div className="resident">
+                  <h3>Tyler</h3>
+                  <div className="resident_photo">
+                    <img className="img-responsive" src="/entry/j/resident_photos/tyler.jpg"/>
+                  </div>
+                  <div>
+                    <div className="bio-info-div">Major: <span className="bio-info-span bio-info-major">6-3</span></div>
+                    <div className="bio-info-div">Class Year: <span className="bio-info-span bio-info-year">2020</span></div>
+                  </div>
+                  <div className="resident_info">
+                    <h4>Bio:</h4>
+                    <p>
+                    Hi, I'm Tyler! I love programming, technology, video games (and designing them), as well as so many other things that I wish I had time to explore. I enjoy thoughtful conversations about anything from multiple universes to the inner workings of society. In general, I just enjoy learning about anything.
+                    </p><p>
+                    I am an absolute fanatic about The Walking Dead (TWD) and all things zombies. You can typically find me wearing TWD shirts or playing zombie games. I also enjoy making puns, no matter how bad they are.                    <h4>Why I Love J Entry:</h4>
+                    </p>
+                    <p>
+The people in J are amazing. During in-house rush, they immediately stood out as the people I would want to live with. There is such a diverse group of people and I feel like I can be myself around all of them.
+                  </p>
+  <h4>Just for Fun:</h4>
+                    <p>
+                      <a href="https://www.youtube.com/watch?v=jjtkMCLRf-M">https://www.youtube.com/watch?v=jjtkMCLRf-M</a>
+                    </p>
+                  </div>
+                </div>
+              </li>
 
             </ul>
             <h1> J Lums (former residents)</h1>
