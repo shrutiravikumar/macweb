@@ -139,6 +139,12 @@ class DiningHall extends TrackerReact(Component) {
                     <input id="dh" name="spaceToggle" type="radio" value="dh" onChange={this.handleSelectionDataChange('location')}/>
                     <span>Dining Hall</span>
                   </label>
+
+
+                  <label htmlFor="gp" className={this.state.selected.location.localeCompare('gp')==0?'checked':''}>
+                    <input id="gp" name="spaceToggle" type="radio" value="gp" onChange={this.handleSelectionDataChange('location')}/>
+                    <span>Grill Pits</span>
+                  </label>
                 </fieldset>
               </div>
               <button id="submitEvent">Submit</button>

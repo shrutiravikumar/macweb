@@ -68,16 +68,25 @@ div#dininghall {
       &[for=newdh] {
         @include colorize($buttonbgColor, $txtbgColor);
       }
+      &[for=newgp] {
+        @include colorize($buttonbgColor, $txtbgColor);
+      }
       &[for=existingds] {
         @include colorize($buttonbgColor, $txtbgColor);
       }
       &[for=existingdh] {
         @include colorize($buttonbgColor, $txtbgColor);
       }
+      &[for=existinggp] {
+        @include colorize($buttonbgColor, $txtbgColor);
+      }
       &[for=ds] {
         @include colorize($buttonbgColor, $txtbgColor);
       }
       &[for=dh] {
+        @include colorize($buttonbgColor, $txtbgColor);
+      }
+      &[for=gp] {
         @include colorize($buttonbgColor, $txtbgColor);
       }
 
