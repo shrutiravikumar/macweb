@@ -10,8 +10,8 @@
   "homepage": "http://macgregor.mit.edu",
   "dependencies": {
     "aphrodite": "^0.5.0",
-    "google-auth-library": "^0.9.7",
-    "googleapis": "^2.1.6",
+    "google-auth-library": "^0.9.8",
+    "googleapis": "^2.1.7",
     "meteor-node-stubs": "^0.2.3",
     "react": "^15.3.1",
     "react-dom": "^15.3.1",
