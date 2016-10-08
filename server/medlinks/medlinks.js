@@ -1,4 +1,4 @@
-//var CSV = Npm.require('csv'); 
+//var CSV = Npm.require('csv');
 
 Medlinks = new Mongo.Collection("medlinks");
 Medlinks.remove({});
@@ -8,7 +8,7 @@ buffer=Assets.getText("medlinks/medlinks.csv");
 
 CSV().from(
     buffer,
-    {comment: '#', delimiter: ',', quote: ''} 
+    {comment: '#', delimiter: ',', quote: ''}
 )
   .to.array( Meteor.bindEnvironment( function(data){
     //console.log(data);
@@ -17,9 +17,10 @@ CSV().from(
        newRecord = {
             'name': data[row][0],
             'entry': data[row][1],
-            'email': data[row][2]
+            'email': data[row][2],
+            'phone': data[row][3]
         };
-        
+
         Medlinks.insert(newRecord);
     }
   } ));

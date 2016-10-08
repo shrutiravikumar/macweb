@@ -28,6 +28,7 @@ class Support extends TrackerReact(Component) {
         <td>{medlink.name}</td>
         <td>{medlink.email}</td>
         <td>{medlink.entry}</td>
+        <td>{medlink.phone}</td>
       </tr>
     );
     });
@@ -76,6 +77,7 @@ class Support extends TrackerReact(Component) {
                 <th>Name</th>
                 <th>Entry</th>
                 <th>Email</th>
+                <th>Phone Number</th>
               </tr>
             </thead>
             <tbody>
