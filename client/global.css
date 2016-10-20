@@ -1,8 +1,12 @@
 html, body {
-	letter-spacing: 2px;
-	height:100%;
+  letter-spacing: 2px;
+  height:100%;
 }
 
 .navbar {
-	letter-spacing: 3px;
+  letter-spacing: 3px;
+}
+
+#github {
+  background-color: #541b1b;
 }

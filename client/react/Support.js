@@ -75,8 +75,8 @@ class Support extends TrackerReact(Component) {
             <thead>
               <tr>
                 <th>Name</th>
-                <th>Entry</th>
                 <th>Email</th>
+                <th>Entry</th>
                 <th>Phone Number</th>
               </tr>
             </thead>
