@@ -8,6 +8,10 @@
   background-image: -ms-repeating-radial-gradient(left top, circle farthest-side,rgb(191, 87, 0) 0%,rgb(226, 88, 34) 75%);
 
   font-size: 1.5em;
+
+  nav {
+    font-size: 1em;
+  }
 }
 
 /* IE8- CSS hack */
@@ -19,4 +23,8 @@
 
 .left {
   float: left;
+}
+
+#github {
+  background-color: transparent !important;
 }
