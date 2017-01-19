@@ -3,7 +3,7 @@ import TrackerReact from 'meteor/ultimatejs:tracker-react';
 import Navbar from './Navbar.js';
 
 const HARDCODED = false;
-const HARDCODERETURN = 'CLOSED FOR THANKSGIVING';
+const HARDCODERETURN = 'CLOSED FOR SPRING BREAK';
 
 const OFFSET = 4 // Eastern time accounting for DST
 
@@ -11,13 +11,13 @@ const OPEN = 'open'
 const CLOSED = 'closed'
 
 const HOURS = [
-  {close:2, open:12}, //sunday
-  {close:0, open:15}, //monday
-  {close:0, open:15}, //tuesday
-  {close:0, open:15}, //wednesday
-  {close:0, open:15}, //thursday
-  {close:0, open:15}, //friday
-  {close:2, open:12} //saturday
+  {close:17, open:9}, //sunday
+  {close:17, open:9}, //monday
+  {close:17, open:9}, //tuesday
+  {close:17, open:9}, //wednesday
+  {close:17, open:9}, //thursday
+  {close:17, open:9}, //friday
+  {close:17, open:9} //saturday
 ]
 
 let MacCon = React.createClass({
