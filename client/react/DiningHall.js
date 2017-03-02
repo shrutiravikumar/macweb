@@ -79,8 +79,9 @@ class DiningHall extends TrackerReact(Component) {
               <p>Location: {this.state.hover.location}</p>
             </div>
           </div>
-          <p>*Events reserving the entire dining hall MUST be first approved by an email to mac-housecomm@mit.edu</p>
-          <p>**Reservations for the dining hall always trump reservations for the dance studio</p>
+          <br/>
+          <p>*Make sure you check the time is open before you book, email to mac-web@mit.edu if you would like to cancel an event</p>
+          <p>*Don't reserve the full dining hall unless you need it, allow other people to use the space</p>
           <div id="editCalDisplay">
             <div className="selectors-container">
               <label htmlFor="new" className={this.state.selected.type=='new'?'checked':''}>

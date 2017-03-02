@@ -34,6 +34,11 @@ class Macweb extends Component {
             <img src="/images/macgregor-schematic-outline.png" width="622" height="610" className="map" useMap="#macg" />
             {map}
           </div>
+          <br/><br/>
+          <h1>Announcements</h1>
+          <ul>
+          <li>Bike tagging is happening, remove the tag or your bike will be forfeited.</li>
+          </ul>
         </div>
       </div>
     );
