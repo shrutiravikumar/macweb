@@ -3,14 +3,14 @@ import TrackerReact from 'meteor/ultimatejs:tracker-react';
 import Navbar from './Navbar.js';
 
 Meteor.subscribe('housecomm');
-HousecommMembers = new Mongo.Collection("housecomm");
+let HousecommMembers = new Mongo.Collection("housecomm");
 
 class Housecomm extends TrackerReact(Component) {
   render() {
 
     let housecomm = HousecommMembers.find({}).fetch().map((member) => {
       return (
-        <tr key={member.name}>
+        <tr key={member.name + member.role}>
           <td>{member.role}</td>
           <td>{member.name}</td>
           <td>{member.email}</td>

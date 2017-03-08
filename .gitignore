@@ -4,3 +4,4 @@
 packages/
 node_modules/
 private/dininghall/client_secret.json
+.meteor/local
