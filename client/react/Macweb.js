@@ -37,7 +37,7 @@ class Macweb extends Component {
           <br/><br/>
           <h1>Announcements</h1>
           <ul>
-          <li>Bike tagging is happening soon, remove the zip tie and return the name tag to MacDesk by March 24th or your bike will be forfeited. Scissors available at the desk by request. Bikes cannot be reclaimed once they've been auctioned off.</li>
+          <li>Bike tagging is happening soon, remove the zip tie and return the name tag to MacDesk by April 2nd or your bike will be forfeited. Scissors available at the desk by request. Bikes cannot be reclaimed once they've been auctioned off.</li>
           </ul>
         </div>
       </div>
