@@ -89,7 +89,7 @@ class Housecomm extends TrackerReact(Component) {
                     <li>Make sure to save your receipts!</li>
                     <li>Go to the <a href="https://atlas.mit.edu/atlas/Home.action#purchasing_1">Atlas Buying page</a>, and click on the Reimbursement link under <code>Requests for Payment (RFPs)</code></li>
                     <li>Fill out the RFP. Detailed instructions below.</li>
-                    <li>Send the RFP to the Treasurer (no longer Jeremy Kaplan)</li>
+                    <li>Send the RFP to the Treasurer</li>
                     <li>Print out the page displayed after sending</li>
                     <li>Staple your receipt(s) confirmation page you just printed. Take that to desk, and tell them to deliver it to the Treasurer.</li>
                     <li>[Optional] Nag the Treasurer until you are reimbursed.</li>
@@ -107,7 +107,7 @@ class Housecomm extends TrackerReact(Component) {
                     <li>Fill the <code>Explanation</code> field appropriately</li>
                     <li>Click <code>Save &amp; Continue</code>.</li>
                     <li>Scan and attach your receipt(s) to the RFP you&#39;ve created.</li>
-                    <li>Enter the Treasurer&#39;s name in the box (Aaron Zeng), hit <code>Search</code>, and click on the result that matches the Treasurer (kerberos: a2z)</li>
+                    <li>Enter the Treasurer&#39;s name in the box, hit <code>Search</code>, and click on the result that matches the Treasurer.</li>
                   </ol>
                 </div>
               </div>
