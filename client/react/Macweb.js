@@ -35,10 +35,6 @@ class Macweb extends Component {
             {map}
           </div>
           <br/><br/>
-          <h1>Announcements</h1>
-          <ul>
-          <li>The bike silent auction is happening now til 21:00. <a href="https://docs.google.com/document/d/17sQupCJW2oE-NJtehFiw069OiMO0jRQ0JIT5s-m943E/edit">Visit this page</a> to read the rules and participate. All are welcome.</li>
-          </ul>
         </div>
       </div>
     );
