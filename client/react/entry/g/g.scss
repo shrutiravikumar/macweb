@@ -12,19 +12,19 @@
   nav {
     font-size: 1em;
   }
-}
 
-/* IE8- CSS hack */
-@media \0screen\,screen\9 {
-  .entryG{
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffbf5700",endColorstr="#ffe25822",GradientType=0);
+  /* IE8- CSS hack */
+  @media \0screen\,screen\9 {
+    .entryG{
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffbf5700",endColorstr="#ffe25822",GradientType=0);
+    }
   }
-}
 
-.left {
-  float: left;
-}
+  .left {
+    float: left;
+  }
 
-#github {
-  background-color: transparent !important;
+  #github, #nav-prefrosh>a {
+    background-color: transparent !important;
+  }
 }

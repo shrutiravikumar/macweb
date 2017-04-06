@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import TrackerReact from 'meteor/ultimatejs:tracker-react';
 import Navbar from './Navbar.js';
 
-Meteor.subscribe('rex')
-const RexEvents = new Mongo.Collection("rex")
+Meteor.subscribe('prefrosh')
+const PrefroshEvents = new Mongo.Collection("prefrosh")
 
-class Rex extends TrackerReact(Component) {
+class Prefrosh extends TrackerReact(Component) {
   render() {
 
-    let rexEvents = RexEvents.find({}).fetch().map((event) => {
+    let prefroshEvents = PrefroshEvents.find({}).fetch().map((event) => {
       return (
         <tr key={event.name+event.time}>
           <td style={{width:'15%'}}>{event.name}</td>
@@ -24,9 +24,9 @@ class Rex extends TrackerReact(Component) {
       <div>
         <Navbar />
         <div className="container">
-          <h2>REX Event List</h2>
+          <h2>CPW Event List</h2>
 
-          <p>For your viewing pleasue, here are all of Macgregor&#39;s REX Events. Have fun.</p>
+          <p>For your viewing pleasue, here are all of Macgregor&#39;s CPW Events. Have fun.</p>
           <br/>
 
           <table className="table table-condensed table-striped">
@@ -40,7 +40,7 @@ class Rex extends TrackerReact(Component) {
               </tr>
             </thead>
             <tbody>
-              {rexEvents}
+              {prefroshEvents}
             </tbody>
           </table>
 
@@ -50,4 +50,4 @@ class Rex extends TrackerReact(Component) {
   }
 }
 
-export default Rex;
+export default Prefrosh;

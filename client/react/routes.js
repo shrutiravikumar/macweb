@@ -2,7 +2,7 @@ import {mount} from 'react-mounter';
 import Macweb from './Macweb.js';
 import Support from './Support.js';
 import MacCon from './MacCon.js';
-import Rex from './Rex.js';
+import Prefrosh from './Prefrosh.js';
 import Housecomm from './Housecomm.js';
 import Desk from './Desk.js';
 import About from './About.js';
@@ -44,9 +44,9 @@ FlowRouter.route('/maccon', {
     }
 });
 
-FlowRouter.route('/rex', {
+FlowRouter.route('/cpw', {
     action: function(params, queryParams) {
-      mount(Rex);
+      mount(Prefrosh);
     }
 });
 FlowRouter.route('/support', {

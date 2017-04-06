@@ -1,9 +1,9 @@
 //var CSV = Npm.require('csv');
 
-Events = new Mongo.Collection("rex");
+Events = new Mongo.Collection("prefrosh");
 Events.remove({});
 
-buffer=Assets.getText("rex/rex.csv");
+buffer=Assets.getText("prefrosh/prefrosh.tsv");
 //console.log(buffer);
 
 CSV().from(
@@ -26,6 +26,6 @@ CSV().from(
     }
   } ));
 
-Meteor.publish('rex', function() {
+Meteor.publish('prefrosh', function() {
   return Events.find();
 });
