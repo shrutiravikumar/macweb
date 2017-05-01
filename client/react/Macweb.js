@@ -35,6 +35,10 @@ class Macweb extends Component {
             {map}
           </div>
           <br/><br/>
+          <h1>Announcements</h1>
+          <ul>
+          <li>All bikes in the bike room must be cleared out and moved to another storage location by May 5th. Violators will forfeit their bikes.</li>
+          </ul>
         </div>
       </div>
     );
