@@ -10,14 +10,14 @@
   "homepage": "http://macgregor.mit.edu",
   "dependencies": {
     "aphrodite": "*",
-    "babel-runtime": "*",
+    "babel-runtime": "^6.26.0",
     "google-auth-library": "*",
     "googleapis": "*",
-    "meteor-node-stubs": "*",
-    "react": "*",
-    "react-dom": "*",
-    "react-images": "*",
-    "react-mounter": "*"
+    "meteor-node-stubs": "^0.2.11",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-images": "^0.5.5",
+    "react-mounter": "^1.2.0"
   },
   "main": "",
   "devDependencies": {},
