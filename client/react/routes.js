@@ -49,6 +49,12 @@ FlowRouter.route('/cpw', {
       mount(Prefrosh);
     }
 });
+
+FlowRouter.route('/rex', {
+    action: function(params, queryParams) {
+      mount(Prefrosh);
+    }
+});
 FlowRouter.route('/support', {
     action: function(params, queryParams) {
       mount(Support);
