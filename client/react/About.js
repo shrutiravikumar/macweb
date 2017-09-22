@@ -90,7 +90,7 @@ class About extends TrackerReact(Component) {
           </p>
           <p>
             The source code of this site is available on{" "}
-            <a href="https://github.com/Firescar96/macweb">Github.</a> You can
+            <a href="https://github.com/ed1d1a8d/macweb">Github</a>. You can
             open issues there. For more pressing concerns you can email the
             webmaster at <a href="mailto:mac-web@mit.edu">mac-web@mit.edu</a>.
           </p>
