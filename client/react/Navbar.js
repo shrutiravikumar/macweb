@@ -40,6 +40,7 @@ class Navbar extends Component {
             <li id="nav-laundry">
               <a
                 href="http://laundryview.com/laundry_room.php?lr=1364815"
+                target="_blank"
                 style={{ outline: 0 }}
               >
                 Laundry
