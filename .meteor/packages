@@ -23,7 +23,8 @@ andruschka:bootstrap-image-gallery
 kadira:flow-router
 momentjs:moment
 themeteorchef:jquery-validation
-twbs:bootstrap
 ultimatejs:tracker-react
 rzymek:fullcalendar
 shell-server@0.2.3
+fortawesome:fontawesome
+twbs:bootstrap
