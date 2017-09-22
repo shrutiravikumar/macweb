@@ -38,8 +38,8 @@ class Housecomm extends TrackerReact(Component) {
                     <thead>
                       <tr>
                         <th>Position</th>
-                        <th>Person</th>
-                        <th>Email</th>
+                        <th>Person(s)</th>
+                        <th>Kerberos Username(s)</th>
                       </tr>
                     </thead>
                     <tbody>
