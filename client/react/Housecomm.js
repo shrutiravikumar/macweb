@@ -46,7 +46,10 @@ class Housecomm extends TrackerReact(Component) {
                       {housecomm}
                     </tbody>
                   </table>
-                  <p>Entry chair emails are ichairs@mit.edu, where i is the entry letter you wish to contact.</p>
+                  <p>
+                    Entry chair emails are ichairs@mit.edu, where i is the entry letter you wish to contact.
+                    Appending @mit.edu to the end of a kerberos username gives you the person's MIT email address.
+                  </p>
                 </div>
               </div>
             </div>
