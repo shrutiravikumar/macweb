@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class Navbar extends Component {
   render() {
@@ -6,28 +6,56 @@ class Navbar extends Component {
       <nav className="navbar navbar-static-top" role="navigation">
         <div className="container-fluid">
           <div className="navbar-header">
-            <button className="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-              <span className="sr-only">Toggle navigation</span>
-              <span className="icon-bar"></span>
-              <span className="icon-bar"></span>
-              <span className="icon-bar"></span>
-            </button>
-            <a className="navbar-brand" href="/">MacGregor</a>
+            <a className="navbar-brand" href="/" style={{ outline: 0 }}>
+              MacGregor
+            </a>
           </div>
 
-          <div className="collapse navbar-collapse">
-            <ul className="nav navbar-nav">
-              <li id="nav-housecomm"><a href="/housecomm">Administrivia</a></li>
-              <li id="nav-support"><a href="/rex">REX</a></li>
-              <li id="nav-support"><a href="/support">Student Support</a></li>
-              <li id="nav-maccon"><a href="/maccon">MacCon</a></li>
-              <li id="nav-desk"><a href="/desk">Movie List</a></li>
-              <li id="nav-laundry"><a href="http://laundryview.com/laundry_room.php?lr=1364815">Laundry</a></li>
-              <li id="nav-dininghall"><a href="/dininghall">Dining Hall</a></li>
-              <li id="nav-about"><a href="/about">About</a></li>
-              <li><a href='https://github.com/Firescar96/macweb' id='github' className='fa fa-github'>Report Issue</a></li>
-            </ul>
-          </div>
+          <ul className="nav navbar-nav">
+            <li id="nav-housecomm">
+              <a href="/housecomm" style={{ outline: 0 }}>
+                Administrivia
+              </a>
+            </li>
+            <li id="nav-support">
+              <a href="/rex" style={{ outline: 0 }}>
+                REX
+              </a>
+            </li>
+            <li id="nav-support">
+              <a href="/support" style={{ outline: 0 }}>
+                Student Support
+              </a>
+            </li>
+            <li id="nav-maccon">
+              <a href="/maccon" style={{ outline: 0 }}>
+                MacCon
+              </a>
+            </li>
+            <li id="nav-desk">
+              <a href="/desk" style={{ outline: 0 }}>
+                Movie List
+              </a>
+            </li>
+            <li id="nav-laundry">
+              <a
+                href="http://laundryview.com/laundry_room.php?lr=1364815"
+                style={{ outline: 0 }}
+              >
+                Laundry
+              </a>
+            </li>
+            <li id="nav-dininghall">
+              <a href="/dininghall" style={{ outline: 0 }}>
+                Dining Hall
+              </a>
+            </li>
+            <li id="nav-about">
+              <a href="/about" style={{ outline: 0 }}>
+                About
+              </a>
+            </li>
+          </ul>
         </div>
       </nav>
     );
