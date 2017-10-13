@@ -16,9 +16,6 @@ class Navbar extends Component {
               <a href="/housecomm">Administrivia</a>
             </li>
             <li id="nav-support">
-              <a href="/rex">REX</a>
-            </li>
-            <li id="nav-support">
               <a href="/support">Student Support</a>
             </li>
             <li id="nav-maccon">
