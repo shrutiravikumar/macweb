@@ -33,6 +33,8 @@ class Macweb extends Component {
 
             <img src="/images/macgregor-schematic-outline.png" width="622" height="610" className="map" useMap="#macg" />
             {map}
+            <br/>
+            <p>Click on a letter to find out more about that entry.</p>
           </div>
           <br/><br/>
         </div>
