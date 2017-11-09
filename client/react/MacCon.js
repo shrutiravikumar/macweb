@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import TrackerReact from 'meteor/ultimatejs:tracker-react';
 import Navbar from './Navbar.js';
 
-const HARDCODED = false;
-const HARDCODERETURN = 'CLOSED FOR SPRING BREAK';
+const HARDCODED = true;
+const HARDCODERETURN = 'THE END IS NIGH';
 
 const OFFSET = 4 // Eastern time accounting for DST
 
@@ -43,7 +43,7 @@ let MacCon = React.createClass({
       <div>
         <Navbar />
         <div id="maccon" className="container">
-          <h2>MacCon is...</h2>
+          <h2>MacCon</h2>
           <div id="ismacconopen" className={HARDCODED?'rainbow':this.state.status}>
             {this.state.status}
           </div>

@@ -17,9 +17,9 @@ CSV().from(
        var newRecord = {
             'name': data[row][0],
             'day': data[row][1],
-            'time': data[row][2],
-            'location': data[row][3],
-            'description': data[row][4],
+            'time': data[row][2] + "-" + data[row][3],
+            'location': data[row][4],
+            'description': data[row][5],
         };
 
         Events.insert(newRecord);

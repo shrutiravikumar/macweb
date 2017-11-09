@@ -24,9 +24,9 @@ class Prefrosh extends TrackerReact(Component) {
       <div>
         <Navbar />
         <div className="container">
-          <h2>CPW Event List</h2>
+          <h2>MacG REX Event List</h2>
 
-          <p>For your viewing pleasue, here are all of Macgregor&#39;s CPW Events. Have fun.</p>
+          <p>Meticulously compiled, just for YOU, dear reader.</p>
           <br/>
 
           <table className="table table-condensed table-striped">

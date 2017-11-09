@@ -1,20 +1,13 @@
-html, body {
+html,
+body {
   letter-spacing: 2px;
-  height:100%;
+  height: 100%;
 }
 
 .navbar {
   letter-spacing: 3px;
-
-  #nav-prefrosh>a {
-    background-color: darkred;
-
-    &:hover {
-      background-color: firebrick;
-    }
-  }
 }
 
-#github {
-  background-color: #541b1b !important;
+a {
+  outline: none !important;
 }
