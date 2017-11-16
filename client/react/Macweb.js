@@ -30,13 +30,19 @@ class Macweb extends Component {
         <Navbar />
         <div className="container">
           <div style={{width: "622px", margin: "0 auto"}}  id="macg-image-map">
-
+            <img src="images/bike-auction.jpg" align="middle"/>
+            <p>
+              MacGregor will be holding an online bike auction.
+              Deadline is Sunday 11/19 at 11:59PM EST.
+              Rules: <a href="https://goo.gl/m1MwF2" target="blank_">https://goo.gl/m1MwF2</a>.
+              Current list of bids: <a href="https://goo.gl/4Pbjpu" target="blank_">https://goo.gl/4Pbjpu</a>.
+              Pictures of bikes: <a href="https://goo.gl/FDtrVL" target="blank_">https://goo.gl/FDtrVL</a>.
+            </p>
             <img src="/images/macgregor-schematic-outline.png" width="622" height="610" className="map" useMap="#macg" />
             {map}
             <br/>
             <p>Click on a letter to find out more about that entry.</p>
           </div>
-          <br/><br/>
         </div>
       </div>
     );
