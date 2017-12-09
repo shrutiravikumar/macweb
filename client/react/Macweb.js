@@ -44,6 +44,21 @@ class Macweb extends Component {
 
   componentDidMount() {
     $('img[usemap]').maphilight();
+
+    //in support of net neutrality as per https://github.com/fightforthefuture/battleforthenet-widget
+    window._bftn_options = {
+      theme: 'without', // @type {string}
+      org: 'fp', // @type {string}
+      disableGoogleAnalytics: true, // @type {boolean}
+    };
+    function loadBattleForNet() {
+         var script= document.createElement('script');
+         script.type= 'text/javascript';
+         script.src= 'https://widget.battleforthenet.com/widget.js';
+         script.async = true;
+         document.body.appendChild(script);
+    }
+    loadBattleForNet();
   }
 }
 
