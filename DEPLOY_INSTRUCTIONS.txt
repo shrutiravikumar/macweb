@@ -1,7 +1,3 @@
 First build meteor and install dependencies.
 Then launch a default mongodb instance.
-Finally, run the command:
-MONGO_URL=[mongodb url] \
-ROOT_URL=[url] \
-PORT=[port] \
-forever start main.js
+Finally, have systemctl launch start.sh.
