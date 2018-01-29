@@ -1,84 +1,86 @@
 /* CSS declarations go here */
 .entryj {
+  background-image: url(/entry/j/background.jpg);
+  background-repeat: repeat;
 
-	background-image: url(/entry/j/background.jpg);
-	background-repeat: repeat;
+  nav {
+    margin: 0;
 
-	nav {
-		margin: 0;
+    li > a:hover {
+      background-color: #8c41d8;
+    }
+  }
 
-		li > a:hover {
-			background-color: #8c41d8;
-		}
-	}
+  .title-div {
+    width: 100%;
+    text-align: center;
+  }
 
-	.title-div {
-		width: 100%;
-		text-align: center;
-	}
+  .row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 
-	.row {
-		margin-top: 10px;
-		margin-bottom: 10px;
-	}
+  .resident-list {
+    padding: 0;
+    margin: 0;
 
-	.resident-list {
-		padding: 0;
-		margin: 0;
+    > li {
+      list-style: none;
+      padding-left: 5px;
+      padding-right: 5px;
+      margin-bottom: 25px;
 
-		>li {
-			list-style: none;
-			padding-left: 5px;
-			padding-right: 5px;
-			margin-bottom: 25px;
+      img {
+        border: 3px solid white;
+        border-radius: 2px;
+        margin-bottom: 10px;
+      }
+    }
+  }
 
-			img {
-				border: 3px solid white;
-				border-radius: 2px;
-				margin-bottom: 10px;
-			}
-		}
-	}
+  .bio-info-div {
+    font-size: 1em;
+    font-weight: bold;
+  }
 
-	.bio-info-div {
-		font-size: 1em;
-		font-weight: bold;
-	}
+  .bio-info-span {
+    font-weight: normal;
+  }
 
-	.bio-info-span {
-		font-weight: normal;
-	}
+  .gallery-list {
+    padding: 0;
+    margin: 0;
 
-	.gallery-list {
-		padding: 0;
-		margin: 0;
+    li {
+      list-style: none;
+      padding-left: 5px;
+      padding-right: 5px;
+      margin-bottom: 25px;
+      color: #303030;
+    }
 
-		li {
-			list-style: none;
-			padding-left: 5px;
-			padding-right: 5px;
-			margin-bottom: 25px;
-			color: #303030;
-		}
+    img {
+      cursor: pointer;
+      border: 3px solid white;
+      border-radius: 2px;
+    }
+  }
 
-		img {
-			cursor: pointer;
-			border: 3px solid white;
-			border-radius: 2px;
-		}
-	}
+  #main-photo {
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
 
-	#main-photo {
-		border-radius: 10px;
-		margin-bottom: 15px;
-	}
+  #entry-description {
+    font-size: 16px;
+    text-align: justify;
+    h4 {
+      color: blueviolet;
+    }
+  }
 
-	#entry-description {
-		font-size: 18px;
-		text-align: justify;
-	}
-
-	/*@media screen and (min-width: 768px) {
+  /*@media screen and (min-width: 768px) {
 		#photo-modal .modal-dialog  {
 			width:75%;
 		}
@@ -94,88 +96,82 @@
 	}
 	*/
 
-	/*  Bootstrap Clearfix */
-	/* Necessary because http://www.bluthemes.com/blog/3/clearing-bootstrap-3-columns */
+  /*  Bootstrap Clearfix */
+  /* Necessary because http://www.bluthemes.com/blog/3/clearing-bootstrap-3-columns */
 
-	/* Phone */
-	@media (max-width:767px){
+  /* Phone */
+  @media (max-width: 767px) {
+  }
 
-	}
+  /*  Tablet  */
+  @media (min-width: 767px) {
+    /* Column clear fix */
+    .col-lg-1:nth-child(12n + 1),
+    .col-lg-2:nth-child(6n + 1),
+    .col-lg-3:nth-child(4n + 1),
+    .col-lg-4:nth-child(3n + 1),
+    .col-lg-6:nth-child(2n + 1),
+    .col-md-1:nth-child(12n + 1),
+    .col-md-2:nth-child(6n + 1),
+    .col-md-3:nth-child(4n + 1),
+    .col-md-4:nth-child(3n + 1),
+    .col-md-6:nth-child(2n + 1) {
+      clear: none;
+    }
+    .col-sm-1:nth-child(12n + 1),
+    .col-sm-2:nth-child(6n + 1),
+    .col-sm-3:nth-child(4n + 1),
+    .col-sm-4:nth-child(3n + 1),
+    .col-sm-6:nth-child(2n + 1) {
+      clear: left;
+    }
+  }
 
-	/*  Tablet  */
-	@media (min-width:767px){
+  /*  Medium Desktop  */
+  @media (min-width: 992px) {
+    /* Column clear fix */
+    .col-lg-1:nth-child(12n + 1),
+    .col-lg-2:nth-child(6n + 1),
+    .col-lg-3:nth-child(4n + 1),
+    .col-lg-4:nth-child(3n + 1),
+    .col-lg-6:nth-child(2n + 1),
+    .col-sm-1:nth-child(12n + 1),
+    .col-sm-2:nth-child(6n + 1),
+    .col-sm-3:nth-child(4n + 1),
+    .col-sm-4:nth-child(3n + 1),
+    .col-sm-6:nth-child(2n + 1) {
+      clear: none;
+    }
+    .col-md-1:nth-child(12n + 1),
+    .col-md-2:nth-child(6n + 1),
+    .col-md-3:nth-child(4n + 1),
+    .col-md-4:nth-child(3n + 1),
+    .col-md-6:nth-child(2n + 1) {
+      clear: left;
+    }
+  }
 
-		/* Column clear fix */
-		.col-lg-1:nth-child(12n+1),
-		.col-lg-2:nth-child(6n+1),
-		.col-lg-3:nth-child(4n+1),
-		.col-lg-4:nth-child(3n+1),
-		.col-lg-6:nth-child(2n+1),
-		.col-md-1:nth-child(12n+1),
-		.col-md-2:nth-child(6n+1),
-		.col-md-3:nth-child(4n+1),
-		.col-md-4:nth-child(3n+1),
-		.col-md-6:nth-child(2n+1){
-			clear: none;
-		}
-		.col-sm-1:nth-child(12n+1),
-		.col-sm-2:nth-child(6n+1),
-		.col-sm-3:nth-child(4n+1),
-		.col-sm-4:nth-child(3n+1),
-		.col-sm-6:nth-child(2n+1){
-			clear: left;
-		}
-	}
-
-
-	/*  Medium Desktop  */
-	@media (min-width:992px){
-
-		/* Column clear fix */
-		.col-lg-1:nth-child(12n+1),
-		.col-lg-2:nth-child(6n+1),
-		.col-lg-3:nth-child(4n+1),
-		.col-lg-4:nth-child(3n+1),
-		.col-lg-6:nth-child(2n+1),
-		.col-sm-1:nth-child(12n+1),
-		.col-sm-2:nth-child(6n+1),
-		.col-sm-3:nth-child(4n+1),
-		.col-sm-4:nth-child(3n+1),
-		.col-sm-6:nth-child(2n+1){
-			clear: none;
-		}
-		.col-md-1:nth-child(12n+1),
-		.col-md-2:nth-child(6n+1),
-		.col-md-3:nth-child(4n+1),
-		.col-md-4:nth-child(3n+1),
-		.col-md-6:nth-child(2n+1){
-			clear: left;
-		}
-	}
-
-
-	/*  Large Desktop  */
-	@media (min-width:1200px){
-
-		/* Column clear fix */
-		.col-md-1:nth-child(12n+1),
-		.col-md-2:nth-child(6n+1),
-		.col-md-3:nth-child(4n+1),
-		.col-md-4:nth-child(3n+1),
-		.col-md-6:nth-child(2n+1),
-		.col-sm-1:nth-child(12n+1),
-		.col-sm-2:nth-child(6n+1),
-		.col-sm-3:nth-child(4n+1),
-		.col-sm-4:nth-child(3n+1),
-		.col-sm-6:nth-child(2n+1){
-			clear: none;
-		}
-		.col-lg-1:nth-child(12n+1),
-		.col-lg-2:nth-child(6n+1),
-		.col-lg-3:nth-child(4n+1),
-		.col-lg-4:nth-child(3n+1),
-		.col-lg-6:nth-child(2n+1){
-			clear: left;
-		}
-	}
+  /*  Large Desktop  */
+  @media (min-width: 1200px) {
+    /* Column clear fix */
+    .col-md-1:nth-child(12n + 1),
+    .col-md-2:nth-child(6n + 1),
+    .col-md-3:nth-child(4n + 1),
+    .col-md-4:nth-child(3n + 1),
+    .col-md-6:nth-child(2n + 1),
+    .col-sm-1:nth-child(12n + 1),
+    .col-sm-2:nth-child(6n + 1),
+    .col-sm-3:nth-child(4n + 1),
+    .col-sm-4:nth-child(3n + 1),
+    .col-sm-6:nth-child(2n + 1) {
+      clear: none;
+    }
+    .col-lg-1:nth-child(12n + 1),
+    .col-lg-2:nth-child(6n + 1),
+    .col-lg-3:nth-child(4n + 1),
+    .col-lg-4:nth-child(3n + 1),
+    .col-lg-6:nth-child(2n + 1) {
+      clear: left;
+    }
+  }
 }
