@@ -18,7 +18,6 @@ ecmascript@0.10.0              # Enable ECMAScript2015+ syntax in app code
 
 mizzao:jquery-ui
 dsyko:meteor-node-csv
-fourseven:scss
 andruschka:bootstrap-image-gallery
 kadira:flow-router
 momentjs:moment
@@ -29,3 +28,4 @@ shell-server@0.3.1
 fortawesome:fontawesome
 twbs:bootstrap
 dynamic-import@0.3.0
+fourseven:scss
