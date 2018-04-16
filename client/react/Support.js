@@ -6,7 +6,9 @@ Meteor.subscribe("supports");
 const Supports = new Mongo.Collection("supports");
 Meteor.subscribe("medlinks");
 const MedLinks = new Mongo.Collection("medlinks");
-Meteor.subscribe("peerears");
+Meteor.subscribe("peermentors");
+const PeerMentors = new Mongo.Collection("peermentors");
+Meteor.subscribe("peerears")
 const PeerEars = new Mongo.Collection("peerears");
 
 class Support extends TrackerReact(Component) {
@@ -32,6 +34,17 @@ class Support extends TrackerReact(Component) {
             <td>{medlink.email}</td>
             <td>{medlink.entry}</td>
             <td>{medlink.phone}</td>
+          </tr>
+        );
+      });
+
+      let peermentors = PeerMentors.find({})
+      .fetch()
+      .map(peermentor => {
+        return (
+          <tr key={peermentor.name}>
+            <td>{peermentor.name}</td>
+            <td>{peermentor.email}</td>
           </tr>
         );
       });
@@ -103,8 +116,7 @@ class Support extends TrackerReact(Component) {
               <tr>
                 <th>Name</th>
                 <th>Email</th>
-                <th>Entry</th>
-                <th>Phone Number</th>
+                <th>Room</th>
               </tr>
             </thead>
             <tbody>{medlinks}</tbody>
@@ -116,10 +128,19 @@ class Support extends TrackerReact(Component) {
           <p>
             Peer Ears are here to support mental health and answer any questions
             about MIT’s mental health resources. They are trained and
-            confidential, and most importantly, they’re peers. Feel free to drop
-            a note or come talk to them, and if you want to join to add more
-            support for MacGregor or get help now, you can find out more on
-            their website, mitpeerears.org.
+            confidential, and most importantly, they’re peers. Unfortunately,
+            MacGregor does not currently have any Peer Ears. If you're interested
+            in becoming a peer ear, please contact peerears-exec@mit.edu.
+          </p>
+          <br />
+
+          <br />
+          <h3>Peer Mentors</h3>
+
+          <p>
+          Peer mentors are undergraduate students who act as mentors to first
+          year students. Peer mentors build a greater sense of community within
+          MacGregor and help their mentees as they transition into life at MIT.
           </p>
           <br />
 
@@ -127,16 +148,28 @@ class Support extends TrackerReact(Component) {
             <thead>
               <tr>
                 <th>Name</th>
-                <th>Entry</th>
                 <th>Email</th>
               </tr>
             </thead>
-            <tbody>{peerears}</tbody>
+            <tbody>{peermentors}</tbody>
           </table>
+
         </div>
       </div>
     );
   }
 }
+
+/*
+          <table className="table table-condensed table-striped">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+            <tbody>{peermentors}</tbody>
+          </table>
+*/
 
 export default Support;
