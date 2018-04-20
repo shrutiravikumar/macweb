@@ -21,7 +21,6 @@ body {font-family: “Helvetica”, sans-serif}
       <a href="http://macgregor.mit.edu/" class="w3-bar-item w3-button w3-padding-large">MacGregor</a>
       <a href="http://macgregor.mit.edu/housecomm" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Administrivia</a>
       <a href="http://macgregor.mit.edu/support" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Student Support</a>
-      <a href="http://macgregor.mit.edu/maccon" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MacCon</a>
       <a href="http://macgregor.mit.edu/deskt" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Movie List</a>
       <a href="http://laundryview.com/laundry_room.php?lr=1364815" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Laundry</a>
       <a href="http://macgregor.mit.edu/dininghall" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Dining Hall</a>
@@ -123,12 +122,12 @@ body {font-family: “Helvetica”, sans-serif}
     }
 
     @-webkit-keyframes fade {
-      from {opacity: .4} 
+      from {opacity: .4}
       to {opacity: 1}
     }
 
     @keyframes fade {
-      from {opacity: .4} 
+      from {opacity: .4}
       to {opacity: 1}
     }
 
@@ -182,13 +181,13 @@ body {font-family: “Helvetica”, sans-serif}
     </div>
 
     <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span> 
-      <span class="dot" onclick="currentSlide(2)"></span> 
-      <span class="dot" onclick="currentSlide(3)"></span> 
-      <span class="dot" onclick="currentSlide(4)"></span> 
-      <span class="dot" onclick="currentSlide(5)"></span> 
-      <span class="dot" onclick="currentSlide(6)"></span> 
-      <span class="dot" onclick="currentSlide(7)"></span> 
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+      <span class="dot" onclick="currentSlide(7)"></span>
     </div>
 
     <!-- About Hex Section -->
@@ -291,15 +290,15 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1} 
+  if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none"; 
+      slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block"; 
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }</script>
 
