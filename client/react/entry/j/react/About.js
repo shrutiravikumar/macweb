@@ -12,16 +12,15 @@ class About extends Component {
         </div>
 
         <div className="container-fluid">
-          <div className="row">
-            <div className="col-md-2 col-sm-1 col-xs-1" />
-            <div className="col-md-8 col-sm-10 col-xs-10">
-              <img
-                id="main-photo"
-                className="img-responsive"
-                src="/entry/j/yearbook.jpg"
+          <div className="wrapper">
+            <div className="h_iframe">
+              <iframe
+                src="https://www.youtube.com/embed/IjKeTxpJOU4?rel=0"
+                frameborder="0"
+                allow="autoplay; encrypted-media"
+                allowfullscreen
               />
             </div>
-            <div className="col-md-2 col-sm-1 col-xs-1" />
           </div>
 
           <div className="row">
