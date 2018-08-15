@@ -1,0 +1,30 @@
+.entryH {
+  background-color: #d15811;
+  background-image: -webkit-gradient(radial, left top, 0, left top, 644,color-stop(0, rgb(191, 87, 0)),color-stop(0.75, rgb(226, 88, 34)),color-stop(0.75, rgb(191, 87, 0)),color-stop(1, rgb(214, 88, 23)));
+  /* Android 2.3 */
+  background-image: -webkit-repeating-radial-gradient(left top, circle farthest-side,rgb(191, 87, 0) 0%,rgb(226, 88, 34) 75%);
+  /* IE10+ */
+  background-image: repeating-radial-gradient(circle farthest-side at left top,rgb(191, 87, 0) 0%,rgb(226, 88, 34) 75%);
+  background-image: -ms-repeating-radial-gradient(left top, circle farthest-side,rgb(191, 87, 0) 0%,rgb(226, 88, 34) 75%);
+
+  font-size: 1.5em;
+
+  nav {
+    font-size: 1em;
+  }
+
+  /* IE8- CSS hack */
+  @media \0screen\,screen\9 {
+    .entryG{
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffbf5700",endColorstr="#ffe25822",GradientType=0);
+    }
+  }
+
+  .left {
+    float: left;
+  }
+
+  #github, #nav-prefrosh>a {
+    background-color: transparent !important;
+  }
+}
