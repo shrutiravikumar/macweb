@@ -7,6 +7,7 @@ import Housecomm from "./Housecomm.js";
 import Desk from "./Desk.js";
 import About from "./About.js";
 import DiningHall from "./DiningHall";
+import Facilities from "./Facilities";
 
 (function(i, s, o, g, r, a, m) {
   i["GoogleAnalyticsObject"] = r;
@@ -81,6 +82,12 @@ FlowRouter.route("/rex", {
 FlowRouter.route("/support", {
   action: function(params, queryParams) {
     mount(Support);
+  }
+});
+
+FlowRouter.route("/facilities", {
+  action: function(params, queryParams) {
+    mount(Facilities);
   }
 });
 

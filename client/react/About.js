@@ -35,17 +35,6 @@ class About extends TrackerReact(Component) {
             </li>
           </ul>
 
-          <h3>Facilities</h3>
-          <ul>
-            <li>Front Desk</li>
-            <li>Courtyard</li>
-            <li>Bike Storage</li>
-            <li>Weight Room</li>
-            <li>Music Room</li>
-            <li>Game Room</li>
-            <li>Study Rooms</li>
-          </ul>
-
           <h3>Mailing Lists</h3>
           <ul>
             <li>

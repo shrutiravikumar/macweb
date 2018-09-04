@@ -15,6 +15,9 @@ class Navbar extends Component {
             <li id="nav-housecomm">
               <a href="/housecomm">Administrivia</a>
             </li>
+            <li id="nav-facilities">
+              <a href="/facilities">Explore</a>
+            </li>
             <li id="nav-support">
               <a href="/support">Student Support</a>
             </li>
@@ -30,7 +33,7 @@ class Navbar extends Component {
               </a>
             </li>
             <li id="nav-dininghall">
-              <a href="/dininghall">Dining Hall</a>
+              <a href="/dininghall">Calendar</a>
             </li>
             <li id="nav-about">
               <a href="/about">About</a>
