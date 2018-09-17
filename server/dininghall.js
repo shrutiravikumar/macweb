@@ -36,7 +36,12 @@ Meteor.startup(function() {
 
     // Check if we have previously stored a token.
     fs.readFile(TOKEN_PATH, function(err, token) {
-      oauth2Client.credentials = JSON.parse(token);
+      if(token != undefined){
+        oauth2Client.credentials = JSON.parse(token);
+      }
+      else{
+        console.log("Could not find a previously stored token");
+      }
     });
   }
 
@@ -135,4 +140,4 @@ Meteor.startup(function() {
     }
   });
 
-})
+});

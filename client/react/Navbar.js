@@ -12,11 +12,11 @@ class Navbar extends Component {
           </div>
 
           <ul className="nav navbar-nav">
-            <li id="nav-housecomm">
-              <a href="/housecomm">Administrivia</a>
-            </li>
             <li id="nav-facilities">
               <a href="/facilities">Explore</a>
+            </li>
+            <li id="nav-housecomm">
+              <a href="/housecomm">Resident Info</a>
             </li>
             <li id="nav-support">
               <a href="/support">Student Support</a>
@@ -26,7 +26,7 @@ class Navbar extends Component {
             </li>
             <li id="nav-laundry">
               <a
-                href="http://laundryview.com/laundry_room.php?lr=1364815"
+                href="https://laundryview.com/home/74/1364815"
                 target="_blank"
               >
                 Laundry
