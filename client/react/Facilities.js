@@ -278,7 +278,7 @@ class Facilities extends TrackerReact(Component) {
                                     </div>
                                     <p className="col-md-offset-1 col-md-4">
                                         <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                                        MacGregor has 2 laundry rooms, one of which is paid laundry and one of which is free. Across both rooms there are about
+                                        MacGregor has 2 laundry rooms, both of which are located on the ground floor down the hall from the front desk. Across both rooms there are about
                                         20 washers and 20 dryers, with 7 free washers and 4 free dryers. Residents can check the status of their laundry
                                         <a href="https://laundryview.com/home/74/1364815">here</a>.
                                     </p>
