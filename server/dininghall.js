@@ -9,17 +9,22 @@ Meteor.startup(function() {
   var TOKEN_PATH = TOKEN_DIR + 'calendar-nodejs-quickstart.json';
 
   var oauth2Client;
-  // Load client secrets from a local file.
-  var client_secret=Assets.getText("dininghall/client_secret.json");
-  // Authorize a client with the loaded credentials, then call the
-  // Google Calendar API.
-  authorize(JSON.parse(client_secret));
 
-  var ResCal = new Mongo.Collection("reservation-cal-dirty")
-  ResCal.upsert({},{$set: {status:false}})
-  Meteor.publish('reservation-cal-dirty', function() {
+  try{
+    // Load client secrets from a local file.
+    var client_secret=Assets.getText("dininghall/client_secret.json");
+    // Authorize a client with the loaded credentials, then call the
+    // Google Calendar API.
+    authorize(JSON.parse(client_secret));
+
+    var ResCal = new Mongo.Collection("reservation-cal-dirty")
+    ResCal.upsert({},{$set: {status:false}})
+    Meteor.publish('reservation-cal-dirty', function() {
     return ResCal.find();
-  });
+    });
+  } catch(err){
+    console.log("Failed to authorize client due to invalid credentials. This could mean that the client_secret.json file is missing.")
+  }
 
   /**
   * Create an OAuth2 client with the given credentials, and then execute the
