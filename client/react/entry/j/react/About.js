@@ -60,6 +60,10 @@ class About extends Component {
               </a>
               <br />
               <br />
+              <p>
+                Have questions or want more info about J Entry? Email jentry-exec@mit.edu
+              </p>
+              <br />
             </div>
             <div className="col-md-2 col-sm-1 col-xs-1" />
           </div>
