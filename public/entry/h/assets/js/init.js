@@ -222,12 +222,10 @@ var residents = [
 ];
 
 var quotes = [	// Массив с цитатами
-	"Lorem ipsum dolor sit amet",
-	"~here could be your ad~",
-	"Consectetur adipisicing elit",
-	"Why do I waste my life making web sites?",
-	"Just kidding, I like to create sites",
-	"WEB is my passion"
+	"5.12 is a bless",
+	"still to be updated",
+	"here could be your ad",
+	"we lost creativity"
 ]
 
 var traditions = [{
