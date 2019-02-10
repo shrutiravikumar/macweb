@@ -1,0 +1,24 @@
+.entryA {
+  background-color: #5292f9;
+
+  font-size: 1.5em;
+
+  nav {
+    font-size: 1em;
+  }
+
+  /* IE8- CSS hack */
+  @media \0screen\,screen\9 {
+    .entryA{
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffbf5700",endColorstr="#ffe25822",GradientType=0);
+    }
+  }
+
+  .left {
+    float: left;
+  }
+
+  #github, #nav-prefrosh>a {
+    background-color: transparent !important;
+  }
+}

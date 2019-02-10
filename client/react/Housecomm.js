@@ -95,6 +95,11 @@ class Housecomm extends TrackerReact(Component) {
                       Security Policy
                     </a>
                   </p>
+                  <p>
+                    <a href="/housecomm-docs/Bike Storage Rules.pdf" target="_blank">
+                      Bike Storage Policy
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>
