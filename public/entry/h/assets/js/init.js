@@ -123,7 +123,7 @@ var residents = [
 	{
 		name: 'Tiffany Chen',
 		nick: 'tiffc',
-		photo: 'assets/images/tiffanchen.jpg',
+		photo: 'assets/images/tiffanychen.jpg',
 		fhs: 'empty',
 		year: '2022',
 		major: '6-3',
