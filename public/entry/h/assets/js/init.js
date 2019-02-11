@@ -144,7 +144,7 @@ var residents = [
 	},
 	{
 		name: 'Miles Cruice-Barnett',
-		nick: 'udoeze',
+		nick: 'milesacb',
 		photo: 'assets/images/milesbarnet.jpg',
 		fhs: 'empty',
 		year: '2021',
