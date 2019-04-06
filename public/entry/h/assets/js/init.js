@@ -3,7 +3,7 @@ var residents = [
 		name: 'Kathleen Esfahany',
 		nick: 'kaes',
 		photo: 'assets/images/kathleenesfahany.jpg',
-		fhs: 'empty',
+		fhs: 'My 6 7 8 9 🅱️ig 🅱️rain is an alpha Fire Hazard',
 		year: '2022',
 		major: '6-7 and 14-2',
 		hometown: 'Long Island, NY',
@@ -14,7 +14,7 @@ var residents = [
 		name: 'Alyssa',
 		nick: 'aspencer',
 		photo: 'assets/images/alyssaspencer.jpg',
-		fhs: 'empty',
+		fhs: 'Daddy Myers Fire Hazard',
 		year: '2022',
 		major: 'X',
 		hometown: 'Las Vegas, NV',
@@ -25,7 +25,7 @@ var residents = [
 		name: 'Eric Luu', //Тут понятно, что имя
 		nick: 'ericluu', //Ник (видел это у какого-то другого сообщества)
 		photo: 'assets/images/ericluu.jpg', //Фото (лучше квадратиком)
-		fhs: 'empty', //Это твой FireHazardStatus
+		fhs: 'My left hip and lower back pain are a Fire Hazard', //Это твой FireHazardStatus
 		year: '2019', //Тоже понятно
 		major: '6-3', //Тоже
 		hometown: 'NYC, NY', //ТОЖЕ
@@ -36,7 +36,7 @@ var residents = [
 		name: 'Udo Eze',
 		nick: 'udoeze',
 		photo: 'assets/images/udoeze.jpg',
-		fhs: 'empty',
+		fhs: '🅱️ig 🅱️eaver 🅱️rand Fire Hazard',
 		year: '2022',
 		major: '3 and 8',
 		hometown: 'Atlanta, GA',
@@ -47,7 +47,7 @@ var residents = [
 		name: 'Daniel Alfonsetti',
 		nick: 'alfonset',
 		photo: 'assets/images/sardine.jpg',
-		fhs: 'empty',
+		fhs: 'You know what they say about Fire Hazards',
 		year: '2021',
 		major: '6-3',
 		hometown: 'Auburn, ME',
@@ -58,7 +58,7 @@ var residents = [
 		name: 'Janice Tjan',
 		nick: 'jtjan',
 		photo: 'assets/images/janicetjan.jpg',
-		fhs: 'empty',
+		fhs: 'Koala Genocide Fire Hazard',
 		year: '2022',
 		major: '2-A Biomech/CIR',
 		hometown: 'Queens, NY',
@@ -69,7 +69,7 @@ var residents = [
 		name: '&quot;ya boy&quot;',
 		nick: 'alcheng',
 		photo: 'assets/images/anthonycheng.jpg',
-		fhs: 'empty',
+		fhs: 'Mild to big yikes Fire Hazard',
 		year: '2020',
 		major: '3A',
 		hometown: 'Salt Lake City, UT',
@@ -80,7 +80,7 @@ var residents = [
 		name: 'Brian Xie',
 		nick: 'brianxie',
 		photo: 'assets/images/brianxie.jpg',
-		fhs: 'empty',
+		fhs: 'Obsessive cooking disorder Fire Hazard',
 		year: '2020',
 		major: '6-3',
 		hometown: 'San Franciso Bay Area, CA',
@@ -102,7 +102,7 @@ var residents = [
 		name: 'Julian DuBransky',
 		nick: 'jdubrans',
 		photo: 'assets/images/juliandubransky.jpg',
-		fhs: 'empty',
+		fhs: 'Number sticks are a Fire Hazard',
 		year: '2021',
 		major: '1E, 17 Minor',
 		hometown: 'Montclair, CA',
@@ -113,7 +113,7 @@ var residents = [
 		name: 'Sophia Zhi',
 		nick: 'szhi',
 		photo: 'assets/images/sophiazhi.jpg',
-		fhs: 'empty',
+		fhs: 'I love J entry 🅱️oyz Fire Hazard',
 		year: '2022',
 		major: '18C',
 		hometown: 'Seattle, WA',
@@ -124,7 +124,7 @@ var residents = [
 		name: 'Tiffany Chen',
 		nick: 'tiffc',
 		photo: 'assets/images/tiffanychen.jpg',
-		fhs: 'empty',
+		fhs: 'Just Let Me Make Fried Rice Fire Hazard',
 		year: '2022',
 		major: '6-3',
 		hometown: 'NYC, NY',
@@ -135,7 +135,7 @@ var residents = [
 		name: 'Ileana Diaz',
 		nick: 'diazi',
 		photo: 'assets/images/ileanadiaz.jpg',
-		fhs: 'empty',
+		fhs: 'NO PUSSY SHIT Fire Hazard',
 		year: '2022',
 		major: '6-2',
 		hometown: 'Victor, NY',
@@ -146,7 +146,7 @@ var residents = [
 		name: 'Miles Cruice-Barnett',
 		nick: 'milesacb',
 		photo: 'assets/images/milesbarnet.jpg',
-		fhs: 'empty',
+		fhs: 'Fly Eagles Fly Fire Hazard',
 		year: '2021',
 		major: '2',
 		hometown: 'Philadelphia, PA',
@@ -157,7 +157,7 @@ var residents = [
 		name: 'Antonio Berrones',
 		nick: 'antoniob',
 		photo: 'assets/images/antonioberrones.jpg',
-		fhs: 'empty',
+		fhs: 'I only cook breakfast now Fire Hazard',
 		year: '2022',
 		major: '6-2',
 		hometown: 'North Mankato, MN',
@@ -168,7 +168,7 @@ var residents = [
 		name: 'Ceylan',
 		nick: 'cceylan',
 		photo: 'assets/images/ceylan.jpg',
-		fhs: 'empty',
+		fhs: 'It&rsquo;s Always Cold in&nbsp;Boston Fire Hazard',
 		year: '2022',
 		major: 'Undecided (2?)',
 		hometown: 'Turkey',
@@ -179,7 +179,7 @@ var residents = [
 		name: 'Ashley Chen',
 		nick: 'ashley22',
 		photo: 'assets/images/ashleychen.jpg',
-		fhs: 'empty',
+		fhs: 'My profile pic is a Fire Hazard',
 		year: '2022',
 		major: 'Undecided',
 		hometown: 'Lexington, MA',
@@ -190,7 +190,7 @@ var residents = [
 		name: 'Priscilla Liow',
 		nick: 'srfire38',
 		photo: 'assets/images/priscillaliow.jpg',
-		fhs: 'empty',
+		fhs: 'Queen of the Night Fire Hazard',
 		year: '2020',
 		major: '5',
 		hometown: 'Columbia, MO',
@@ -201,7 +201,7 @@ var residents = [
 		name: 'Mario Lopez',
 		nick: 'mlopz',
 		photo: 'assets/images/mariolopez.jpg',
-		fhs: 'empty',
+		fhs: 'Flux-Corrected Transport Algorithm Fire Hazard',
 		year: '2020',
 		major: '6-1',
 		hometown: 'Holguin, Cuba',
@@ -212,7 +212,7 @@ var residents = [
 		name: 'Anton Morgunov',
 		nick: 'morgunov',
 		photo: 'assets/images/512.jpg',
-		fhs: 'empty',
+		fhs: 'Course 5 as a GIR is a huge Fire Hazard',
 		year: '2022',
 		major: '5-7',
 		hometown: 'Taldykorgan, Kazakhstan',
@@ -229,18 +229,38 @@ var quotes = [	// Массив с цитатами
 ]
 
 var traditions = [{
-		title: "Julian Cleaning the Kitchen", //Название
-		desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis magnam, sunt neque dolor nisi non molestias magni omnis eius ullam quaerat a expedita soluta sit explicabo libero officia, assumenda, quis ab numquam facere commodi deserunt cumque. Inventore totam cum similique, accusantium vero asperiores mollitia ut atque dolor. Deserunt, aut, accusamus.", //Описание
-		images: ["https://via.placeholder.com/1280x720", "https://via.placeholder.com/1280x720", "https://via.placeholder.com/1280x720"] //Либо массив с фото, либо одно фото (всё равно в массиве)
+		title: "Hexgiving", 
+		desc: "Annual hexgiving dinner between&nbsp;H and&nbsp;G entry. Typically done Saturday or&nbsp;Sunday before ~actual~ Thanksgiving. A&nbsp;tradition for at&nbsp;least 10&nbsp;years. Traditional American Thanksgiving food is&nbsp;served along with cultural dishes from residents&rsquo; backgrounds.", 
+		images: ["https://via.placeholder.com/1280x720"]
 	},
 	{
-		title: "Hexgiving",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis magnam, sunt neque dolor nisi non molestias magni omnis eius ullam quaerat a expedita soluta sit explicabo libero officia, assumenda, quis ab numquam facere commodi deserunt cumque. Inventore totam cum similique, accusantium vero asperiores mollitia ut atque dolor. Deserunt, aut, accusamus.",
-		images: ["https://via.placeholder.com/1280x720", "https://via.placeholder.com/1280x720"]
+		title: "Fancy Friday", 
+		desc: "That&rsquo;s been around since at&nbsp;least early 90s, probably earlier. The concept is&nbsp;pretty simple&nbsp;&mdash; dress up&nbsp;and go&nbsp;somewhere not as&nbsp;very nice. Have fun. Some places we&rsquo;ve been&nbsp;to: MacDonalds, Five Guys and some other small random burger places.", 
+		images: ["assets/images/traditions/fancyfriday1.jpg"]
 	},
 	{
-		title: "Lol-making",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis magnam, sunt neque dolor nisi non molestias magni omnis eius ullam quaerat a expedita soluta sit explicabo libero officia, assumenda, quis ab numquam facere commodi deserunt cumque. Inventore totam cum similique, accusantium vero asperiores mollitia ut atque dolor. Deserunt, aut, accusamus.",
+		title: "Fire Hazards Designation", 
+		desc: "We&rsquo;re famous for cooking a&nbsp;lot and setting a&nbsp;lot of&nbsp;fire alarms. And some ~related fire alarm stories~, but we&nbsp;won&rsquo;t go&nbsp;into details. Check out our residents page.", 
+		images: ["https://via.placeholder.com/1280x720"]
+	},
+	{
+		title: "50 McNugget Challenge", 
+		desc: "Started 6&nbsp;years ago as&nbsp;part of&nbsp;Fancy Friday. Used to&nbsp;be&nbsp;a&nbsp;pretty viral things, so&nbsp;we&rsquo;ve kinda done it&nbsp;ever since. The idea is&nbsp;to&nbsp;eat 50&nbsp;McNuggets in&nbsp;under 30&nbsp;minutes. If&nbsp;you succeed&nbsp;&mdash; your meal gets covered. The current record is&nbsp;5&nbsp;minutes 41&nbsp;seconds by&nbsp;Jesse Granados.", 
+		images: ["assets/images/traditions/50mcnugget1.jpg"]
+	},
+	{
+		title: "Creative Cooking @ CPW/REX", 
+		desc: "A&nbsp;thing for at&nbsp;least 5&nbsp;years. As&nbsp;you probably have noticed by&nbsp;now, we&nbsp;cook a&nbsp;lot. We&rsquo;ve done a&nbsp;lot of&nbsp;things from sushi to&nbsp;Cuban roasted pigs&nbsp;&mdash; check gallery.", 
+		images: ["assets/images/traditions/creativecooking1.jpg"]
+	},
+	{
+		title: "Meatfest", 
+		desc: "Mostly a&nbsp;G-entry thing, but we&rsquo;re invited. The idea is&nbsp;&laquo;meat tastes good, so&nbsp;let&rsquo;s make a&nbsp;shit lot of&nbsp;it&raquo;.", 
+		images: ["https://via.placeholder.com/1280x720"]
+	},
+	{
+		title: "Hexsassins", 
+		desc: "Quite a&nbsp;recent one and self-explanatory. We&nbsp;play assasins game with&nbsp;G entry. The weapon is&nbsp;changed from year to&nbsp;year, but some stuff we&nbsp;used included fidget spinners and balloons", 
 		images: ["https://via.placeholder.com/1280x720"]
 	}
 ]
@@ -257,6 +277,14 @@ var cookBook = {
 		{
 			label: "Main Dishes",
 			key: "main"
+		},
+		{
+			label: "Desserts",
+			key: "dessert"
+		},
+		{
+			label: "Snacks",
+			key: "snack"
 		},
 		// И да, ты можешь добавить/изменить эти категории
 		/*
@@ -281,11 +309,11 @@ var cookBook = {
 				</ul>
    				<h2>Method</h2>
         		<ol>
-        			<li>Preheat the oven (or toaster oven) to 450ºF.</li>
-					<li>Lay salmon on aluminum foil, and foil on baking sheet.</li>
-					<li>Sprinkle salt and pepper, as desired, on salmon fillet.</li>
-					<li>Cook for 12 to 15 minutes (depending on thickness of salmon). Salmon should flake when gently scraped with a fork.</li>
-					<li>Pair with a simple salad, vegetable soup, or baked veggies.</li>
+					<li>Preheat the oven (or&nbsp;toaster oven) to&nbsp;450&ordm;F.</li>
+					<li>Lay salmon on&nbsp;aluminum foil, and foil on&nbsp;baking sheet.</li>
+					<li>Sprinkle salt and pepper, as&nbsp;desired, on&nbsp;salmon fillet.</li>
+					<li>Cook for 12&nbsp;to&nbsp;15&nbsp;minutes (depending on&nbsp;thickness of&nbsp;salmon). Salmon should flake when gently scraped with a&nbsp;fork.</li>
+					<li>Pair with a&nbsp;simple salad, vegetable soup, or&nbsp;baked veggies.</li>
         		</ol>
 			` // Да, ты можешь юзать html тут
 		},
@@ -306,9 +334,9 @@ var cookBook = {
 				</ul>
    				<h2>Method</h2>
 				<ol>
-					<li>Add scrambled eggs for extra protein (or substitute eggs if you don't like sardines).</li>
-					<li>Get a wrap, spread guac and hummus on it. Then put the spinach on. If using eggs, put those on next (see link below for microwave egg cooker).</li>
-					<li> Then the sardines. Make sure not to spill sardine juice on your clothes or elsewhere as you open the sardine can - your dorm mates will not appreciate it.</li>
+					<li>Add scrambled eggs for extra protein (or&nbsp;substitute eggs if&nbsp;you don&rsquo;t like sardines).</li>
+					<li>Get a&nbsp;wrap, spread guac and hummus on&nbsp;it. Then put the spinach&nbsp;on. If&nbsp;using eggs, put those on&nbsp;next (see link below for microwave egg cooker).</li>
+					<li> Then the sardines. Make sure not to&nbsp;spill sardine juice on&nbsp;your clothes or&nbsp;elsewhere as&nbsp;you open the sardine can&nbsp;&mdash; your dorm mates will not appreciate&nbsp;it.</li>
 					<li><a href="https://www.amazon.com/Egg-Tastic-Ceramic-Microwave-Poacher-Flavorful/dp/B00YYYL2XW/ref=sr_1_3_sspa?s=home-garden&ie=UTF8&qid=1548986497&sr=1-3-spons&keywords=stone+egg+cooker+microwave&psc=1">Link</a></li>
 				</ol>
 			`
@@ -331,28 +359,281 @@ var cookBook = {
 				</ul>
    				<h2>Method</h2>
         		<ol>
-        			<li>Prep: heat up chicken stock in a pan, dice onion, finely chop garlic, juice 1 lemon, peel/devein and season shrimp, halve and season chicken thighs. Put the lemon juice in a bowl, combine with saffron, and lightly crush with a spoon. </li>
-					<li>Put paella pan (or large, relatively flat pan) onto stove on high heat, until very hot. Add olive oil, and sear both sides of chicken thigh until nicely browned, about 10 minutes total.</li>
-					<li>Remove chicken, turn heat down to medium or medium-high, and add diced onion. Cook until translucent, then add chopped garlic. Cook for another few minutes.</li>
-					<li>Turn up heat to high. Add arborio rice into pan. Ensure that each grain of rice is coated with oil. </li>
+					<li>Prep: heat up&nbsp;chicken stock in&nbsp;a&nbsp;pan, dice onion, finely chop garlic, juice 1&nbsp;lemon, peel/devein and season shrimp, halve and season chicken thighs. Put the lemon juice in&nbsp;a&nbsp;bowl, combine with saffron, and lightly crush with a&nbsp;spoon. </li>
+					<li>Put paella pan (or&nbsp;large, relatively flat pan) onto stove on&nbsp;high heat, until very hot. Add olive oil, and sear both sides of&nbsp;chicken thigh until nicely browned, about 10&nbsp;minutes total.</li>
+					<li>Remove chicken, turn heat down to&nbsp;medium or&nbsp;medium-high, and add diced onion. Cook until translucent, then add chopped garlic. Cook for another few minutes.</li>
+					<li>Turn up&nbsp;heat to&nbsp;high. Add arborio rice into pan. Ensure that each grain of&nbsp;rice is&nbsp;coated with oil. </li>
 					<li>(Optional) Add some white wine, cook off all the alcohol.</li>
-					<li>Return chicken to pan. Add a large spoonful of tomato paste, pepper, and paprika. Stir well. Add saffron lemon juice, stir well, and add the chicken stock.</li>
-					<li>Turn heat to medium high, and let cook until stock is almost completely gone. At some point in the middle, add shrimp (flipping once to cook both sides). </li>
-					<li>Add peas, and a few sprigs of rosemary on top. Cook on high heat for a few minutes, then turn off heat and cover for about 10 minutes. </li>
-					<li>Serve with lemon wedges and parsley on the side.</li>
+					<li>Return chicken to&nbsp;pan. Add a&nbsp;large spoonful of&nbsp;tomato paste, pepper, and paprika. Stir well. Add saffron lemon juice, stir well, and add the chicken stock.</li>
+					<li>Turn heat to&nbsp;medium high, and let cook until stock is&nbsp;almost completely gone. At&nbsp;some point in&nbsp;the middle, add shrimp (flipping once to&nbsp;cook both sides). </li>
+					<li>Add peas, and a&nbsp;few sprigs of&nbsp;rosemary on&nbsp;top. Cook on&nbsp;high heat for a&nbsp;few minutes, then turn off heat and cover for about 10&nbsp;minutes. </li>
+					<li>Serve with lemon wedges and parsley on&nbsp;the side.</li>
+				</ol>
+				<h2>Tips:</h2>
+				<ul>
+					<li>Can&rsquo;t find saffron? Trader Joe&rsquo;s has a&nbsp;small container (0.7g) of&nbsp;saffron for&nbsp;$6, which should be&nbsp;enough for one portion. </li>
+					<li>Put shrimp shells/heads into chicken stock when prepping. This imparts an&nbsp;amazing shrimp flavor into the stock. Also feel free to&nbsp;add in&nbsp;a&nbsp;few sprigs of&nbsp;rosemary &amp;&nbsp;lemon rinds. Remove them before adding stock to&nbsp;rice.</li>
+					<li>You will need a&nbsp;lot of&nbsp;olive oil (probably upwards of&nbsp;1/3 to&nbsp;1/2&nbsp;cup).</li>
+					<li>A&nbsp;good ratio of&nbsp;stock to&nbsp;rice is&nbsp;around 3:1. Adjust accordingly</li>
+					<li>Once the chicken stock goes&nbsp;in, do&nbsp;not touch the rice. This helps develop the crispy bottom on&nbsp;the rice.</li>
+					<li>I&rsquo;m being pretty vague about specific measurements because it&nbsp;will depend a&nbsp;lot on&nbsp;your pan. Feel free to&nbsp;ask me&nbsp;directly for more details.</li>
+				</ul>
+			` // Да, ты можешь юзать html тут
+		},
+		{
+			label: "Cr&egrave;me Br&ucirc;l&eacute;e",
+			cat: "desserts", //Заюзал кей
+			img: "assets/images/dishes/cremebrule.jpg",
+			desc: `
+				<h2>Description</h2>
+					<p>Cr&egrave;me Br&ucirc;l&eacute;e is&nbsp;one of&nbsp;my&nbsp;favorite desserts of&nbsp;all times. The contrast between the exquisitely rich custard and the crispy caramelized crust is&nbsp;incredible. It&rsquo;s also surprisingly easy to&nbsp;make great for parties&nbsp;&mdash; blowtorching the sugar is&nbsp;a&nbsp;true showstopper.</p>
+					<p>Total time: ~1 hour baking + >2 hours cooling</p>
+					<p>Author: Brian Xie</p>
+				<h2>Ingredients (for 4-6 servings)</h2>
+				<ul>
+    				<li>2&nbsp;cups heavy cream/li>
+    				<li>1&nbsp;vanilla bean (or&nbsp;about 1&nbsp;tsp vanilla extract)</li>
+					<li>5&nbsp;egg yolks</li>
+					<li>1/2 cup granulated sugar + more for topping</li>
+					<li>pinch of salt</li>
+				</ul>
+   				<h2>Method</h2>
+        		<ol>
+					<li>Preheat oven to&nbsp;325 degrees&nbsp;F</li>
+					<li>Heat heavy cream in&nbsp;saucepan on&nbsp;medium-low heat. If&nbsp;using vanilla bean: split vanilla bean in&nbsp;half, use a&nbsp;knife to&nbsp;scrape all the seeds out, and add them both to&nbsp;the cream. If&nbsp;using extract, add it&nbsp;to&nbsp;the cream. Heat until hot and just below a&nbsp;simmer. Immediately take it&nbsp;off the heat, cover&nbsp;it, and rest at&nbsp;least 15&nbsp;minutes.</li>
+					<li>In&nbsp;a&nbsp;bowl, mix egg yolks, sugar, and salt until fully incorporated. Add a&nbsp;couple of&nbsp;tablespoons of&nbsp;the cream into the egg mixture, and mix until fully incorporated. Repeat. Finally, add the remaining cream and mix well. Strain the mixture to&nbsp;remove vanilla bean and any other lumps.</li>
+					<li>Pour mixture into ramekins (I&nbsp;used six 4oz ramekins) until each is&nbsp;mostly full.</li>
+					<li>Bake for around 40-45 minutes in&nbsp;a&nbsp;water bath: place the ramekins in&nbsp;a&nbsp;baking dish and fill about halfway up&nbsp;the ramekins with hot water.</li>
+					<li>Remove the ramekins, dry, and refrigerate for at&nbsp;least 2&nbsp;hours.</li>
+					<li>When ready to&nbsp;serve, remove ramekins from fridge, top with a&nbsp;light coating of&nbsp;sugar. Use a&nbsp;blowtorch (around 6-8 inches away) to&nbsp;caramelize the sugar. Rest a&nbsp;few minutes before serving.</li>
+					<li>(Optional) Top with your favorite berries and enjoy!</li>
 
 				</ol>
 				<h2>Tips:</h2>
 				<ul>
-					<li>Can't find saffron? Trader Joe's has a small container (0.7g) of saffron for $6, which should be enough for one portion. </li>
-					<li>Put shrimp shells/heads into chicken stock when prepping. This imparts an amazing shrimp flavor into the stock. Also feel free to add in a few sprigs of rosemary & lemon rinds. Remove them before adding stock to rice.</li>
-					<li>You will need a lot of olive oil (probably upwards of 1/3 to 1/2 cup).</li>
-					<li>A good ratio of stock to rice is around 3:1. Adjust accordingly</li>
-					<li>Once the chicken stock goes in, do not touch the rice. This helps develop the crispy bottom on the rice.</li>
-					<li>I'm being pretty vague about specific measurements because it will depend a lot on your pan. Feel free to ask me directly for more details.</li>
+					<li>Cr&egrave;me Br&ucirc;l&eacute;e really turns out best if&nbsp;you use a&nbsp;blowtorch, since it&nbsp;only caramelizes the sugar and doesn&rsquo;t heat the custard. Alternatively, you can try using your oven&rsquo;s broiler, make sure to&nbsp;put the ramekin in&nbsp;an&nbsp;ice bath to&nbsp;avoid heating up&nbsp;the custard.</li>
+					<li>The process of&nbsp;slowly adding the cream into the egg mixture at&nbsp;first is&nbsp;called tempering. If&nbsp;we&nbsp;were to&nbsp;add all of&nbsp;the cream immediately, it&nbsp;would increase the temperature too quickly and essentially scramble the eggs.</li>
+					<li>It&rsquo;s important to&nbsp;achieve a&nbsp;fine balance with the amount of&nbsp;sugar at&nbsp;the top: don&rsquo;t put too much (otherwise the top will be&nbsp;caramelized but the bottom won&rsquo;t), but you&rsquo;ll want enough to&nbsp;cover the surface. Something like 1/3 cup divided amongst the ramekins is&nbsp;probably reasonable.</li>
+					<li>You can refrigerate cr&egrave;me br&ucirc;l&eacute;e for up&nbsp;to&nbsp;a&nbsp;couple of&nbsp;days before serving.</li>
+					<li>Blowtorching is&nbsp;an&nbsp;inexact science and something&nbsp;I kind of&nbsp;hand-wave. You should stop once you achieve the desired color at&nbsp;all spots over the surface.</li>
+
 				</ul>
 			` // Да, ты можешь юзать html тут
 		},
+		{
+			label: "Noodles, Green Beans & Tomato",
+			cat: "main", //Заюзал кей
+			img: "assets/images/dishes/noodlesbeans.jpg",
+			desc: `
+				<h2>Description</h2>
+					<p>My&nbsp;go-to meal when&nbsp;I want something warm and hearty, or&nbsp;if&nbsp;I haven&rsquo;t had enough vegetables lately. This recipe is&nbsp;for 1&nbsp;hungry person, although you can easily scale everything up&nbsp;for more people.</p>
+					<p>Total time: ~25 min</p>
+					<p>Author: Brian Xie</p>
+				<h2>Ingredients</h2>
+				<ul>
+					<li>Noodles</li>
+					<li>Green beans</li>
+					<li>Tomato</li>
+					<li>Egg</li>
+					<li>Ground pork</li>
+					<li>Garlic, green onion, cilantro</li>
+					<li>Chinese pepper powder, soy sauce, chili oil, neutral oil</li>
+				</ul>
+   				<h2>Method</h2>
+        		<ol>
+					<li>Prep: Remove the ends of&nbsp;green beans, and cut into small (~2cm) strips. Cut tomato into small pieces. Peel, smash, and chop garlic. Chop green onion into small pieces. Roughly chop cilantro.</li>
+					<li>Heat neutral oil over high heat in&nbsp;a&nbsp;wok. Once hot, add ground pork and stir-fry. Around half a&nbsp;minute later, add garlic and green onions. Add Chinese pepper powder. Continue to&nbsp;stir-fry until pork is&nbsp;more or&nbsp;less cooked through.</li>
+					<li>Add soy sauce. Cook for a&nbsp;few seconds, then add tomatoes and green beans. Stir-fry for a&nbsp;few seconds, then add some water. Add chili oil and cilantro. Cover and bring up&nbsp;to&nbsp;a&nbsp;boil.</li>
+					<li>Once boiling, poach an&nbsp;egg or&nbsp;two in&nbsp;the liquid (a&nbsp;few minutes). Remove eggs once cooked.</li>
+					<li>Add noodles to&nbsp;liquid. Cook and stir until just slightly undercooked, and serve. Top with the poached egg. Enjoy!</li>
+				</ol>
+				<h2>Tips:</h2>
+				<ul>
+					<li>Do&nbsp;not be&nbsp;timid with heat. Use the highest heat your stovetop can support, as&nbsp;with most Chinese cooking.</li>
+					<li>I&nbsp;would definitely recommend using noodles which are not dried and not too thin. You&rsquo;ll have a&nbsp;much better texture, and the noodles will absorb much more flavor.</li>
+					<li>Your goal is&nbsp;to&nbsp;end up&nbsp;with a&nbsp;fairly thick soup base. As&nbsp;such, you don&rsquo;t want to&nbsp;add too much water, just enough to&nbsp;cook the noodles. The noodles themselves will absorb a&nbsp;decent amount of&nbsp;water if&nbsp;you use wet noodles.</li>
+					<li>Amounts of&nbsp;ingredients may vary and are up&nbsp;to&nbsp;preference. I&nbsp;typically use around 450 kcal worth of&nbsp;noodles, 1/2 to&nbsp;3/4 pounds of&nbsp;green beans, 1&nbsp;beefsteak tomato, 2&nbsp;eggs, and 1/4 pound ground pork.</li>
+					<li>Serve and enjoy immediately, and it&nbsp;is&nbsp;critical that you remove from the wok when noodles are still slightly undercooked, since they will continue to&nbsp;cook in&nbsp;the hot soup base.</li>
+					<li>Taste frequently and adjust as&nbsp;necessary (especially with seasoning)</li>
+				</ul>
+			` // Да, ты можешь юзать html тут
+		},
+		{
+			label: "Gambas al&nbsp;Ajillo (Spanish Garlic Shrimp)",
+			cat: "main", //Заюзал кей
+			img: "assets/images/dishes/gambas.jpg",
+			desc: `
+				<h2>Description</h2>
+					<p>Flagship dish at&nbsp;many Spanish tapas restaurants. Simple and easy yet absolutely delicious.</p>
+					<p>Total time: ~10 min</p>
+					<p>Author: Brian Xie</p>
+				<h2>Ingredients</h2>
+				<ul>
+					<li>Shrimp (about 1&nbsp;pound, around 20&nbsp;per pound in&nbsp;size)</li>
+					<li>Garlic (4 cloves)</li>
+					<li>Parsley</li>
+					<li>Dry Sherry</li>
+					<li>Good quality olive oil</li>
+					<li>Salt, pepper, paprika, cayenne</li>
+					<li>Bread</li>
+				</ul>
+   				<h2>Method</h2>
+        		<ol>
+					<li>Prep: Peel and chop garlic cloves into slices. Roughly chop parsley. Peel and devein shrimp, season with salt, pepper, paprika, and cayenne. Toast some bread and arrange it&nbsp;in&nbsp;a&nbsp;bowl.</li>
+					<li>Heat olive oil in&nbsp;a&nbsp;pan on&nbsp;medium heat and add chopped garlic. Stir and cook until the thinner pieces are just starting to&nbsp;turn slightly brown.</li>
+					<li>Turn heat to&nbsp;high and immediately add shrimp. Continuously stir and cook for around 2&nbsp;minutes, or&nbsp;until shrimp just start to&nbsp;curl up&nbsp;but are still undercooked.</li>
+					<li>Add sherry, continue to&nbsp;stir and cook for around 1&nbsp;minute, or&nbsp;until shrimp is&nbsp;cooked through.</li>
+					<li>Turn off heat, add some parsley and stir.</li>
+					<li>Pile the shrimp into the bowl with bread.</li>
+					<li>To&nbsp;finish, spoon over plenty of&nbsp;the wine/oil sauce. Sprinkle over some more paprika, and a&nbsp;little cayenne. Enjoy!</li>
+				</ol>
+				<h2>Tips:</h2>
+				<ul>
+					<li>It&rsquo;s really important to&nbsp;use a&nbsp;good quality olive oil. This recipe is&nbsp;simple, and the oil really shines through. I&nbsp;typically get something nice from Eataly specifically for dishes like this. And do&nbsp;not skimp on&nbsp;the oil&nbsp;&mdash; you will need a&nbsp;lot (probably around 1/4&nbsp;cup).</li>
+					<li>If&nbsp;you don&rsquo;t have sherry, white wine works as&nbsp;well, which is&nbsp;what&nbsp;I typically&nbsp;do. I&rsquo;d use somewhere around 1/6 cup for this recipe.</li>
+					<li>Good quality bread is&nbsp;a&nbsp;really important pairing for this! The bread soaks up&nbsp;all that delicious wine/oil sauce and is&nbsp;absolutely otherworldly.</li>
+				</ul>
+			` 
+		},
+		{
+			label: "Avocado Toast",
+			cat: "snack", //Заюзал кей
+			img: "assets/images/dishes/avocado.jpg",
+			desc: `
+				<h2>Description</h2>
+					<p>Avocado toast is&nbsp;really simple and delicious, but the difference between a&nbsp;mediocre avocado toast and an&nbsp;amazing one is&nbsp;tremendous. The ingredients really shine through here, and it&rsquo;s really important to&nbsp;invest in&nbsp;quality for this.</p>
+					<p>Total time: ~10 min</p>
+					<p>Author: Brian Xie</p>
+				<h2>Ingredients</h2>
+					<p>At&nbsp;the most fundamental level, you need:</p>
+				<ul>
+					<li>Freshly baked bread (I&nbsp;prefer sourdough or&nbsp;thick whole grain for this)</li>
+					<li>Good quality olive oil</li>
+					<li>Avocados</li>
+					<li>A&nbsp;topping salt (I&nbsp;use FLeur de&nbsp;Sel)</li>
+				</ul>
+   				<h2>Method</h2>
+        		<p>For a&nbsp;basic and delicious avocado toast, drizzle some olive oil over the bread and lightly toast&nbsp;it. I&nbsp;prefer to&nbsp;slice the avocado and fan it&nbsp;out, which&nbsp;I think gives a&nbsp;better texture and appearance. Arrange it&nbsp;on&nbsp;the bread, top with salt and a&nbsp;light drizzle of&nbsp;olive oil. I&rsquo;ll typically also grind a&nbsp;bit of&nbsp;black pepper on&nbsp;top.</p>
+				<p>Beyond the basic avocado toast, some of&nbsp;my&nbsp;favorite variants include:</p>
+				<ul>
+					<li>Homemade Pesto! The acidity and fresh tang of&nbsp;the pesto complement the richness from the avocado perfectly. I&nbsp;decrease the amount of&nbsp;olive oil used, and smear some pesto onto the toasted bread before arranging the avocado and adding (a&nbsp;little bit less) salt. This is&nbsp;the version&nbsp;I made in&nbsp;the picture.</li>
+					<li>Tomato, basil, and balsamic reduction. Again, the acidity and freshness of&nbsp;this combination really complement the avocado. I&nbsp;thinly slice some cherry tomatoes, top with some chopped basil and a&nbsp;little bit of&nbsp;balsamic reduction.</li>
+					<li>Fried egg. Absolutely delicious.</li>
+				</ul>
+				<p>Of&nbsp;course, there are so&nbsp;many more ways to&nbsp;customize your avocado toast. Just remember, it&nbsp;pays to&nbsp;invest in&nbsp;quality for avocado toast. Enjoy!</p>
+			` 
+		},
+		{
+			label: "Creme Caramel",
+			cat: "dessert", //Заюзал кей
+			img: "assets/images/dishes/cremecaramel.jpg",
+			desc: `
+				<h2>Description</h2>
+					<p>Another one of&nbsp;my&nbsp;favorite desserts! If&nbsp;you&rsquo;ve never had this before, it&nbsp;is&nbsp;conceptually very similar to&nbsp;flan. Aside from making the caramel, it&nbsp;is&nbsp;relatively easy and straightforward to&nbsp;make; definitely would recommend trying&nbsp;it!</p>
+					<p>Total time: ~1 hour + at least 2 hours cooling</p>
+					<p>Author: Brian Xie</p>
+				<h2>Ingredients</h2>
+				<p>(Caramel)</p>
+				<ul>
+					<li>1/2 cup granulated sugar</li>
+				</ul>
+				<p>(Custard)</p>
+				<ul>
+					<li>1&nbsp;egg + 3&nbsp;egg yolks</li>
+					<li>1/4 cup granulated sugar</li>
+					<li>1.5 tsp vanilla extract</li>
+					<li>1/2 cup creme fraiche</li>
+					<li>1/2 cup whole milk</li>
+				</ul>
+				   <h2>Method</h2>
+				<ol>
+					<li>Prep: Use a&nbsp;oil spray to&nbsp;lightly oil the insides of&nbsp;6 4-oz ramekins, or&nbsp;4 6-oz ramekins.</li>
+					<li>Making the caramel: Pour sugar into pan over medium heat. Heat and swirl until entirely liquified. Quickly and evenly pour caramel into ramekins.</li>
+					<li>Making the custard: First mix together eggs, egg yolks, and sugar until incorporated. Then add vanilla, creme fraiche, and whole milk, and mix thoroughly until completely incorporated. Ladle the mixture into the ramekins, around&nbsp;75% of&nbsp;the way up&nbsp;the top of&nbsp;the ramekins.</li>
+					<li>Bake in&nbsp;a&nbsp;325&nbsp;F oven for around 45-50 minutes in&nbsp;a&nbsp;hot water bath. The water should come up&nbsp;around 1/2 of&nbsp;the way up&nbsp;the ramekins.</li>
+					<li>Remove ramekins from water bath and let cool until safe to&nbsp;touch. Run a&nbsp;knife around the edges to&nbsp;prevent sticking, and invert custards onto a&nbsp;dessert plate. Pour any remaining caramel onto the dessert, if&nbsp;possible. Chill in&nbsp;the fridge for at&nbsp;least a&nbsp;few hours.</li>
+					<li>(Optional) If&nbsp;you&rsquo;re feeling extra fancy, you can use the caramel stuck at&nbsp;the bottom of&nbsp;the ramekins to&nbsp;make a&nbsp;caramel garnish! Heat the ramekin in&nbsp;the microwave for around 30-45s, or&nbsp;until re-liquified. Carefully pour onto a&nbsp;sheet of&nbsp;parchment paper your design of&nbsp;choice. Let cool, remove from paper, and arrange onto the creme caramel. Enjoy!</li>
+				</ol>
+				<h2>Tips:</h2>
+				<ul>
+					<li>Making the caramel can be&nbsp;tricky. The key is&nbsp;to&nbsp;NEVER use a&nbsp;utensil of&nbsp;any kind; the caramel will stick to&nbsp;it. Instead, vigorously swirl the pan. Don&rsquo;t worry about a&nbsp;few wisps of&nbsp;smoke here and there; that&rsquo;s part of&nbsp;the process.</li>
+					<li>Otherwise, this dessert should be&nbsp;fairly straightforward. Oven times may vary though, so&nbsp;to&nbsp;ensure your creme caramel is&nbsp;properly cooked, try lightly jiggling a&nbsp;ramekin. The custard should be&nbsp;set but with a&nbsp;slight jiggle to&nbsp;it.</li>
+				</ul>
+			` 
+		},
+		{
+			label: "炒年糕 (Stir-fried Rice Cake)",
+			cat: "main", //Заюзал кей
+			img: "assets/images/dishes/ricecake.jpg",
+			desc: `
+				<h2>Description</h2>
+					<p>I&nbsp;would consider this one of&nbsp;my&nbsp;favorite dishes to&nbsp;cook, as&nbsp;well as&nbsp;my&nbsp;personal flagship dish. It&nbsp;tastes absolutely amazing but is&nbsp;fairly simple, with essentially just four basic ingredients. Definitely give it&nbsp;a&nbsp;try for a&nbsp;hearty lunch or&nbsp;a&nbsp;quick dinner!</p>
+					<p>Total time: ~15-20 min</p>
+					<p>Author: Brian Xie</p>
+				<h2>Ingredients</h2>
+				<ul>
+					<li>Sliced rice cake</li>
+					<li>Pork belly</li>
+					<li>Cabbage</li>
+					<li>Green onions</li>
+					<li>Neutral oil, soy sauce, salt, Chinese pepper powder, cumin, potato starch</li>
+				</ul>
+				   <h2>Method</h2>
+				<ol>
+					<li>Prep: Boil some water to&nbsp;pre-cook cabbage&nbsp;in. Soak sliced rice cake in&nbsp;warm water, making sure to&nbsp;detach any pieces stuck together. Cut cabbage into approximately square pieces. Thinly slice pork belly, and coat with some potato starch. Cut green onions into small pieces.</li>
+					<li>Boil the cabbage for a&nbsp;few minutes. Remove and strain cabbage.</li>
+					<li>In&nbsp;a&nbsp;wok, heat neutral oil until hot. Stir-fry sliced pork belly for about a&nbsp;minute, until mostly cooked. Add sliced green onions, pepper, and cumin. Stir-fry for a&nbsp;little more, then add soy sauce. Stir for a&nbsp;few seconds, then add cabbage back&nbsp;in. Add a&nbsp;little salt and stir-fry for around a&nbsp;minute. Remove and reserve.</li>
+					<li>Remove sliced rice cake from water and dry. In&nbsp;the same wok, heat some more oil and add some salt. Fry rice cake on&nbsp;medium heat. Ensure that all rice cakes are on&nbsp;a&nbsp;single layer, but you probably shouldn&rsquo;t stir too much beyond the first few seconds of&nbsp;cooking. Once both sides are lightly fried, add a&nbsp;tiny splash of&nbsp;soy sauce and stir. Finally, add cabbage/pork belly mixture back. Serve and enjoy!</li>
+				</ol>
+				<h2>Tips:</h2>
+				<ul>
+					<li>As&nbsp;with most Chinese cooking, when stir-frying do&nbsp;not be&nbsp;timid with the heat&nbsp;&mdash; always use the maximum heat setting. The only exception is&nbsp;cooking the rice cake, which you don&rsquo;t want to&nbsp;get excessively crispy.</li>
+					<li>Soaking the rice cake is&nbsp;critical. Without doing&nbsp;so, the rice cake will be&nbsp;hard and inedible. Most recipes using sliced rice cake actually call for boiling&nbsp;it. Soak at&nbsp;least 15&nbsp;minutes in&nbsp;advance of&nbsp;using, up&nbsp;to&nbsp;several hours in&nbsp;advance.</li>
+					<li>Cumin and Chinese pepper powder are certainly not traditional additions. Feel free to&nbsp;tailor your spice usage to&nbsp;your personal preference.</li>
+					<li>It&nbsp;is&nbsp;really important that you season each and every component of&nbsp;the dish, with both soy sauce and salt!</li>
+					<li>The exact proportions aren&rsquo;t really that important. I&nbsp;typically use around 1/4 pound pork belly, 500 calories worth of&nbsp;rice cake, and a&nbsp;lot of&nbsp;cabbage. Feel free to&nbsp;adjust as&nbsp;necessary (although you should also adjust seasoning accordingly!).</li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			` 
+		},
+		{
+			label: "Braised Short Ribs",
+			cat: "main", //Заюзал кей
+			img: "assets/images/dishes/shortribs.jpg",
+			desc: `
+				<h2>Description</h2>
+					<p>Ever since&nbsp;I had braised short ribs for the first time at&nbsp;The Waterfield Kitchen in&nbsp;Winchester (They are the absolutely best&nbsp;&mdash; juicy, moist, buttery&nbsp;&mdash; definitely recommend trying it&nbsp;at&nbsp;some point! Last year they had a&nbsp;Restaurant Week deal, so&nbsp;keep an&nbsp;eye out for that...), I&nbsp;have always wanted to&nbsp;try and replicate that amazing dish. This is&nbsp;my&nbsp;first attempt, and certainly didn&rsquo;t compare to&nbsp;the one&nbsp;I had at&nbsp;TWK, but was still really good!</p>
+					<p>Total time: ~3-4 hours</p>
+					<p>Author: Brian Xie</p>
+				<h2>Ingredients</h2>
+				<ul>
+					<li>Short ribs</li>
+					<li>Onions, carrots, celery, garlic</li>
+					<li>Red wine, tomato paste, beef stock</li>
+					<li>Bay leaf, thyme, parsley</li>
+					<li>Salt, black pepper</li>
+				</ul>
+				   <h2>Method</h2>
+				<ol>
+					<li>Prep: roughly chop celery, onion, and carrot. Peel and lightly smash garlic. Generously salt and pepper short ribs on&nbsp;all sides.</li>
+					<li>In&nbsp;a&nbsp;dutch oven, heat some olive oil over high heat until almost smoking. Thoroughly brown all sides of&nbsp;short ribs. &laquo;No&nbsp;color, no&nbsp;flavor!&raquo;&nbsp;&mdash; Gordon Ramsay</li>
+					<li>Remove short ribs from pot. Reduce heat down to&nbsp;medium and saute the onions, carrots, celery, and garlic, for maybe 5-8&nbsp;minutes. Season with salt.</li>
+					<li>Prepare the braising liquid: Add a&nbsp;couple tablespoons of&nbsp;tomato paste. Add red wine, beef stock, bay leaf, thyme. Thoroughly scrape the bottom to&nbsp;ensure the caramelized bits from the short ribs are incorporated into the braising liquid. Bring up&nbsp;to&nbsp;a&nbsp;boil.</li>
+					<li>Return short ribs along with any accumulated juices into pot. Cover and bring heat down to&nbsp;a&nbsp;simmer. Cook for at&nbsp;least several hours.</li>
+					<li>Test doneness by&nbsp;running a&nbsp;fork through the short ribs&nbsp;&mdash; they should be&nbsp;fork tender. Serve on&nbsp;top of&nbsp;mashed potatoes, polenta, risotto, cauliflower puree, or&nbsp;whatever else you prefer.</li>
+					<li>Make a&nbsp;sauce by&nbsp;taking some braising liquid and reducing it&nbsp;down until the desired consistency is&nbsp;achieved, and spoon it&nbsp;over the short ribs. Top with a&nbsp;little chopped parsley. Enjoy!</li>
+				</ol>
+				<h2>Tips:</h2>
+				<ul>
+					<li>I&rsquo;m intentionally being vague with ingredient amounts because it&nbsp;depends largely on&nbsp;the pot you&rsquo;re using and the amount of&nbsp;short rib you&rsquo;re cooking.</li>
+					<li>Most recipes I&rsquo;ve seen actually cook the short rib in&nbsp;the oven instead of&nbsp;on&nbsp;the stovetop. This probably works better, but since my&nbsp;dutch oven isn&rsquo;t oven-safe I&nbsp;couldn&rsquo;t do&nbsp;this.</li>
+					<li>It&nbsp;is&nbsp;very important that you cook this slowly on&nbsp;low heat. Do&nbsp;not try to&nbsp;cheat the time. Short rib has a&nbsp;lot of&nbsp;connective tissue, and slow, gentle cooking is&nbsp;the best way to&nbsp;turn that into a&nbsp;juicy delight.</li>
+				</ul>
+			` 
+		},
+	
 	]
 }
 
