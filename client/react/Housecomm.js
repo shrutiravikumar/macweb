@@ -15,6 +15,7 @@ class Housecomm extends TrackerReact(Component) {
             <td>{member.role}</td>
             <td>{member.name}</td>
             <td>{member.email}</td>
+            <td>{member.list}</td>
           </tr>
         );
       });
@@ -48,15 +49,15 @@ class Housecomm extends TrackerReact(Component) {
                         <th>Position</th>
                         <th>Person(s)</th>
                         <th>Kerberos Username(s)</th>
+                        <th>Mailing List(s)</th>
                       </tr>
                     </thead>
                     <tbody>{housecomm}</tbody>
                   </table>
                   <p>
-                    Entry chair emails are ichairs@mit.edu, where i is the entry
-                    letter you wish to contact. Appending @mit.edu to the end of
-                    a kerberos username gives you the person's MIT email
-                    address.
+                    Appending @mit.edu to a keberos username/mailing list gives you an MIT email address for that person/list.
+                    <br/>
+                    To email entry chairs for a specific entry, email ichairs@mit.edu, where i is the entry you wish to contact.
                   </p>
                 </div>
               </div>
@@ -248,7 +249,55 @@ class Housecomm extends TrackerReact(Component) {
                   to the dining hall so that all rooms can be cleaned(belongings will be watched at all points in time to ensure their safety). While this may seem like a great ordeal for many people,
                   MacGregor residents are willing to help move heavy belongings.
                   <br/>
-                  For questions about IHR, please contact the <a className="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#housecomm-whos-who">MacGregor Rooming Assignment Chairs</a>.
+                  <br/>
+                  The rooming assignment process is currently being reevaluated to make the process better and less stressful for incoming freshmen. Starting in fall 2019,
+                  MacGregor will use a new process for rooming assignment known as EASE(Exploration and Selection of Entry). This page will be updated with information on the EASE
+                  process as Fall 2019 approaches.
+                  <br/>
+                  <br/>
+                  For questions about EASE/IHR, please contact the <a className="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#housecomm-whos-who">MacGregor Rooming Assignment Chairs</a>.
+                </div>
+              </div>
+            </div>
+
+            <div className="panel panel-default">
+              <div className="panel-heading">
+                <h2 className="panel-title">
+                  <a
+                    className="accordion-toggle"
+                    data-toggle="collapse"
+                    data-parent="#accordion"
+                    href="#mural-description"
+                  >
+                    MacGregor Mural Painting Rules
+                  </a>
+                </h2>
+              </div>
+              <div
+                id="mural-description"
+                className="panel-collapse collapse out"
+              >
+                <div className="panel-body">
+                  <h5>MacGregor allows residents to paint murals on the walls subject to the following approval process:</h5>
+                  <ol>
+                    <li>
+                      Determine what it is you are going to paint ahead of time, and acquire a digital copy/sketch that represents what the final product will look like.
+                      Make sure it is something that the house manager will approve of.
+                    </li>
+                    <li>
+                      Print a copy of the image along with your name, kerberos, and room number. At the bottom of the page, include lines for the signatures of:
+                      <ul>
+                        <li>All current residents of the suite where the mural will be painted</li>
+                        <li>The GRT(s) of your entry</li>
+                        <li>The house manager</li>
+                      </ul>
+                    </li>
+                    <li>
+                      Once all the current suite residents and the GRT(s) have signed the agreement, submit it to the house manager for final approval.
+                      The house manager's office is located behing the front desk.
+                    </li>
+                  </ol>
+                  The mural must be painted entirely on wall, NOT brick, and must be done on <a href='https://www.amazon.com/Tact-Brand-Covering-Self-Adhesive-Semi-Transparent/dp/B00R8AWBJI/ref=sr_1_3?keywords=contact+paper&qid=1556582781&s=home-garden&sr=1-3'>contact paper</a>.
                 </div>
               </div>
             </div>
