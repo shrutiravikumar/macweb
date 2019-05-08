@@ -302,6 +302,31 @@ class Housecomm extends TrackerReact(Component) {
               </div>
             </div>
 
+            <div className="panel panel-default">
+              <div className="panel-heading">
+                <h2 className="panel-title">
+                  <a
+                    className="accordion-toggle"
+                    data-toggle="collapse"
+                    data-parent="#accordion"
+                    href="#storage-description"
+                  >
+                    MacGregor Storage Policy 2019
+                  </a>
+                </h2>
+              </div>
+              <div
+                id="storage-description"
+                className="panel-collapse collapse out"
+              >
+                <div className="panel-body">
+                  <h5>While MacGregor residents are often able to store some of their personal/communal belongings in MacGregor over the summer,
+                    MacGregor will be closed for the summer of 2019. This means that storage will not be available, and students will need to find other means to store their belongings.
+                    Further details can be found in this <a href='https://docs.google.com/document/d/1S5SKywFlrqTqH63pOAlN_cNbxM_c0gr-tWHTiXDoZwk/edit?fbclid=IwAR2KsKTZhFZAvv9_Y-kXXXY6QOTXw_-jV-6Q87yP6gxm_1MkjyFu7Qsa75k'>FAQ</a>.</h5>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
