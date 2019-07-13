@@ -226,47 +226,6 @@ class Housecomm extends TrackerReact(Component) {
                     className="accordion-toggle"
                     data-toggle="collapse"
                     data-parent="#accordion"
-                    href="#ihr-description"
-                  >
-                    MacGregor In-House Rush(IHR) Procedures
-                  </a>
-                </h2>
-              </div>
-              <div
-                id="ihr-description"
-                className="panel-collapse collapse out"
-              >
-                <div className="panel-body">
-                  All incoming freshmen tempted in MacGregor will be assigned a temporary room  for the week of orientation/REX. At this point, all freshmen tempted in
-                  MacGregor will have the option to remain in MacGregor or <a href="https://studentlife.mit.edu/housing/first-year/first-year-residence-exchange-fyre">FYRE</a> out to another dorm.
-                  After the dorms have been finalized, MacGregor will hold an event called In-House Rush to sort freshmen into the entry which best suits them. In-House Rush(IHR) is typically
-                  held on the last Wednesday of August. Freshman are matched to each entry using a stable-marriage algorithm, which takes into account the preference of the freshman, as well as
-                  the preferences of the current residents of the entry, in addition to several other variables. On the night of IHR, freshmen will be split into 10 groups, which will then spend 15
-                  minutes in each entry(plus one break period) getting to know the residents and the culture of the entry. After each group has been to each entry, there will be a 30 minute free roam
-                  period during which the freshmen can visit any entry they liked/wanted to know more about to help their decision. After that, each freshman will submit a ranking to the Rooming Assignment Chairs,
-                  and each entry will also submit a ranking of the freshmen. These rankings are entirely confidential and will not be revealed at any point. The freshmen will then be assigned
-                  an entry, and the entry will be responsible for assigning them a room within the entry that best suits their preferences. The following morning, freshmen will be required to move their belongings
-                  to the dining hall so that all rooms can be cleaned(belongings will be watched at all points in time to ensure their safety). While this may seem like a great ordeal for many people,
-                  MacGregor residents are willing to help move heavy belongings.
-                  <br/>
-                  <br/>
-                  The rooming assignment process is currently being reevaluated to make the process better and less stressful for incoming freshmen. Starting in fall 2019,
-                  MacGregor will use a new process for rooming assignment known as EASE(Exploration and Selection of Entry). This page will be updated with information on the EASE
-                  process as Fall 2019 approaches.
-                  <br/>
-                  <br/>
-                  For questions about EASE/IHR, please contact the <a className="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#housecomm-whos-who">MacGregor Rooming Assignment Chairs</a>.
-                </div>
-              </div>
-            </div>
-
-            <div className="panel panel-default">
-              <div className="panel-heading">
-                <h2 className="panel-title">
-                  <a
-                    className="accordion-toggle"
-                    data-toggle="collapse"
-                    data-parent="#accordion"
                     href="#mural-description"
                   >
                     MacGregor Mural Painting Rules
