@@ -15,7 +15,7 @@ class About extends Component {
           <div className="wrapper">
             <div className="h_iframe">
               <iframe
-                src="https://www.youtube.com/embed/IjKeTxpJOU4?rel=0"
+                src="https://www.youtube.com/embed/OJcJN1E_62I?rel=0"
                 frameborder="0"
                 allow="autoplay; encrypted-media"
                 allowfullscreen

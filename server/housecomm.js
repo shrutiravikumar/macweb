@@ -12,7 +12,8 @@ CSV().from(
        newRecord = {
             'role': data[row][0],
             'name': data[row][1],
-            'email': data[row][2]
+            'email': data[row][2],
+            'list':data[row][3]
         };
         Housecomm.insert(newRecord);
     }

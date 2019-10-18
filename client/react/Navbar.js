@@ -38,6 +38,9 @@ class Navbar extends Component {
             <li id="nav-about">
               <a href="/about">About</a>
             </li>
+            <li id="nav-rex" >
+              <a href="/rex">REX</a>
+            </li>
           </ul>
         </div>
       </nav>
