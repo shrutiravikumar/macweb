@@ -29,18 +29,7 @@ class Macweb extends Component {
         </noscript>
         <Navbar />
 
-        <div className="panel panel-default" style={{width: "622px", margin: "0 auto"}}>
-          <div className="panel-heading" style={{background: "#ff6600"}}>
-            <h2 className="panel-title">
-              <a href="/rex">
-              Attention Incoming Freshmen Class of 2023
-              </a>
-            </h2>
-          </div>
-          <div className="panel-body">
-            <p>Information about MacGregor House move-in and REX events can be found <a href="/rex">HERE</a></p>
-          </div>
-        </div>
+
 
         <br/>
 
