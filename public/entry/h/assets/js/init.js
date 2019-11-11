@@ -1,64 +1,42 @@
 var residents = [
 	{
-		name: 'Kathleen Esfahany',
-		nick: 'kaes',
-		photo: 'assets/images/kathleenesfahany.jpg',
-		fhs: 'My 6 7 8 9 🅱️ig 🅱️rain is an alpha Fire Hazard',
-		year: '2022',
-		major: '6-7 and 14-2',
-		hometown: 'Long Island, NY',
-		quote: 'Lorem ipsum dolor sit amet',
-		bio: 'debate&nbsp;me! (ง &bull;̀_&bull;&#769;)ง'
-	},
-	{
 		name: 'Alyssa',
 		nick: 'aspencer',
 		photo: 'assets/images/alyssaspencer.jpg',
-		fhs: 'Daddy Myers Fire Hazard',
+		fhs: 'Dicktating Fire Hazard; Daddy Myers Fire Hazard',
 		year: '2022',
 		major: 'X',
 		hometown: 'Las Vegas, NV',
 		quote: 'Lorem ipsum dolor sit amet',
 		bio: 'is&nbsp;anyone there? oh- hi! sometimes you gotta enjoy the finer things in&nbsp;life. looking at&nbsp;the clouds, listening to&nbsp;porter robinson, trying to&nbsp;make rice without burning&nbsp;it, and playing hundreds of&nbsp;hours of&nbsp;video games. sometimes i&nbsp;ask myself why im&nbsp;here, then i&nbsp;remember that i&nbsp;need a&nbsp;degree. follow me&nbsp;on&nbsp;twitter @specerencer'
 	},
-	{ //Это массив с резидентами, сюда пихаешь инфу о людях
-		name: 'Eric Luu', //Тут понятно, что имя
-		nick: 'ericluu', //Ник (видел это у какого-то другого сообщества)
-		photo: 'assets/images/ericluu.jpg', //Фото (лучше квадратиком)
-		fhs: 'My left hip and lower back pain are a Fire Hazard', //Это твой FireHazardStatus
-		year: '2019', //Тоже понятно
-		major: '6-3', //Тоже
-		hometown: 'NYC, NY', //ТОЖЕ
-		quote: 'Lorem ipsum dolor sit amet', //Цитатка
-		bio: 'Catch me in the MacGregor gym blasting kpop. Aspiring Ike main in Smash Bros. Ultimate.' //Немного о себе
-	},
 	{
 		name: 'Udo Eze',
 		nick: 'udoeze',
 		photo: 'assets/images/udoeze.jpg',
-		fhs: '🅱️ig 🅱️eaver 🅱️rand Fire Hazard',
+		fhs: 'Big Body Fire Hazard; 🅱️ig 🅱️eaver 🅱️rand Fire Hazard',
 		year: '2022',
-		major: '3 and 8',
+		major: '3 and 8-flex',
 		hometown: 'Atlanta, GA',
 		quote: 'Lorem ipsum dolor sit amet',
-		bio: 'I like beavers.'
+		bio: 'I like unicorns.'
 	},
 	{
 		name: 'Daniel Alfonsetti',
 		nick: 'alfonset',
 		photo: 'assets/images/sardine.jpg',
-		fhs: 'You know what they say about Fire Hazards',
+		fhs: 'if only i was the best and brightest fire hazard; You know what they say about Fire Hazards',
 		year: '2021',
 		major: '6-3',
 		hometown: 'Auburn, ME',
 		quote: 'Lorem ipsum dolor sit amet',
-		bio: 'Hi! Long ago my&nbsp;parents bestowed the name of&nbsp;Daniel Alfonsetti upon&nbsp;me. Some people say&nbsp;I have weird eating habits, but&nbsp;I think they are just uncultured. I&nbsp;enjoy trying new activities, particularly outdoors ones. My&nbsp;hobbies include playing strategy video games, trying to&nbsp;ice skate, and financially planning about how I&rsquo;m going to&nbsp;retire at&nbsp;40. Academically, I&rsquo;m interested in&nbsp;statistics.'
+		bio: 'Hey, I&rsquo;m Daniel! My&nbsp;hobbies include playing strategy games, trying to&nbsp;ice skate, getting absolutely MASSIVE with my&nbsp;gym buddies, eating sardines, and scheming about how I&nbsp;am going to&nbsp;buy all of&nbsp;the world&rsquo;s real estate and stock markets so&nbsp;that&nbsp;I can retire by&nbsp;40.'
 	},
 	{
 		name: 'Janice Tjan',
 		nick: 'jtjan',
 		photo: 'assets/images/janicetjan.jpg',
-		fhs: 'Koala Genocide Fire Hazard',
+		fhs: 'Pharmacy Fire Hazard; Koala Genocide Fire Hazard',
 		year: '2022',
 		major: '2-A Biomech/CIR',
 		hometown: 'Queens, NY',
@@ -69,7 +47,7 @@ var residents = [
 		name: '&quot;ya boy&quot;',
 		nick: 'alcheng',
 		photo: 'assets/images/anthonycheng.jpg',
-		fhs: 'Mild to big yikes Fire Hazard',
+		fhs: 'MIT Confessions Callouts Fire Hazard; Mild to big yikes Fire Hazard',
 		year: '2020',
 		major: '3A',
 		hometown: 'Salt Lake City, UT',
@@ -80,89 +58,45 @@ var residents = [
 		name: 'Brian Xie',
 		nick: 'brianxie',
 		photo: 'assets/images/brianxie.jpg',
-		fhs: 'Obsessive cooking disorder Fire Hazard',
+		fhs: 'Asian Girl Magnet Fire hazard; Obsessive cooking disorder Fire Hazard',
 		year: '2020',
 		major: '6-3',
 		hometown: 'San Franciso Bay Area, CA',
 		quote: 'Lorem ipsum dolor sit amet',
-		bio: 'Hi! I&rsquo;m currently a&nbsp;junior, and I&rsquo;ve stayed in&nbsp;H entry since my&nbsp;freshman year. I&nbsp;really enjoy cooking and visiting restaurants. I&rsquo;m also heavily involved with the MIT Poker Club. In&nbsp;my&nbsp;free time&nbsp;I like to&nbsp;explore cities, drive, and play a&nbsp;variety of&nbsp;card, strategy, and rhythm games like DDR, chess, and of&nbsp;course, poker.'
-	},
-	{
-		name: 'Tanya',
-		nick: 'tetiana',
-		photo: 'assets/images/tetianahusak.jpg',
-		fhs: 'empty',
-		year: '2021',
-		major: '7',
-		hometown: 'Kyiv, Ukraine',
-		quote: 'Lorem ipsum dolor sit amet',
-		bio: 'Like hiking (I&nbsp;do not have a&nbsp;car and there is&nbsp;no&nbsp;public transportation to&nbsp;White mountains so&nbsp;it&rsquo;s hard for me&nbsp;to&nbsp;get there.&nbsp;if&nbsp;you are going there and want to&nbsp;share money for gas with someone you can email&nbsp;me). Interested in&nbsp;field biology (it&rsquo;s not popular in&nbsp;MIT so&nbsp;I&nbsp;am looking for summer field opportunities). Do&nbsp;sport orienteering (see &quot;New England orienteering club if&nbsp;you want to&nbsp;try). Have 4&nbsp;month old sister.'
+		bio: 'Hi! I&rsquo;m currently a&nbsp;senior, and I&rsquo;ve stayed in&nbsp;H entry since my&nbsp;freshman year. I&nbsp;love to&nbsp;cook and visit restaurants. I&rsquo;m also heavily involved with the MIT Poker Club. Aside from poker, I&nbsp;enjoy playing DDR, learning about transportation systems, driving, and exploring cities.'
 	},
 	{
 		name: 'Julian DuBransky',
 		nick: 'jdubrans',
 		photo: 'assets/images/juliandubransky.jpg',
-		fhs: 'Number sticks are a Fire Hazard',
+		fhs: 'Gallon of Fire Hazard a Day; Number sticks are a Fire Hazard',
 		year: '2021',
 		major: '1E, 17 Minor',
 		hometown: 'Montclair, CA',
 		quote: 'Lorem ipsum dolor sit amet',
-		bio: 'Sometimes, when&nbsp;I wake up&nbsp;in&nbsp;the morning, it&rsquo;s in&nbsp;a&nbsp;different dimension. In&nbsp;the past, I&nbsp;often had to&nbsp;find my&nbsp;way back through trial and error. Now I&rsquo;ve made friends with all the denizens of&nbsp;the 4th dimension, and I&rsquo;m meeting some people from the 5th now. I&nbsp;also play too many video games.'
-	},
-	{
-		name: 'Sophia Zhi',
-		nick: 'szhi',
-		photo: 'assets/images/sophiazhi.jpg',
-		fhs: 'I love J entry 🅱️oyz Fire Hazard',
-		year: '2022',
-		major: '18C',
-		hometown: 'Seattle, WA',
-		quote: 'Lorem ipsum dolor sit amet',
-		bio: 'I&rsquo;m a&nbsp;resident of&nbsp;H entry'
+		bio: 'Number stick theorist. Peanut butter cookie enthusiast. Probably plays too many video games.'
 	},
 	{
 		name: 'Tiffany Chen',
 		nick: 'tiffc',
 		photo: 'assets/images/tiffanychen.jpg',
-		fhs: 'Just Let Me Make Fried Rice Fire Hazard',
+		fhs: 'Radix sorting is a Fire Hazard; Just Let Me Make Fried Rice Fire Hazard',
 		year: '2022',
 		major: '6-3',
 		hometown: 'NYC, NY',
 		quote: 'Lorem ipsum dolor sit amet',
-		bio: 'If&nbsp;anyone would like to&nbsp;fund a&nbsp;blind bubble tea tasting quiz, please let me&nbsp;know. Not joking. :P'
+		bio: 'i&nbsp;got roped into these shenanigans and now i&nbsp;can&rsquo;t get out. whoopsy.'
 	},
 	{
 		name: 'Ileana Diaz',
 		nick: 'diazi',
 		photo: 'assets/images/ileanadiaz.jpg',
-		fhs: 'NO PUSSY SHIT Fire Hazard',
+		fhs: 'quadruple heelies fire hazard; NO PUSSY SHIT Fire Hazard',
 		year: '2022',
 		major: '6-2',
 		hometown: 'Victor, NY',
 		quote: 'Lorem ipsum dolor sit amet',
-		bio: 'Basically all of&nbsp;my&nbsp;hobbies involve music, mostly instruments and theater. I&nbsp;usually listen to&nbsp;alternative and soundtrack music.'
-	},
-	{
-		name: 'Miles Cruice-Barnett',
-		nick: 'milesacb',
-		photo: 'assets/images/milesbarnet.jpg',
-		fhs: 'Fly Eagles Fly Fire Hazard',
-		year: '2021',
-		major: '2',
-		hometown: 'Philadelphia, PA',
-		quote: 'Lorem ipsum dolor sit amet',
-		bio: 'I&rsquo;d like to&nbsp;dedicate this bio to&nbsp;the memory of&nbsp;Richard Yip'
-	},
-	{
-		name: 'Antonio Berrones',
-		nick: 'antoniob',
-		photo: 'assets/images/antonioberrones.jpg',
-		fhs: 'I only cook breakfast now Fire Hazard',
-		year: '2022',
-		major: '6-2',
-		hometown: 'North Mankato, MN',
-		quote: 'Lorem ipsum dolor sit amet',
-		bio: 'I&nbsp;love drawing and running. By&nbsp;the time&nbsp;I graduate&nbsp;I want to&nbsp;have qualified for the Boston Marathon. Also a&nbsp;big fan of&nbsp;movies and recently cooking.'
+		bio: 'hmu if&nbsp;you like music and/or theatre and/or dancing and/or fountain pens and/or memes'
 	},
 	{
 		name: 'Ceylan',
@@ -176,21 +110,10 @@ var residents = [
 		bio: '&rsquo;God is&nbsp;dead,&rsquo; Nick said. &rsquo;They found his carcass in&nbsp;2019. Floating in&nbsp;space near Alpha.&rsquo;'
 	},
 	{
-		name: 'Ashley Chen',
-		nick: 'ashley22',
-		photo: 'assets/images/ashleychen.jpg',
-		fhs: 'My profile pic is a Fire Hazard',
-		year: '2022',
-		major: 'Undecided',
-		hometown: 'Lexington, MA',
-		quote: 'Lorem ipsum dolor sit amet',
-		bio: 'sleepy'
-	},
-	{
 		name: 'Priscilla Liow',
 		nick: 'srfire38',
 		photo: 'assets/images/priscillaliow.jpg',
-		fhs: 'Queen of the Night Fire Hazard',
+		fhs: 'Jangle Jangle Fire Hazard; Queen of the Night Fire Hazard',
 		year: '2020',
 		major: '5',
 		hometown: 'Columbia, MO',
@@ -201,7 +124,7 @@ var residents = [
 		name: 'Mario Lopez',
 		nick: 'mlopz',
 		photo: 'assets/images/mariolopez.jpg',
-		fhs: 'Flux-Corrected Transport Algorithm Fire Hazard',
+		fhs: 'Steven B&nbsp;Leeb&rsquo;s Fire Hazard :-); Flux-Corrected Transport Algorithm Fire Hazard',
 		year: '2020',
 		major: '6-1',
 		hometown: 'Holguin, Cuba',
@@ -212,20 +135,92 @@ var residents = [
 		name: 'Anton Morgunov',
 		nick: 'morgunov',
 		photo: 'assets/images/512.jpg',
-		fhs: 'Course 5 as a GIR is a huge Fire Hazard',
+		fhs: 'My Sailing is a Fire Hazard; Course 5 as a GIR is a huge Fire Hazard',
 		year: '2022',
 		major: '5-7',
 		hometown: 'Taldykorgan, Kazakhstan',
 		quote: 'Lorem ipsum dolor sit amet',
-		bio: '&rsquo;I guess Chemistry is&nbsp;just another word for love&rsquo; Scott Thompson. <br><br> Besides, I&rsquo;m also interested (like love to&nbsp;learn something new about&nbsp;it) in&nbsp;physics (mainly quantum, astrophysics and particle physics), photography (well, I&nbsp;sometimes get lucky and make good&nbsp;&mdash; imho&nbsp;&mdash; shots), education (aka trying to&nbsp;improve it&nbsp;in&nbsp;my&nbsp;home country), and probably something else that&nbsp;I forgot about.'
+		bio: '&rsquo;I guess Chemistry is&nbsp;just another word for love&rsquo; Scott Thompson. <br><br> Besides, I&rsquo;m also interested (like love to&nbsp;learn something new about&nbsp;it) in&nbsp;physics (mainly quantum, astrophysics and particle physics), photography (well, I&nbsp;sometimes get lucky and make good&nbsp;&mdash; imho&nbsp;&mdash; shots), education (aka trying to&nbsp;improve it&nbsp;in&nbsp;my&nbsp;home country), and recently&nbsp;I started sailing a&nbsp;lot. If&nbsp;you ever want to&nbsp;go&nbsp;out to&nbsp;Boston Harbor or&nbsp;want to&nbsp;see the beauty of&nbsp;sunsets on&nbsp;Charles river hmu.'
+	},
+	{
+		name: 'Aleksandar Krastev',
+		nick: 'alexalex',
+		photo: 'assets/images/aleksandarkrastev.jpg',
+		fhs: 'Potential Fire Hazard',
+		year: '2023',
+		major: '6-3',
+		hometown: 'Varna, Bulgaria',
+		quote: 'Lorem ipsum dolor sit amet',
+		bio: 'I&nbsp;like computer programming and physics, I&nbsp;listen to&nbsp;podcasts, and&nbsp;I tinker with Linux. My&nbsp;favorite number is&nbsp;66&nbsp;and&nbsp;I don&rsquo;t like sand.'
+	},
+	{
+		name: 'Yasha',
+		nick: 'ymakaram',
+		photo: 'assets/images/yasham.jpg',
+		fhs: 'Contained Fire Hazard',
+		year: '2021',
+		major: '6-2',
+		hometown: 'MA',
+		quote: 'Lorem ipsum dolor sit amet',
+		bio: 'I&nbsp;came, I&nbsp;saw, I&nbsp;died from stress'
+	},
+	{
+		name: 'David Lopez',
+		nick: 'dglopez',
+		photo: 'assets/images/davidlopez.jpg',
+		fhs: 'Motorsporks Fire Hazard, Carbon Fiber Fire Hazard',
+		year: '2022',
+		major: '2',
+		hometown: 'Glendale, CA',
+		quote: 'Lorem ipsum dolor sit amet',
+		bio: '&laquo;We&nbsp;will burn that bridge when we&nbsp;get there and if&nbsp;you arrive unprepared then let the fire light the way&raquo;'
+	},
+	{
+		name: 'Maria Fedyk',
+		nick: 'mfedyk',
+		photo: 'assets/images/mariafedyk.jpg',
+		fhs: 'Potential Fire Hazard',
+		year: '2023',
+		major: '18 and 14',
+		hometown: 'SF Bay Area, CA',
+		quote: 'Lorem ipsum dolor sit amet',
+		bio: 'Hey! You can probably find me&nbsp;around&nbsp;H entry searching for Scrabble opponents or&nbsp;making relatively small tasks into a&nbsp;big deal. Some of&nbsp;my&nbsp;hobbies include baking, dancing, reading fancy classical lit, being perpetually 10&nbsp;minutes late (lol at&nbsp;everyone who told me&nbsp;MIT time could save&nbsp;me) and watering my&nbsp;plants.'
+	},
+	{
+		name: 'Anna A-D',
+		nick: 'annaad',
+		photo: 'assets/images/annaad.jpg',
+		fhs: 'Potential Fire Hazard',
+		year: '2023',
+		major: '6-3 and 17',
+		hometown: 'Madison, WI',
+		quote: 'Lorem ipsum dolor sit amet',
+		bio: 'Hello! I&rsquo;m Anna. I&rsquo;m a&nbsp;big fan of&nbsp;peanut butter, web development, backpacking, ultimate frisbee, my&nbsp;nameless cat, and corn mazes. My&nbsp;three biggest fears are carbon monoxide poisoning, lightning, and bears.'
+	},
+	{
+		name: 'Sandra Tang',
+		nick: 'stangs',
+		photo: 'assets/images/sandratang.jpg',
+		fhs: 'Potential Fire Hazard',
+		year: '2023',
+		major: '6-9',
+		hometown: 'Los Angeles, CA',
+		quote: 'Lorem ipsum dolor sit amet',
+		bio: 'Hey folks! I&rsquo;m an&nbsp;ambivert who likes&nbsp;AI, graphic design, ice skating, exploring, memes, and Brooklyn Nine-Nine.'
 	}
+	
 ];
 
 var quotes = [	// Массив с цитатами
 	"5.12 is a bless",
 	"still to be updated",
 	"here could be your ad",
-	"we lost creativity"
+	"we lost creativity",
+	"east or west, sailing allows you both",
+	"god save the queen",
+	"jooooooooooooooooooooosh",
+	"hey Brian, where are your brownie-cakie-tasty experiments??????",
+	"oh no, i'm going to NR - frosh who gets A+"
 ]
 
 var traditions = [{
@@ -866,7 +861,7 @@ function onFacts() {
 			labels: ["Freshman", "Sophomore", "Junior", "Senior"],
 			datasets: [{
 				label: 'Number of people',
-				data: [12, 4, 4, 1],
+				data: [4, 8, 3, 4],
 				backgroundColor: [
 					'#4473c3',
 					'#ed7d31',
@@ -882,7 +877,7 @@ function onFacts() {
 			labels: ["Cook-for-yourself", "Half cooking, half meal plan", "Meal Plan", "FreeFood @ MIT"],
 			datasets: [{
 				label: 'Number of people',
-				data: [12, 5, 3, 1],
+				data: [12, 4, 3, 0],
 				backgroundColor: [
 					'#4473c3',
 					'#ed7d31',
@@ -898,7 +893,7 @@ function onFacts() {
 			labels: ["Domestic", "International"],
 			datasets: [{
 				label: 'Number of people',
-				data: [18, 3],
+				data: [16, 3],
 				backgroundColor: [
 					'#4473c3',
 					'#ed7d31'
@@ -909,12 +904,12 @@ function onFacts() {
 	new Chart(document.getElementById("4C").getContext('2d'), {
 		type: 'bar',
 		data: {
-			labels: ["1", "2", "3", "5", "6", "7", "8", "10", "14", "18"],
+			labels: ["1", "2", "3", "5", "6", "7", "8", "9", "10", "14", "17", "18", "21"],
 			datasets: [{
 				label: "# of students",
-			//  data: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 20, 21, 22, 24],
-				//data: [1, 3, 2, 0, 2, 8, 3, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0],
-				data: [1, 3, 2, 2, 8, 3, 1, 1, 1, 1, 0],
+			//    data: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 20, 21, 22, 24],
+				//data: [1, 2, 2, 0, 2, 9, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0],
+				data: [1, 2, 2, 2, 9, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0],
 				backgroundColor: [
 					// 'rgba(253, 202, 64, 0.2)', // Sciences
 					// 'rgba(220, 0, 115, 0.2)', // Engineering
@@ -927,17 +922,17 @@ function onFacts() {
 					'rgba(253, 202, 64, 0.2)', // Course 6
 					'rgba(253, 202, 64, 0.2)', // Course 7
 					'rgba(253, 202, 64, 0.2)', // Course 8
-					//'rgba(253, 202, 64, 0.2)', // Course 9
+					'rgba(253, 202, 64, 0.2)', // Course 9
 					'rgba(220, 0, 115, 0.2)', // Course 10
 					//'rgba(51, 161, 253, 0.2)', // Course 11
 					//'rgba(253, 202, 64, 0.2)', // Course 12
 					'rgba(253, 202, 64, 0.2)', // Course 14
 					//'rgba(51, 161, 253, 0.2)', // Course 15
 					//'rgba(220, 0, 115, 0.2)', // Course 16
-					//'rgba(51, 161, 253, 0.2)', // Course 17
+					'rgba(51, 161, 253, 0.2)', // Course 17
 					'rgba(253, 202, 64, 0.2)', // Course 18
 					//'rgba(220, 0, 115, 0.2)', // course 20
-					//'rgba(51, 161, 253, 0.2)', // course 21
+					'rgba(51, 161, 253, 0.2)', // course 21
 					//'rgba(220, 0, 115, 0.2)', // course 22
 					//'rgba(51, 161, 253, 0.2)' // course 24
 				],
@@ -953,17 +948,17 @@ function onFacts() {
 					'rgba(253, 202, 64, 1.0)', // Course 6
 					'rgba(253, 202, 64, 1.0)', // Course 7
 					'rgba(253, 202, 64, 1.0)', // Course 8
-					//'rgba(253, 202, 64, 1.0)', // Course 9
+					'rgba(253, 202, 64, 1.0)', // Course 9
 					'rgba(220, 0, 115, 1.0)', // Course 10
 					//'rgba(51, 161, 253, 1.0)', // Course 11
 					//'rgba(253, 202, 64, 1.0)', // Course 12
 					'rgba(253, 202, 64, 1.0)', // Course 14
 					//'rgba(51, 161, 253, 1.0)', // Course 15
 					//'rgba(220, 0, 115, 1.0)', // Course 16
-					//'rgba(51, 161, 253, 1.0)', // Course 17
+					'rgba(51, 161, 253, 1.0)', // Course 17
 					'rgba(253, 202, 64, 1.0)', // Course 18
 					//'rgba(220, 0, 115, 1.0)', // course 20
-					//'rgba(51, 161, 253, 1.0)', // course 21
+					'rgba(51, 161, 253, 1.0)', // course 21
 					//'rgba(220, 0, 115, 1.0)', // course 22
 					//'rgba(51, 161, 253, 1.0)', // course 24
 				],
