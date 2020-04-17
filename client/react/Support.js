@@ -81,7 +81,7 @@ class Support extends TrackerReact(Component) {
 
           <p>
             Here is a list of some people you can ask for help. If you aren't
-            sure where to start, try your classmates and GRTs first.
+            sure where to start, try your classmates and GRAs first.
           </p>
           <br />
 

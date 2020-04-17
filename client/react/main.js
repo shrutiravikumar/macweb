@@ -3,7 +3,7 @@ import Macweb from "./Macweb.js";
 import Support from "./Support.js";
 import MacCon from "./MacCon.js";
 import Prefrosh from "./Prefrosh.js";
-import Housecomm from "./Housecomm.js";
+import ResidentInfo from "./ResidentInfo.js";
 import Desk from "./Desk.js";
 import About from "./About.js";
 import DiningHall from "./DiningHall";
@@ -57,9 +57,9 @@ FlowRouter.route("/dininghall", {
   }
 });
 
-FlowRouter.route("/housecomm", {
+FlowRouter.route("/resident_info", {
   action: function(params, queryParams) {
-    mount(Housecomm);
+    mount(ResidentInfo);
   }
 });
 FlowRouter.route("/maccon", {

@@ -15,14 +15,11 @@ class Navbar extends Component {
             <li id="nav-facilities">
               <a href="/facilities">Explore</a>
             </li>
-            <li id="nav-housecomm">
-              <a href="/housecomm">Resident Info</a>
+            <li id="nav-residents">
+              <a href="/resident_info">Resident Info</a>
             </li>
             <li id="nav-support">
               <a href="/support">Student Support</a>
-            </li>
-            <li id="nav-desk">
-              <a href="/desk">Movie List</a>
             </li>
             <li id="nav-laundry">
               <a

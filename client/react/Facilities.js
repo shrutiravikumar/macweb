@@ -125,9 +125,10 @@ class Facilities extends TrackerReact(Component) {
                                 <div className="row">
                                     <p className="col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-xs-4 col-sm-4 col-md-4 col-lg-4">
                                         <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                                        The game room is stocked with a pool table, ping pong table, 2 fooseball tables, an air hockey table, and a tv. Balls, paddles, and pool
-                                        sticks are all stored behind the front desk and can be checked out by residents on request. The game room is also used occasionally for Housecomm
-                                        meetings or study breaks because the couches are comfy.
+                                        The game room is stocked with a pool table, ping pong table, 2 foosball tables, an air hockey table, TVs, and a large projector.
+                                        Balls, paddles, and pool sticks are all stored behind the front desk and can be checked out by residents on request. The projector
+                                        is connected to a PS4 and Switch, and games/controllers can also be checked out at desk. The game room is also used for study
+                                        breaks or other social events because the couches are comfy.
                                     </p>
                                     <div className="col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-xs-5 col-sm-5 col-md-5 col-lg-5">
                                         <img width="100%" src="/facilities/Game_Room_1.JPG" />
@@ -183,7 +184,7 @@ class Facilities extends TrackerReact(Component) {
                                             <li>Leg Extension Machine</li>
                                             <li>Cable Machine</li>
                                             <li>Pull Up/Chin Up/Dips Station</li>
-                                            <li>Chest Press Machine</li>
+                                            <li>Chest Fly Machine</li>
                                             <li>And a bunch of other small pieces of equipment</li>
                                         </ul>
                                     </p>
@@ -220,7 +221,7 @@ class Facilities extends TrackerReact(Component) {
                                         Some of the musical equipment kept for resident use include:
                                         <ul>
                                             <li>A Piano</li>
-                                            <li>Guitars</li>
+                                            <li>Guitars(1 acoustic, 2 electric)</li>
                                             <li>Drum Set</li>
                                             <li>A Microphone</li>
                                             <li>Amplifiers</li>
@@ -279,7 +280,8 @@ class Facilities extends TrackerReact(Component) {
                                     <p className="col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-xs-4 col-sm-4 col-md-4 col-lg-4">
                                         <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
                                         MacGregor has 2 laundry rooms, both of which are located on the ground floor down the hall from the front desk. Across both rooms there are about
-                                        20 washers and 20 dryers. Running the washing machines costs 1 dollar per cycle, and the dryers cost 1 dollar, plus 25 cents per additional cycle. Residents can check the status of their laundry
+                                        20 washers and 20 dryers. Running the washing machines and dryers costs $1.25 per cycle each. Payment can either be made with quarters(available at front desk)
+                                        or via the Washlava app. Residents can check the status of their laundry
                                         <a href="https://laundryview.com/home/74/1364815"> here</a>.
                                     </p>
                                 </div>

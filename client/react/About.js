@@ -27,11 +27,15 @@ class About extends TrackerReact(Component) {
               Each suite has 1 kitchen, equipped with 1 stove with 4 burners, 1
               hood, and 1 fridge
             </li>
-            <li>Every entry has 1 oven</li>
+            <li>Every entry has 1 large main kitchen, equipped with at least one oven and a microwave.</li>
             <li>Each suite has 1 bathroom</li>
             <li>
               There are 2 elevators and 5 bubblers in the high-rise and 0 in the
               low-rise.
+            </li>
+            <li>
+              MacGregor has a selection of <a href="/desk">DVD movies</a> available to check out at front desk, if you're still into that
+              kind of thing
             </li>
           </ul>
 
