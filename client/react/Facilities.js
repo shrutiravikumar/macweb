@@ -319,23 +319,6 @@ class Facilities extends TrackerReact(Component) {
                     </div>
                 </div>
 
-                <div className="panel panel-default">
-                    <div className="panel-heading">
-                        <h2 className="panel-title">
-                            <a className="accordian-toggle" data-toggle="collapse" data-parent="#accordian" href="#facilities-storage">
-                                Summer Storage
-                            </a>
-                        </h2>
-                    </div>
-                    <div id="facilities-storage" className="panel-collapse collapse out">
-                        <p className="col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-xs-10 col-sm-10 col-md-10 col-lg-10">
-                        MacGregor has multiple options for storing suite and personal belongings over the summer. Most suites have 3 closets to be used between the 8 residents of that suite.
-                        Additionally, there is basement storage that opens at the end of the spring semester, and remains locked until the start of the fall semester. Emails will be sent out to MacGregor
-                        residents when the basement will be open for storing/retrieving belongings.
-                        </p>
-                    </div>
-                </div>
-
             </div>
         </div>
       </div>
