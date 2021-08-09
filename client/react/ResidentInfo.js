@@ -261,6 +261,29 @@ class ResidentInfo extends TrackerReact(Component) {
               </div>
             </div>
 
+            <div className="panel panel-default">
+              <div className="panel-heading">
+                <h2 className="panel-title">
+                  <a
+                    className="accordion-toggle"
+                    data-toggle="collapse"
+                    data-parent="#accordion"
+                    href="#piazza"
+                  >
+                    Got a Question?
+                  </a>
+                </h2>
+              </div>
+              <div
+                id="piazza"
+                className="panel-collapse collapse out"
+              >
+                <div className="panel-body">
+                MacGregor has a <a href='https://piazza.com/class/kqi9grypvrr1kv'>Piazza</a>, which is a forum where students can ask questions and get answers from MacGregor exec members as well as other students in MacGregor. 
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
