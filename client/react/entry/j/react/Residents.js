@@ -30,7 +30,7 @@ class Residents extends Component {
                 <div>
                   <div className="bio-info-div">
                     Major:{" "}
-                    <span className="bio-info-span bio-info-major">6-3</span>
+                    <span className="bio-info-span bio-info-major">6-9</span>
                   </div>
                   <div className="bio-info-div">
                     Class Year:{" "}
@@ -40,26 +40,80 @@ class Residents extends Component {
                 <div className="resident_info">
                   <h4>Bio:</h4>
                   <p>
-                    Heyo! I'm Ashley, a J1 resident from the Midwest who enjoys 
-                    memes, anime, art, and baking. I'm also a high jumper with 
-                    the MIT track and field team. You can find me around J 
-                    baking some good good gluten-free dairy-free pastries 
-                    (thanks stomach for not letting me eat regular food), 
-                    hanging out on J1, crushing some people in Mario Kart, 
-                    or being a general all-around meme.
+                  Heyo! I'm Ashley, a J1 resident who loves anime, memes, learning 
+                  languages, weight lifting, and baking. I've grown up in the Midwest, 
+                  but my family currently lives outside of Nashville. You can usually 
+                  find me watching shows and movies in J1 or jamming out while making 
+                  food or sweets in the J1 kitchen. I'm also the Garden Chair for 
+                  MacGregor, even though I'm not very good at keeping plants alive, 
+                  but I'm learning lol. My academic interests lie in robotics, AI/ML, 
+                  and intelligence.
                   </p>
                   <h4>Why I Love J Entry:</h4>
                   <p>
                   J Entry is truly a home away from home. It is full of wonderful, 
                   interesting, funny people who are super chill and fun to be 
                   around. I also love all the different activities we do 
-                  together, like Jamily dinner, study breaks, watching movies, 
+                  together, like study breaks, having dumb debates, watching movies, 
                   and more. 
                   </p>
                   <h4>Just for Fun:</h4>
                   <p>
-                    <a href="https://youtu.be/Qw1c_bEjKIw">
-                    https://youtu.be/Qw1c_bEjKIw
+                    <a href="https://youtube.com/shorts/S_pi_iVCxTM?feature=share">
+                    https://youtube.com/shorts/S_pi_iVCxTM?feature=share
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li className="col-lg-3 col-md-2 col-sm-12 col-xs-12">
+              <div className="resident">
+                <h3>Ben</h3>
+                <div className="resident_photo">
+                  <img
+                    className="img-responsive"
+                    src="/entry/j/resident_photos/benWeizer.jpg"
+                  />
+                </div>
+                <div>
+                  <div className="bio-info-div">
+                    Major:{" "}
+                    <span className="bio-info-span bio-info-major">2</span>
+                  </div>
+                  <div className="bio-info-div">
+                    Class Year:{" "}
+                    <span className="bio-info-span bio-info-year">2023</span>
+                  </div>
+                </div>
+                <div className="resident_info">
+                  <h4>Bio:</h4>
+                  <p>
+                  Hey, I’m Ben! I’m from a military family so I move around a lot but mostly 
+                  I’m from Florida (primarily Orlando and Tampa). I’m the treasurer of J Entry. 
+                  On campus, I’m mainly involved with Cru the Christian fellowship organization, 
+                  which means I’m a Christian! So let me know if you ever want to talk about faith; 
+                  I love having spiritual conversations! Anyway, I love doing things with friends 
+                  like hiking or playing board games or video games. Really, I’m down to do 
+                  anything as long as it’s with friends. I also love building things! Hence being 
+                  a course 2. I’ve got a bunch of tools in my room so let me know if you need to 
+                  borrow anything.
+                  </p>
+                  <h4>Why I Love J Entry:</h4>
+                  <p>
+                  Above all else, J Entry is a family. Since the first day I moved into J Entry, I 
+                  felt welcomed as a part of the community. While I can talk about the fun activities 
+                  we do together or the memories we’ve made, it’s really as simple as that.
+                  </p>
+                  <h4>Just for Fun:</h4>
+                  <p>
+                    <a href="https://youtu.be/oikj2mKZnrM">
+                    https://youtu.be/oikj2mKZnrM
+                    </a>
+                  </p>
+                  <p>
+                    <a href="https://youtu.be/Lg73GKm7GgI">
+                    https://youtu.be/Lg73GKm7GgI
                     </a>
                   </p>
                 </div>
@@ -123,6 +177,49 @@ class Residents extends Component {
 
             <li className="col-lg-3 col-md-2 col-sm-12 col-xs-12">
               <div className="resident">
+                <h3>Jules</h3>
+                <div className="resident_photo">
+                  <img
+                    className="img-responsive"
+                    src="/entry/j/resident_photos/jules.png"
+                  />
+                </div>
+                <div>
+                  <div className="bio-info-div">
+                    Major:{" "}
+                    <span className="bio-info-span bio-info-major">16</span>
+                  </div>
+                  <div className="bio-info-div">
+                    Class Year:{" "}
+                    <span className="bio-info-span bio-info-year">2023</span>
+                  </div>
+                </div>
+                <div className="resident_info">
+                  <h4>Bio:</h4>
+                  <p>
+                  Hey! I'm Jules, a course 16 (the make stuff fly major) junior, and maker 
+                  of silly things that sometimes work. When I'm not at jentry, I'm probably 
+                  working in a makerspace or lab, or out exploring Boston. My other hobbies 
+                  include digital art, playing games, and of course psetting.
+                  </p>
+                  <h4>Why I Love J Entry:</h4>
+                  <p>
+                  Jentry is a real cool hodge podge (I think that's how you spell it) of cool, 
+                  interesting, and all around nice people. Plus, where  else on campus can you 
+                  pset under the gaze of the queen of England?
+                  </p>
+                  <h4>Just for Fun:</h4>
+                  <p>
+                    <a href="https://youtu.be/dyIilW_eBjc">
+                    https://youtu.be/dyIilW_eBjc
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li className="col-lg-3 col-md-2 col-sm-12 col-xs-12">
+              <div className="resident">
                 <h3>Nicholas</h3>
                 <div className="resident_photo">
                   <img
@@ -167,9 +264,105 @@ class Residents extends Component {
                 </div>
               </div>
             </li>
-          </ul>
 
-          <h1> J Satellite (former residents - current students)</h1>
+          <li className="col-lg-3 col-md-2 col-sm-12 col-xs-12">
+            <div className="resident">
+              <h3>Robby</h3>
+              <div className="resident_photo">
+                <img
+                  className="img-responsive"
+                  src="/entry/j/resident_photos/robbyCato.jpg"
+                />
+              </div>
+              <div>
+                <div className="bio-info-div">
+                  Major:{" "}
+                  <span className="bio-info-span bio-info-major">16</span>
+                </div>
+                <div className="bio-info-div">
+                  Class Year:{" "}
+                  <span className="bio-info-span bio-info-year">2023</span>
+                </div>
+              </div>
+              <div className="resident_info">
+                <h4>Bio:</h4>
+                <p>
+                Hi everyone, I'm Robby! I'm an astro-focused Course 16 with a 
+                sprinkle of computer science and comparative media studies. When 
+                I'm not PSetting, I'm probably playing video games like Minecraft 
+                or Warframe, watching a show, or just hanging out with friends. 
+                You can probably find me hanging out (or doing work) on J1 or J4! 
+                </p>
+                <h4>Why I Love J Entry:</h4>
+                <p>
+                I love the atmosphere we have in J. It has the right mix of lounging 
+                as a group, getting to know people, and alone time. I've made my 
+                closest friends in J and I truly feel like the Jamily is a home away 
+                from home :)
+                </p>
+                <h4>Just for Fun:</h4>
+                <p>
+                  <a href="https://www.granttremblay.com/blog/trls">
+                  https://www.granttremblay.com/blog/trls
+                  </a>
+                </p>
+              </div>
+            </div>
+          </li>
+
+          <li className="col-lg-3 col-md-2 col-sm-12 col-xs-12">
+            <div className="resident">
+              <h3>Shruti</h3>
+              <div className="resident_photo">
+                <img
+                  className="img-responsive"
+                  src="/entry/j/resident_photos/shruti.jpg"
+                />
+              </div>
+              <div>
+                <div className="bio-info-div">
+                  Major:{" "}
+                  <span className="bio-info-span bio-info-major">6-9</span>
+                </div>
+                <div className="bio-info-div">
+                  Class Year:{" "}
+                  <span className="bio-info-span bio-info-year">2023</span>
+                </div>
+              </div>
+              <div className="resident_info">
+                <h4>Bio:</h4>
+                <p>
+                Hi! I'm Shruti, a J3 (and now J4) resident from the Bay Area, 
+                California. I'm a Computation and Cognition major (course 6-9) 
+                with a minor in Entrepreneurship & Innovation. I love hiking, 
+                baking, listening to music, learning about how our brains work, 
+                meeting new people, taking photos and traveling!!! Feel free to 
+                ask me about student government, non-profit consulting, 
+                entrepreneurship, WMBR (MIT's radio station) or just send me 
+                song recommendations!! 
+                </p>
+                <h4>Why I Love J Entry:</h4>
+                <p>
+                J Entry is a collection of wonderful, spontaneous, chaotic and 
+                kind individuals that will be there for you no matter what. My 
+                best memories of J Entry include spontaneous adventures to New 
+                Hampshire just to have a camp fire, late night conversations in 
+                awful British accents, warm cookies on Sunday nights while we 
+                talk about the best part of our weeks and so much more. 
+                </p>
+                <h4>Just for Fun:</h4>
+                <p>
+                  <a href="https://www.tiktok.com/@piratedadd/video/6897740377458019589?_d=secCgYIASAHKAESMgowElLRd9mlC6Z3gC3qif6clncgjfWSMrZv7wwFj13CSS4hO306JOj5akwPf8qsp%2FeJGgA%3D&checksum=211cd7e28de2e72baeec8634b39ba2a0216c06fcd431524ef7e1ace496dc8f86&clips_cover_ab=v3&enable_clips=1&language=en&preview_pb=0&sec_user_id=MS4wLjABAAAAE6X0tHmfn0r_XVaahlyVhdg__-P9E15Se9VzffdjCBaYK9OcbMWnptgWsNHornXr&share_app_id=1233&share_item_id=6897740377458019589&share_link_id=70F6DDDF-16D6-4D4E-B97A-0242ECE5CC40&source=h5_m&timestamp=1629150166&tt_from=sms&u_code=d6ak4i27g7meff&user_id=6694325701729108997&utm_campaign=client_share&utm_medium=ios&utm_source=sms&_r=1">
+                  https://www.tiktok.com/@piratedadd/video...
+                  </a>
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+
+        <h1> J Satellite (former residents - current students)</h1>
           <div className="container">
             <ul className="row resident-list">
               <li className="col-lg-3 col-md-2 col-sm-12 col-xs-12">
@@ -411,23 +604,22 @@ class Residents extends Component {
                     </div>
                     <div className="bio-info-div">
                       Class Year:{" "}
-                      <span className="bio-info-span bio-info-year">2021</span>
+                      <span className="bio-info-span bio-info-year">2021 & 2022 MEng</span>
                     </div>
                   </div>
                   <div className="resident_info">
                     <h4>Bio:</h4>
                     <p>
-                      Hello hello, I love making people laugh and I also love
-                      listening to people talk about what they care about. I
-                      stress bake and clean and I mostly eat plants unless there’s
-                      dessert. (Did someone mention chocolate? Oh wait, that was
-                      me). I also enjoy theater, singing terribly, listening to
-                      random music, JSWOLE, adventures, traveling, wholesome
-                      memes, sarcasm, being awkward, and procrastination. Shoutout
-                      to my hometown of Dayton, Ohio, home of the best donuts in
-                      the nation, the best museum in the nation, and a bunch of
-                      cornfields. At MIT, I’m an Air Force ROTC cadet, a J Entry
-                      Co-Social Chair and a MacRAC.
+                    Hello hello, I love making people laugh and I also love listening 
+                    to people talk about what they care about. I stress bake and clean 
+                    and I mostly eat plants unless there’s dessert. (Did someone mention 
+                    chocolate? Oh wait, that was me). I also enjoy theater, singing 
+                    terribly, listening to random music, JSWOLE, adventures, traveling, 
+                    wholesome memes, sarcasm, being awkward, and procrastination. 
+                    Shoutout to my hometown of Dayton, Ohio, home of the best donuts in 
+                    the nation, the best museum in the nation, and a bunch of cornfields. 
+                    At MIT, I’m an Air Force ROTC cadet, WMBR's general manager and an 
+                    exec member of MIT Prison Education Initiative (PEI) among other things.
                     </p>
                     <h4>Why I Love J Entry:</h4>
                     <p>
