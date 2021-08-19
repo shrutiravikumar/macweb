@@ -142,18 +142,14 @@ class Residents extends Component {
                 <div className="resident_info">
                   <h4>Bio:</h4>
                   <p>
-                  Hey all, I'm Bryan, originally residing from New York City. 
+                  Hey all, I'm Bryan (Medina) and am originally from New York City. 
                   I enjoy anything and everything space and spaceflight related, 
-                  watching movies, video games, and playing acoustic and 
-                  classical guitar. My sleep schedule is nonexistant so I can 
-                  usually be found in the J2 lounge or my room at the randomest 
-                  times working away at PSets or further breaking my sleep 
-                  schedule with "just one more game" or "just one more video".  
-                  I am on Rocket Team, work at MIT's Space Propulsion Lab, and 
-                  am applying to the Marine Corps Platoon Leaders Class to be 
-                  an Officer, all in pursuit of my goal of working in space 
-                  exploration to extend humanity's reach into the cosmos. Ad 
-                  Astra!
+                  watching movies/anime, playing video games, and working out. I am 
+                  on MIT's Spinning Arts Clubs where I spin fire around for fun, work 
+                  at MIT's Space Propulsion Lab, and am an Army ROTC Cadet hoping to 
+                  become an Aviation Officer piloting Blackhawks. This is all in 
+                  pursuit of my goal of working in space exploration to extend humanity's 
+                  reach into the cosmos, perhaps even as an astronaut myself. Ad Astra!
                   </p>
                   <h4>Why I Love J Entry:</h4>
                   <p>
@@ -167,8 +163,8 @@ class Residents extends Component {
                   </p>
                   <h4>Just for Fun:</h4>
                   <p>
-                    <a href="https://youtu.be/WzdbpzFi_DA">
-                    https://youtu.be/WzdbpzFi_DA
+                    <a href="https://www.youtube.com/watch?v=RmCTDtn5yio">
+                    https://www.youtube.com/watch?v=RmCTDtn5yio
                     </a>
                   </p>
                 </div>
@@ -271,7 +267,7 @@ class Residents extends Component {
               <div className="resident_photo">
                 <img
                   className="img-responsive"
-                  src="/entry/j/resident_photos/robbyCato.jpg"
+                  src="/entry/j/resident_photos/robby.jpg"
                 />
               </div>
               <div>
