@@ -308,6 +308,49 @@ class Residents extends Component {
 
           <li className="col-lg-3 col-md-2 col-sm-12 col-xs-12">
             <div className="resident">
+              <h3>Sangita</h3>
+              <div className="resident_photo">
+                <img
+                  className="img-responsive"
+                  src="/entry/j/resident_photos/sangita.jpg"
+                />
+              </div>
+              <div>
+                <div className="bio-info-div">
+                  Major:{" "}
+                  <span className="bio-info-span bio-info-major">20, minor 4B</span>
+                </div>
+                <div className="bio-info-div">
+                  Class Year:{" "}
+                  <span className="bio-info-span bio-info-year">2023</span>
+                </div>
+              </div>
+              <div className="resident_info">
+                <h4>Bio:</h4>
+                <p>
+                If you talk to me about cats or dark chocolate we'll get along really well lol. 
+                I'm from near Dallas, and I hope to work in the food industry. On campus, I'm 
+                an EMT and also help organize Cell Ag @ MIT, a group supporting making animal 
+                products without the animal. Right now, I'm into rock climbing, the burn tool 
+                on photoshop, Tame Impala, and going to every grocery store in Cambridge, but 
+                these things have probably changed by the time we meet :) 
+                </p>
+                <h4>Why I Love J Entry:</h4>
+                <p>
+                so many kind and unique people. the energy of watching matt james and ruff ruffman in one night.
+                </p>
+                <h4>Just for Fun:</h4>
+                <p>
+                  <a href="https://www.delish.com/food-news/a28222198/hidden-valley-ranch-dressing-pop-tarts/">
+                  https://www.delish.com/food-news/a28222198/hidden-valley-ranch-dressing-pop-tarts/
+                  </a>
+                </p>
+              </div>
+            </div>
+          </li>
+
+          <li className="col-lg-3 col-md-2 col-sm-12 col-xs-12">
+            <div className="resident">
               <h3>Shruti</h3>
               <div className="resident_photo">
                 <img
