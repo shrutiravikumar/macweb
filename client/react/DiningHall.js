@@ -65,7 +65,9 @@ class DiningHall extends TrackerReact(Component) {
 
     return (
       <div>
-        <Navbar />
+        <p>*Please email mac-web@mit.edu to make a reservation</p>
+        <p>*Don't reserve the full dining hall unless you need it, allow other people to use the space</p>
+        {/* <Navbar />
         <div id="dininghall" className="container">
           <div id="calDisplay">
             <div id='calendar'></div>
@@ -150,8 +152,8 @@ class DiningHall extends TrackerReact(Component) {
               </div>
               <button id="submitEvent">Submit</button>
             </form>
-          </div>
-        </div>
+          </div> 
+        </div>*/}
 
       </div>
     );
